@@ -1,0 +1,15 @@
+{
+  "require_all_queues_before_metric_access": true,
+  "total_planned_runs": 18,
+  "queues": [
+    {
+      "directory": "robustness_training",
+      "planned_runs": 12
+    },
+    {
+      "directory": "native_input_training",
+      "planned_runs": 6
+    }
+  ],
+  "purpose": "Require both separately frozen queues, 18 total fits, to complete before human metric inspection or any analysis. Secondary six were frozen after initial twelve began and before human test inspection."
+}

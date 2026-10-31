@@ -1,0 +1,349 @@
+{
+  "validation_passed": true,
+  "historical_records_loaded": 798,
+  "dataset_rows": 56,
+  "conditions": 14,
+  "core_conditions": 11,
+  "near_budget_conditions": 3,
+  "unique_selected_run_ids": 288,
+  "row_counts_by_seed_cohort_size": {
+    "3": 32,
+    "8": 24
+  },
+  "cohort_rule": "Intersection of arm and reference availability over all four datasets, within seeds 2024-2031.",
+  "cohorts": [
+    {
+      "arm": "v3n_stagger",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "v3n_pool",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "mx_rp",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "mx_lp",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "v3n_staterr_dj",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "mx_add",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "cx_inaware",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "v3n_nores_dj",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "v3n_reslearned_dj",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "v3n_rescomp_dj",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "v3p_mpos_none",
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031
+      ]
+    },
+    {
+      "arm": "mx_rp_eq",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "v3n_lp_eq",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "arm": "cx_inaware_eq",
+      "seeds": [
+        2024,
+        2025,
+        2026
+      ]
+    }
+  ],
+  "independent_validation": {
+    "method": "45-digit Decimal recomputation from scalar source records; independent set-intersection cohort selection; exported-CSV normalization; frozen public core/full table checks.",
+    "numeric_values_checked": 700,
+    "maximum_absolute_numeric_difference": 2.3315971051837913e-14,
+    "tolerance": 1e-11,
+    "public_table_cells_checked": 66,
+    "public_table_numeric_cells_checked": 48,
+    "core_and_full_reference_checks": [
+      {
+        "core_arm": "v3n_stagger",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3n_pool",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "mx_rp",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "mx_lp",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3n_staterr_dj",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "mx_add",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "cx_inaware",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3n_nores_dj",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3n_reslearned_dj",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3n_rescomp_dj",
+        "core_cells_match": true,
+        "full_cells_match": true
+      },
+      {
+        "core_arm": "v3p_mpos_none",
+        "core_cells_match": true,
+        "full_cells_match": true
+      }
+    ]
+  },
+  "near_budget_scope": {
+    "dataset_condition_rows": 12,
+    "minimum_cost_ratio": 0.979384029464418,
+    "maximum_cost_ratio": 0.998489588952422,
+    "minimum_budget_percent_rounded_one_decimal": 97.9,
+    "maximum_budget_percent_rounded_one_decimal": 99.8,
+    "description": "Discrete widths use 97.9%-99.8% of reference matrix FLOPs, rather than exactly equal costs.",
+    "per_dataset": [
+      {
+        "core_arm": "mx_rp",
+        "arm": "mx_rp_eq",
+        "dataset": "criteo",
+        "matrix_flops": 1469652,
+        "reference_matrix_flops": 1491200,
+        "ratio": 0.9855498927038626
+      },
+      {
+        "core_arm": "mx_rp",
+        "arm": "mx_rp_eq",
+        "dataset": "avazu",
+        "matrix_flops": 546256,
+        "reference_matrix_flops": 556140,
+        "ratio": 0.9822274966734995
+      },
+      {
+        "core_arm": "mx_rp",
+        "arm": "mx_rp_eq",
+        "dataset": "kkbox",
+        "matrix_flops": 345920,
+        "reference_matrix_flops": 350796,
+        "ratio": 0.986100183582481
+      },
+      {
+        "core_arm": "mx_rp",
+        "arm": "mx_rp_eq",
+        "dataset": "kuairec",
+        "matrix_flops": 1264556,
+        "reference_matrix_flops": 1268028,
+        "ratio": 0.9972618901159911
+      },
+      {
+        "core_arm": "mx_lp",
+        "arm": "v3n_lp_eq",
+        "dataset": "criteo",
+        "matrix_flops": 1469652,
+        "reference_matrix_flops": 1491200,
+        "ratio": 0.9855498927038626
+      },
+      {
+        "core_arm": "mx_lp",
+        "arm": "v3n_lp_eq",
+        "dataset": "avazu",
+        "matrix_flops": 546256,
+        "reference_matrix_flops": 556140,
+        "ratio": 0.9822274966734995
+      },
+      {
+        "core_arm": "mx_lp",
+        "arm": "v3n_lp_eq",
+        "dataset": "kkbox",
+        "matrix_flops": 345920,
+        "reference_matrix_flops": 350796,
+        "ratio": 0.986100183582481
+      },
+      {
+        "core_arm": "mx_lp",
+        "arm": "v3n_lp_eq",
+        "dataset": "kuairec",
+        "matrix_flops": 1264556,
+        "reference_matrix_flops": 1268028,
+        "ratio": 0.9972618901159911
+      },
+      {
+        "core_arm": "cx_inaware",
+        "arm": "cx_inaware_eq",
+        "dataset": "criteo",
+        "matrix_flops": 1479728,
+        "reference_matrix_flops": 1491200,
+        "ratio": 0.9923068669527897
+      },
+      {
+        "core_arm": "cx_inaware",
+        "arm": "cx_inaware_eq",
+        "dataset": "avazu",
+        "matrix_flops": 555300,
+        "reference_matrix_flops": 556140,
+        "ratio": 0.998489588952422
+      },
+      {
+        "core_arm": "cx_inaware",
+        "arm": "cx_inaware_eq",
+        "dataset": "kkbox",
+        "matrix_flops": 343564,
+        "reference_matrix_flops": 350796,
+        "ratio": 0.979384029464418
+      },
+      {
+        "core_arm": "cx_inaware",
+        "arm": "cx_inaware_eq",
+        "dataset": "kuairec",
+        "matrix_flops": 1256544,
+        "reference_matrix_flops": 1268028,
+        "ratio": 0.9909434176532379
+      }
+    ]
+  },
+  "input_sha256": {
+    "results/criteo.jsonl": "a1f0857399e9f6a04fee31aa35bcdc1d01778e64f73ef0b040227ee3fa7a50c2",
+    "results/avazu.jsonl": "a64b438db9e7080387a448a3d9cc0141bce63e30dd5df4488ee0240b40e04dbf",
+    "results/kkbox.jsonl": "6a70dc17397649ed2746500397d75f775a90bf7bd1db27655f897277022bcb20",
+    "results/kuairec.jsonl": "c2643e4fc751fd1c85da3da6f1c0f84d15fe658328230df4207b0ac102911dbc",
+    "configs/experiment_index.json": "5914c8a4347e120304bb60cce9640979700b9e6238a6219ca6d14196765b7648",
+    "configs/table3_specification.json": "864b1594cf552e6439add15843b4b74dc6232a22088f66b34d4719bee08476c5",
+    "results/reference/tables/table3_core_gpt_rows.tex": "36ab0f9f833d37f879058c12ad801698c5dce43aee8b7870787da7b5ef0e6d66",
+    "results/reference/tables/table3_full_gpt_rows.tex": "0603feb7393603a98777b3da0d20a173308e35b61258fc27e15340e6be696806"
+  },
+  "output_sha256": {
+    "table3_per_dataset.csv": "5a8945f136b1a279a7fe93a2ad49d05f601012a8496c656f9cd44224ef046a75",
+    "table3_four_dataset_aggregates.csv": "b13224862acf6c4fd5632906952f88b5c5e6552fc00a560ad4882e4a6eba731c"
+  },
+  "privacy_boundary": {
+    "input_scope": "Only the four named historical scalar JSONL files, two public configuration files, and two public reference tables.",
+    "excluded": "No training examples, checkpoints, new training outputs, external services, author identities, private review text, or review scores. Internal per-run provenance and dense-parameter counts are not exported.",
+    "paths": "All recorded input paths are repository-relative; historical run names are reproducibility identifiers."
+  },
+  "analysis_scope": "Descriptive seed summaries only; no tests, significance labels, new predictive training, or new manuscript claims."
+}

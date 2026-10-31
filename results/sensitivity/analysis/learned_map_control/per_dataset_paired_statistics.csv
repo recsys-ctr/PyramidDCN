@@ -1,0 +1,3 @@
+dataset,delta_auc_n,delta_auc_mean,delta_auc_sample_sd,delta_logloss_n,delta_logloss_mean,delta_logloss_sample_sd,metric_tradeoff,mixed_auc_seed_signs
+criteo,3,0.0006327555292253706,0.000243269126133323,3,-0.0005614210272432696,0.00019049190264819603,False,False
+avazu,3,0.0010682736483289546,0.00024183280753139306,3,-0.0006530996700574258,0.00015203520452224627,False,False

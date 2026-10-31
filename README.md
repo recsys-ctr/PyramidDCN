@@ -7,11 +7,11 @@ PyramidDCN computes cross interactions in progressively narrower hidden states. 
 ## What is included
 
 - The experiment harness and model implementations used for the reported results, with machine-specific paths removed.
-- Fixed configurations and saved scalar results for all four benchmarks, all four paper tables, the full exploratory layer-comparison table, and the additional normalization/effective-rank records used in the text.
+- Fixed configurations and saved scalar results for all four benchmarks, all four paper tables, the full exploratory layer-comparison table, and additional historical normalization/effective-rank diagnostics.
 - Dataset preprocessing scripts, training/evaluation, matrix-FLOP profiling, statistical recomputation, and table generation.
 - Provenance linking each recorded run to its original configuration/result file and source hash.
 
-The release freezes **798 distinct recorded runs**. It excludes raw datasets, embedding caches, trained checkpoints, private research-agent tooling, and manuscript drafts.
+The four main tables use **798 distinct historical recorded runs**. A separate sensitivity study adds **18 fits** on Criteo and Avazu; its protocol and full-precision records are kept separate from the historical table inputs. The release excludes raw datasets, embedding caches, trained checkpoints, private research-agent tooling, and manuscript drafts.
 
 ## Install
 
@@ -35,6 +35,12 @@ python -m reproduce.build_tables
 
 See `python -m reproduce.build_tables --help` for output options. Matrix-product FLOPs include the shared input projection, head, and custom bilinear contractions. They exclude embedding lookups, normalization, reductions, and elementwise operations and are not latency measurements.
 
+## Supplementary evidence
+
+[Per-dataset Table 3 results](docs/TABLE3_BY_DATASET.md) expose all four datasets separately, with matching reference cohorts, sample standard deviations and exact matrix-FLOP ratios. The CSV files are in `results/reference/`; they reproduce the existing table and add no new training.
+
+The [two-epoch sensitivity study](docs/SENSITIVITY_PROTOCOL.md) uses a separately fixed learning rate and validation checkpoint selection. It compares PyramidDCN with a near-budget learned-input-map variant and with FiBiNet++ retaining semantic fields. The initial twelve-fit plan and the later six-fit plan have distinct freeze times. The eighteen fits are not a jointly preregistered study, and reused benchmark splits are not independent confirmatory holdouts. All raw scalar records are in `results/sensitivity/`, separately from the original table-generation inputs. These are controlled implementation comparisons, not independently tuned official-baseline reproductions.
+
 ## Train the recorded configurations
 
 Prepare a benchmark following [data/README.md](data/README.md). A prepared dataset has `meta.json` and `{train,valid,test}_{cats,y}.npy` files. Then, for example:
@@ -57,7 +63,7 @@ python -m experiments.x4_runner --data-dir /path/to/prepared/criteo \
 
 ## Interpretation and validation
 
-These are controlled comparisons under a shared input design and training protocol. In particular, FiBiNet++ receives groups of projected coordinates rather than its native semantic fields. Interpret the results under that setup.
+The main-table results are controlled comparisons under a shared input design and training protocol. In that protocol, FiBiNet++ receives groups of projected coordinates rather than semantic fields. The separate sensitivity study also evaluates FiBiNet++ with semantic fields; it is a different protocol and does not isolate projection removal from the historical table comparison.
 
 The portable core was checked against the original harness on seeded model initialization, logits, losses, gradients, and a tiny end-to-end training run. These checks verify the release implementation; they are not newly trained benchmark results. The original Criteo preprocessing source was unavailable: its replacement was reconstructed from the existing cache and checked on sample correspondence. The validation scope is documented in [data/README.md](data/README.md).
 

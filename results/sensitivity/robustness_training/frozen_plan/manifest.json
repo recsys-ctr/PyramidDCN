@@ -1,0 +1,67 @@
+{
+  "status": "frozen_before_new_training_or_test_inspection",
+  "created_utc": "2026-10-31T07:16:09.156565+00:00",
+  "purpose": "One fixed alternative-protocol recipe sensitivity check. Historical runs are not replaced.",
+  "datasets": [
+    "criteo",
+    "avazu"
+  ],
+  "seeds": [
+    2032,
+    2033,
+    2034
+  ],
+  "arms_per_dataset": 2,
+  "training_runs": 12,
+  "full_dataset_training_epochs_per_run": 2,
+  "learning_rate": 0.0003,
+  "batch_size": 4096,
+  "device": "mps",
+  "precision": "float32",
+  "checkpoint_selection": "Maximum full-validation AUC among epoch endpoints; existing runner tolerance: update only if auc > best_auc+1e-6, otherwise earliest.",
+  "primary": "Per-dataset paired test delta AUC selection minus learned_budget; all six deltas and mean/sample SD, no significance claim.",
+  "secondary": "Same-checkpoint paired LogLoss, negative favors selection.",
+  "test_rule": "No test-based selection; automatic single best-checkpoint test per run allowed, no human test inspection until all fixed runs finish.",
+  "source_files": {
+    "configs/table3_core/criteo.json": "b9eb9051bf5dde8309246465b4c31888fbfa883a4a4b8f47406856a90d74c573",
+    "configs/table3_core/avazu.json": "0d0696adbdb9a91982f2202659dd3a49c4cf053b91c7ad5a903d1cccadb8fb1c",
+    "experiments/x4_runner.py": "328e815fa96bff079850f8a5f8411539634c4daa5a2787619dd5ed2883d9a8c6",
+    "experiments/cond_pyramid_screen.py": "424c6a1acdd4c467e68370b5bfe56e3530fe9ff8c4cb4179c97ad9c92ff7c534",
+    "configs/dataset_metadata.json": "df5bbf00032b0eedc54b71e8ed5b8e07a77abcbc33b2453ca5212b6c95b6d0b7"
+  },
+  "arm_names": {
+    "criteo": [
+      "robustness_r2_criteo_selection_lr3e4_ep2_s2032",
+      "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032",
+      "robustness_r2_criteo_selection_lr3e4_ep2_s2033",
+      "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033",
+      "robustness_r2_criteo_selection_lr3e4_ep2_s2034",
+      "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034"
+    ],
+    "avazu": [
+      "robustness_r2_avazu_selection_lr3e4_ep2_s2032",
+      "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032",
+      "robustness_r2_avazu_selection_lr3e4_ep2_s2033",
+      "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033",
+      "robustness_r2_avazu_selection_lr3e4_ep2_s2034",
+      "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034"
+    ]
+  },
+  "not_assessed": [
+    "convergence",
+    "native-input SOTA",
+    "independent new dataset",
+    "separate LR and epoch effects",
+    "pure input-map effect at identical state widths"
+  ],
+  "allowed_retry": "Identical configuration only for documented infrastructure failure; report numerical failures and incomplete runs.",
+  "original_private_plan_sha256": {
+    "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+    "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+    "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+    "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+  },
+  "metadata_portability_note": "Public metadata translation/adaptation; arm JSONs are byte-identical to the original frozen plans. Original private plan and manifest hashes are retained as opaque provenance commitments, not a claim that these public metadata bytes existed before training.",
+  "human_test_inspection_gate": "Both separately frozen queues, all original 12 plus native 6 fits, must complete before any human test inspection or metric analysis.",
+  "freeze_chronology": "Initial 12 configurations and analysis were frozen before the first new fit."
+}

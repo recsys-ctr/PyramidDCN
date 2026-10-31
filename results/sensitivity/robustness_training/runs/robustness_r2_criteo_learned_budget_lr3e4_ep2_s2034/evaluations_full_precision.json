@@ -1,0 +1,26 @@
+[
+  {
+    "phase": "validation",
+    "epoch": 1,
+    "rows": 4584062,
+    "auc": 0.8080766832961259,
+    "logloss": 0.44351243093043574,
+    "elapsed_seconds": 4.784859541803598
+  },
+  {
+    "phase": "validation",
+    "epoch": 2,
+    "rows": 4584062,
+    "auc": 0.8089028214156682,
+    "logloss": 0.44275924931868554,
+    "elapsed_seconds": 3.56796891707927
+  },
+  {
+    "phase": "test",
+    "epoch": null,
+    "rows": 4584062,
+    "auc": 0.8093150840169452,
+    "logloss": 0.4424231546722852,
+    "elapsed_seconds": 5.376081500202417
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "run": "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034",
+  "state": "completed",
+  "elapsed_seconds": 212.2040681662038,
+  "actual_training_epochs": 2,
+  "actual_training_rows": 73344986,
+  "actual_training_steps": 17908,
+  "validation_evaluations": 2,
+  "selected_checkpoint_test_evaluations": 1
+}

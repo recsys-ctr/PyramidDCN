@@ -1,0 +1,13 @@
+{
+  "state": "completed_guarded_export",
+  "original_runs": 12,
+  "native_runs": 6,
+  "all18_completed_before_metric_access": true,
+  "public_posthoc_numerical_validation_passed": true,
+  "export_receipt_sha256": "a068f2edbfe480b1b05ad473f45078062a5c21650cc927851fec291f50581236",
+  "not_claimed": [
+    "joint eighteen-fit preregistration before the first fit",
+    "pure projection-removal causality",
+    "independently tuned official SOTA"
+  ]
+}

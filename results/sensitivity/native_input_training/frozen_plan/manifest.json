@@ -1,0 +1,80 @@
+{
+  "status": "frozen_before_any_human_new_test_inspection",
+  "created_utc": "2026-10-31T07:37:11.454959+00:00",
+  "datasets": [
+    "criteo",
+    "avazu"
+  ],
+  "seeds": [
+    2032,
+    2033,
+    2034
+  ],
+  "training_runs": 6,
+  "full_dataset_training_epochs_per_run": 2,
+  "arm_names": {
+    "criteo": [
+      "native_field_criteo_fibinetpp_lr3e4_ep2_s2032",
+      "native_field_criteo_fibinetpp_lr3e4_ep2_s2033",
+      "native_field_criteo_fibinetpp_lr3e4_ep2_s2034"
+    ],
+    "avazu": [
+      "native_field_avazu_fibinetpp_lr3e4_ep2_s2032",
+      "native_field_avazu_fibinetpp_lr3e4_ep2_s2033",
+      "native_field_avazu_fibinetpp_lr3e4_ep2_s2034"
+    ]
+  },
+  "source_files": {
+    "configs/table1/criteo.json": "345e04a877d6fa52626d8946a87a714cb776bf4f2f2acc7455e5f481bf1570ef",
+    "configs/table1/avazu.json": "04dccd90909132b2158f923f904f4dc0771e26f5cabba13c562e22f87cdfe393",
+    "experiments/x4_runner.py": "328e815fa96bff079850f8a5f8411539634c4daa5a2787619dd5ed2883d9a8c6",
+    "experiments/x4_baselines.py": "9ed57ce09270b9063889ac5d426959922bde64ba009c4acbffacbbbbfd5cf6be",
+    "experiments/extra_baselines.py": "450f3b8b7b51bff5e3ca69a990184873ad5a20dfbe7c5df3ab1ae2d41596dfd7",
+    "experiments/flops.py": "1156cea760c0f1c64614f5b9ff37ae0d55f9f2dc93794f2d8bd987fa9b1c7678",
+    "experiments/cond_pyramid_screen.py": "424c6a1acdd4c467e68370b5bfe56e3530fe9ff8c4cb4179c97ad9c92ff7c534",
+    "configs/dataset_metadata.json": "df5bbf00032b0eedc54b71e8ed5b8e07a77abcbc33b2453ca5212b6c95b6d0b7"
+  },
+  "original_12_plan_sha256": {
+    "PROTOCOL.md": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+    "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+    "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+    "manifest.json": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76"
+  },
+  "label": "native-field FiBi++ comparison under the added protocol",
+  "input_change": "remove input_proj only; retain exact per-dataset Table1 DNN overrides",
+  "learning_rate": 0.0003,
+  "batch_size": 4096,
+  "device": "mps",
+  "precision": "float32",
+  "human_test_inspection_gate": "Both separately frozen queues, all original 12 plus native 6 fits, must complete before any human test inspection or metric analysis.",
+  "checkpoint_selection": "Existing harness AUC > best_auc+1e-6; otherwise earlier checkpoint",
+  "source_vocabulary": {
+    "criteo": 910708,
+    "avazu": 3750975
+  },
+  "synthetic_shape_audit_passed": true,
+  "not_assessed": [
+    "pure projection-removal effect",
+    "officially tuned reproduction",
+    "native-input SOTA",
+    "convergence",
+    "independent new test splits"
+  ],
+  "allowed_retry": "Same frozen configuration for documented infrastructure failure only",
+  "purpose": "Separate native-field FiBiNet++ comparison under the added protocol.",
+  "original_private_plan_sha256": {
+    "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+    "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+    "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+    "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+    "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+  },
+  "metadata_portability_note": "Public metadata translation/adaptation; arm JSONs are byte-identical to the original frozen plans. Original private plan and manifest hashes are retained as opaque provenance commitments, not a claim that these public metadata bytes existed before training.",
+  "freeze_chronology": "Secondary 6 configurations and analysis were frozen after the initial 12 began, before any human inspection of new test metrics. The full 18 were not jointly frozen before the first fit.",
+  "original_private_12_plan_sha256": {
+    "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+    "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+    "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+    "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+  }
+}

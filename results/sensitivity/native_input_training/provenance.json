@@ -1,0 +1,298 @@
+{
+  "started_utc": "2026-10-31T07:38:55.898228+00:00",
+  "launcher_sha256": "da0e9146449818ad3767ea3a7abef2fe7d5799deda28306f1a6dc8e41dbeb2d5",
+  "source_sha256": {
+    "data/__init__.py": "7c1c0612a3a90ecf97687f8c04497d36038699f02510b59a94c56607c44a15ec",
+    "data/prep_avazu_x4.py": "9d3bdf95cc7419356da1e540c01db8c073a0e39d22f37b61e462f85a20567281",
+    "data/prep_bars_x1.py": "615c05969317762ff7645b3d8c450242537cb30ac29120e6281e444821c82dd8",
+    "data/prep_criteo_x4.py": "672c95a058601192beeb1c3f3db490b6f0dd041f4990804c075b014cbcfe4576",
+    "data/prep_kuairec.py": "19118bf7d9ac34acec36f34c38c88265651d76ac370c0f9924ae77abf65dd09e",
+    "experiments/__init__.py": "2ca05aa3cca681bf9a87affda5e38169a6e9fea6e24ccfb611402c7066efd17c",
+    "experiments/agop_check.py": "349174e0141c90451fded24c1d65e77944b1fd9ae4fdd37ec24475734618e325",
+    "experiments/compat.py": "7ade11a3d5dd6f8ab4b7c81d684f87b4e4574e7698f49f1f3a9a1c915203e47a",
+    "experiments/cond_pyramid_screen.py": "424c6a1acdd4c467e68370b5bfe56e3530fe9ff8c4cb4179c97ad9c92ff7c534",
+    "experiments/erank_check.py": "8cc6ff52c426a276af34c5b20f673e12d8dbb0be519c2588a9dd5622be2a8b80",
+    "experiments/extra_baselines.py": "450f3b8b7b51bff5e3ca69a990184873ad5a20dfbe7c5df3ab1ae2d41596dfd7",
+    "experiments/flops.py": "1156cea760c0f1c64614f5b9ff37ae0d55f9f2dc93794f2d8bd987fa9b1c7678",
+    "experiments/funnel_check.py": "449264179ea6c768c3b1c68c89960790eb92e86d4f3720f0f2cd437614c463b9",
+    "experiments/paths.py": "33b469c575d7317b7109aec909360236370aeaf2efe806bdb4d27055a57c1447",
+    "experiments/pyramid_baselines.py": "b944e2f87b3bd2ce73ffb9e7289cda0b9272a3779b132cec78e49ea24bf0ddca",
+    "experiments/pyramid_extra.py": "93f593465261c2f4914ccb6c3743b0a802509cf61d0572129dbfae03c9648938",
+    "experiments/x4_baselines.py": "9ed57ce09270b9063889ac5d426959922bde64ba009c4acbffacbbbbfd5cf6be",
+    "experiments/x4_runner.py": "328e815fa96bff079850f8a5f8411539634c4daa5a2787619dd5ed2883d9a8c6",
+    "reproduce/__init__.py": "3754f527249fdd03dea847ec36999564d90c707c5606c1d1790fbaa26f2662be",
+    "reproduce/benchmark_cpu_latency.py": "bf7e06964e60e90b95264134600c21202f1d2bd8765f34020b4e8c8ebd2b3e16",
+    "reproduce/build_tables.py": "c8705fbbfb06122b198bf1f0750ce497faf9ebc15ffb02acb1628ae1ea31076f",
+    "reproduce/matrix_flops.py": "d9205914907e7dc326be5a4e821f9bf69a832a66504d2f621a95973f849b0558",
+    "reproduce/profile_flops.py": "ed1c462594c128aa806e2f7f7dc5e26ae98ce6ef72479c84a7ba59fab6618fdb",
+    "reproduce/run.py": "13731b8ecf964cc7622b043ea17faab56b48eaa1c2202d8d7e8f1bc0c7c07c48",
+    "reproduce/verify_tables.py": "9754c201fbf3d959ebc931f4cc8eef8c509d16ab52e872261dcae65c0dfbed5a",
+    "tests/test_smoke.py": "2ebe27d21a3160f7ca1a8550710308da1f0c92c03325f96001739dc5c54d4bf9"
+  },
+  "effective_training_lr": 0.0003,
+  "selection": "Released run_arm: full-validation AUC > previous best + 1e-6, otherwise earliest",
+  "test_policy": "Once after selected checkpoint restoration; no human test inspection before all 12 runs finish",
+  "code_changes": "None to released harness; evaluate return instrumentation and console redaction only",
+  "waiting_seconds_before_native_preflight": 2160.6737819574773,
+  "plan_sha256": {
+    "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+    "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+    "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+    "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+    "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+  },
+  "original_plan_sha256": {
+    "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+    "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+    "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+    "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+    "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+  },
+  "public_plan_snapshot_sha256": {
+    "PROTOCOL.md": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+    "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+    "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+    "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+    "manifest.json": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90"
+  },
+  "original_source_record_sha256": "eee7502500fec0420f765a9e86c8d22a764763aa485a51fe56af66357d66d99a",
+  "original_plan_commitment_status": "Opaque hashes of the original private planning documents and manifests are retained. They are not public metadata bytes. Executed arm-list bytes are independently checked against the unchanged public frozen configurations.",
+  "environment": {
+    "system": "Darwin",
+    "system_release": "25.5.0",
+    "machine": "arm64",
+    "python": "3.14.4",
+    "torch": "2.11.0",
+    "numpy": "2.4.4",
+    "device": "mps",
+    "precision": "float32",
+    "threads": 4,
+    "interop_threads": 1,
+    "mps_available": true,
+    "mps_cpu_fallback": false,
+    "mps_fast_math": "unset",
+    "mps_prefer_metal": "unset"
+  },
+  "datasets": {
+    "criteo": {
+      "metadata": {
+        "vocab_size": 910708,
+        "fields": [
+          "I1",
+          "I2",
+          "I3",
+          "I4",
+          "I5",
+          "I6",
+          "I7",
+          "I8",
+          "I9",
+          "I10",
+          "I11",
+          "I12",
+          "I13",
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "C23",
+          "C24",
+          "C25",
+          "C26"
+        ],
+        "train": {
+          "rows": 36672493
+        },
+        "valid": {
+          "rows": 4584062
+        },
+        "test": {
+          "rows": 4584062
+        }
+      },
+      "metadata_sha256": "3767d5f97b58756d1dccf15b94e19eaab2766c2784492b0374968fb8ec77916e",
+      "cache_files": {
+        "test_cats.npy": {
+          "shape": [
+            4584062,
+            39
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 715113800,
+          "sha256": "5bb016d93fc00aabdd87d9604a2a1abb26b2b268a8d22921e3c81464f8b8b6de"
+        },
+        "test_y.npy": {
+          "shape": [
+            4584062
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 18336376,
+          "sha256": "bad05ade0ed2ec1a9bf559cc8bf3ef8aea4be17ca052f0a4a4535d10bb92e2b9"
+        },
+        "train_cats.npy": {
+          "shape": [
+            36672493,
+            39
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 5720909036,
+          "sha256": "60b1533291d2e6b7ca2fbdf65231123cf80e1ea9cd91fd4d60cf190a0d9e61b7"
+        },
+        "train_y.npy": {
+          "shape": [
+            36672493
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 146690100,
+          "sha256": "de23327c021333b98c7841a30c72207959fd954e124982ec8e9e9202cb67eb10"
+        },
+        "valid_cats.npy": {
+          "shape": [
+            4584062,
+            39
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 715113800,
+          "sha256": "ddb00a006aea2b270f0c041673fa554be9310bf91a165c2f08f7e3cfbd7e0f08"
+        },
+        "valid_y.npy": {
+          "shape": [
+            4584062
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 18336376,
+          "sha256": "1f4d78832cbeaf6f817b94ac58091f008c8b611c4de411f0bf1360aa6d3f005f"
+        }
+      }
+    },
+    "avazu": {
+      "metadata": {
+        "vocab_size": 3750975,
+        "fields": [
+          "hour",
+          "C1",
+          "banner_pos",
+          "site_id",
+          "site_domain",
+          "site_category",
+          "app_id",
+          "app_domain",
+          "app_category",
+          "device_id",
+          "device_ip",
+          "device_model",
+          "device_type",
+          "device_conn_type",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "weekday",
+          "weekend"
+        ],
+        "train": {
+          "rows": 32343172
+        },
+        "valid": {
+          "rows": 4042897
+        },
+        "test": {
+          "rows": 4042898
+        }
+      },
+      "metadata_sha256": "a80b6324604a9577965f8b4aa03463c7dc5387b7a976f07554a55d6b2df1a252",
+      "cache_files": {
+        "test_cats.npy": {
+          "shape": [
+            4042898,
+            24
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 388118336,
+          "sha256": "c3cddc14d0b38bbb26df5c8d681472a65a9b72afe000c8134e7a0f6d04a94457"
+        },
+        "test_y.npy": {
+          "shape": [
+            4042898
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 16171720,
+          "sha256": "0314f6544528cba9cda8a5bacf4e4674dbc7c9c94e45da96e2680ff11bd81503"
+        },
+        "train_cats.npy": {
+          "shape": [
+            32343172,
+            24
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 3104944640,
+          "sha256": "7a6f853bca0b99ad5dbff3f25ea2db029e71024ecb362fab9be2a419de97c67e"
+        },
+        "train_y.npy": {
+          "shape": [
+            32343172
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 129372816,
+          "sha256": "842953c8a57141a93f7df51556262dfb911cbacb5f9b3ac7f7b00b3b6628274b"
+        },
+        "valid_cats.npy": {
+          "shape": [
+            4042897,
+            24
+          ],
+          "dtype": "int32",
+          "file_size_bytes": 388118240,
+          "sha256": "f5300e747f18cb8c7a98788cfd2f5712ff1b36fed636462e789f4c16cbae0a10"
+        },
+        "valid_y.npy": {
+          "shape": [
+            4042897
+          ],
+          "dtype": "float32",
+          "file_size_bytes": 16171716,
+          "sha256": "acd435b0e39749af9c04c17c016654e6fddf2e4cfaa9d6daa9f7569e4d26cf3b"
+        }
+      }
+    }
+  },
+  "predecessor_queue": {
+    "planned_runs": 12,
+    "completed_runs": 12,
+    "status_sha256": "f42f220273125026c0b4be860ff7becf06e215cb60679089aef2e1ae5445c423",
+    "provenance_sha256": "eee77edf3bc0541b43d7fc6a88287103d3278a91151dacb14ffae84730880c29",
+    "plan_sha256": {
+      "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+    }
+  },
+  "predecessor_hash_scope": "Hashes identify original private execution records, not metadata-adapted public status/provenance bytes.",
+  "legacy_launcher_test_policy": "Once after selected checkpoint restoration; no human test inspection before all 12 runs finish",
+  "applied_human_inspection_policy": "Both separately frozen queues, original twelve plus native six, must complete before human test inspection or metric analysis. The initial twelve were frozen before their first fit; secondary six were frozen after initial training began and before human inspection of new test metrics.",
+  "policy_metadata_note": "test_policy and legacy_launcher_test_policy preserve the original launcher text, which referred to twelve fits. That text was superseded for human inspection and analysis by the separately recorded mandatory global eighteen-fit gate. This is a non-numerical metadata clarification, not a training/evaluation change.",
+  "metadata_adaptation": "Whitelisted queue provenance fields; generic environment metadata; dataset vocabulary/fields/split rows and complete cache hashes; original plan/source hashes retained. Other raw metadata is omitted rather than silently published. No raw metric/config/profile record is numerically reserialized by this export."
+}

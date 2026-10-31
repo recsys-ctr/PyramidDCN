@@ -1,0 +1,135 @@
+{
+  "state": "completed",
+  "started_utc": "2026-10-31T07:18:51.563005+00:00",
+  "finished_utc": "2026-10-31T08:14:27.939754+00:00",
+  "planned_runs": 12,
+  "elapsed_seconds": 3336.3423490421847,
+  "active_run": null,
+  "completed_runs": [
+    {
+      "run": "robustness_r2_criteo_selection_lr3e4_ep2_s2032",
+      "state": "completed",
+      "elapsed_seconds": 256.4058161666617,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032",
+      "state": "completed",
+      "elapsed_seconds": 215.10855566710234,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_criteo_selection_lr3e4_ep2_s2033",
+      "state": "completed",
+      "elapsed_seconds": 195.74123320821673,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033",
+      "state": "completed",
+      "elapsed_seconds": 216.4498589998111,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_criteo_selection_lr3e4_ep2_s2034",
+      "state": "completed",
+      "elapsed_seconds": 195.29772104043514,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034",
+      "state": "completed",
+      "elapsed_seconds": 212.2040681662038,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 73344986,
+      "actual_training_steps": 17908,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_selection_lr3e4_ep2_s2032",
+      "state": "completed",
+      "elapsed_seconds": 343.80682854168117,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032",
+      "state": "completed",
+      "elapsed_seconds": 340.8476967494935,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_selection_lr3e4_ep2_s2033",
+      "state": "completed",
+      "elapsed_seconds": 335.21471516694874,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033",
+      "state": "completed",
+      "elapsed_seconds": 339.50409824959934,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_selection_lr3e4_ep2_s2034",
+      "state": "completed",
+      "elapsed_seconds": 335.85806458443403,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    },
+    {
+      "run": "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034",
+      "state": "completed",
+      "elapsed_seconds": 339.14016474969685,
+      "actual_training_epochs": 2,
+      "actual_training_rows": 64686344,
+      "actual_training_steps": 15794,
+      "validation_evaluations": 2,
+      "selected_checkpoint_test_evaluations": 1
+    }
+  ],
+  "failed_runs": [],
+  "legacy_launcher_test_metrics_human_inspection": "queue_finished_inspection_now_allowed",
+  "test_metrics_human_inspection": "both_original12_plus_native6_completed_before_export",
+  "applied_human_inspection_policy": "Both separately frozen queues, original twelve plus native six, must complete before human test inspection or metric analysis. The initial twelve were frozen before their first fit; secondary six were frozen after initial training began and before human inspection of new test metrics.",
+  "metadata_adaptation": "Queue status is a whitelist metadata export. Legacy launcher inspection text is retained separately; the later mandatory global eighteen-fit policy applied. Original run counters and numeric values are unchanged. Arbitrary last-event messages are omitted; original status bytes remain privately hash-committed."
+}

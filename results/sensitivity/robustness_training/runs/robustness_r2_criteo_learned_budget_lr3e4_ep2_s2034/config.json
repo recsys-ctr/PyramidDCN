@@ -1,0 +1,38 @@
+{
+  "name": "robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034",
+  "seed": 2034,
+  "max_epochs": 2,
+  "batch": 4096,
+  "emb_reg": 0,
+  "clip": 10.0,
+  "emb_init_std": 0.0001,
+  "protocol": "robustness_r2_lr3e4_2ep_frozen",
+  "model": "pml_mv",
+  "views": 1,
+  "anchor": "learned",
+  "dims": [
+    264,
+    132,
+    66
+  ],
+  "rows": [
+    0,
+    0,
+    0
+  ],
+  "t": 1.0,
+  "input_proj": 512,
+  "lr": 0.0003,
+  "train_frac": 1.0,
+  "emb_lr_mult": 1.0,
+  "ln": true,
+  "reread": "input",
+  "state_res": false,
+  "res": true,
+  "res_mode": "same",
+  "cross": "dcn",
+  "readout": "last",
+  "erank": false,
+  "funnel": false,
+  "agop": false
+}

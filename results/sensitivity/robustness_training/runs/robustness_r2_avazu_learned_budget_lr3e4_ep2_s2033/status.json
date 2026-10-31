@@ -1,0 +1,10 @@
+{
+  "run": "robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033",
+  "state": "completed",
+  "elapsed_seconds": 339.50409824959934,
+  "actual_training_epochs": 2,
+  "actual_training_rows": 64686344,
+  "actual_training_steps": 15794,
+  "validation_evaluations": 2,
+  "selected_checkpoint_test_evaluations": 1
+}

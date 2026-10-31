@@ -1,0 +1,60 @@
+{
+  "total_params": 60376475,
+  "embedding_params": 60015600,
+  "nonembedding_params": 360875,
+  "parameter_dtypes": [
+    "torch.float32"
+  ],
+  "parameter_devices": [
+    "mps:0"
+  ],
+  "linear_shapes": [
+    {
+      "name": "base.bilinear.low_rank",
+      "in": 276,
+      "out": 50
+    },
+    {
+      "name": "base.senet.W_1",
+      "in": 96,
+      "out": 32
+    },
+    {
+      "name": "base.senet.W_2",
+      "in": 32,
+      "out": 384
+    },
+    {
+      "name": "base.dnn.mlp.0",
+      "in": 434,
+      "out": 312
+    },
+    {
+      "name": "base.dnn.mlp.2",
+      "in": 312,
+      "out": 312
+    },
+    {
+      "name": "base.dnn.mlp.4",
+      "in": 312,
+      "out": 312
+    },
+    {
+      "name": "base.out",
+      "in": 312,
+      "out": 1
+    }
+  ],
+  "native_fields": 24,
+  "embedding_dim": 16,
+  "native_flat_width": 384,
+  "bilinear_pairs": 276,
+  "bilinear_W_shape": [
+    16,
+    16
+  ],
+  "linear_flops_per_example": 719136,
+  "custom_bilinear_flops_per_example": 30720,
+  "matrix_flops_per_example": 749856,
+  "matrix_flops_convention": "2*Linear MACs + 2*(F*D*D+F*F*D); verified in frozen synthetic audit"
+}

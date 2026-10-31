@@ -94,3 +94,13 @@ The exported configurations were cross-checked against both the saved run record
 The frozen configurations replace the need to rerun the historical sequence of exploratory generators or width searches. In particular, Table 2's original-budget widths were selected under the original linear-layer FLOP cap, then reprofiled using complete matrix-product counts. They should not be reselected under a new cost metric when reproducing the reported experiments. The original definition filenames and source-record hashes remain available for traceability.
 
 The current core Table 3 contains eleven rows (reference plus ten alternatives), with compact formula aliases defined in the manuscript. Table 4 includes sample standard deviations in its AUC column and three per-layer effective-rank percentages; the redundant mean-rank column is omitted. The complete 31-alternative table remains available.
+
+## Supplementary records, separate from the four main tables
+
+The 798 historical records remain unchanged. The additional eighteen fits use two full epochs at learning rate 0.0003 on the existing Criteo/Avazu caches, with three new seeds. The six new PyramidDCN runs are shared by the learned-map and semantic-field FiBiNet++ comparisons; they are not counted twice. The initial twelve-fit plan was frozen before its first fit. The native-field six-fit plan was frozen after those fits started and before human inspection of any new test result. Human inspection and analysis require both queues to finish successfully.
+
+See [SENSITIVITY_PROTOCOL.md](SENSITIVITY_PROTOCOL.md) for exact configurations, checkpoint-selection tolerance, input-path differences, guards, limitations and reproduction commands. The study does not establish convergence, pure projection-removal causality, an independently tuned original implementation, or an untouched confirmatory holdout. It does not alter Tables 1–4 or their historical statistical comparisons. Full-precision evaluations are provided for the supplementary fits; historical metrics retain their recorded precision.
+
+[Table 3 by dataset](TABLE3_BY_DATASET.md) contains 56 descriptive dataset-condition rows from the historical records, not 56 new fits. Sample SDs describe seed variability, and each variant uses a matching reference cohort. The near-budget variants use 97.9–99.8% of reference matrix FLOPs.
+
+The historical funnel diagnostics in `experiments/funnel_check.py` analyze the canonical identity-residual, low-rank DCNv2 cross stream while holding the input and parallel branch fixed. Historical theorem-number comments refer to that diagnostic's original context. They are not a lossless-compression or declining-activation-rank guarantee for the normalized PyramidDCN network.

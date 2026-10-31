@@ -1,0 +1,1176 @@
+{
+  "schema_version": 1,
+  "exported_utc": "2026-10-31T08:57:42.164215+00:00",
+  "scope": "All original twelve plus separately frozen native six completed; guarded scientific-record export only.",
+  "all18_status_guard_passed_before_nonstatus_training_reads": true,
+  "public_posthoc_numerical_validation_passed": true,
+  "global_inspection_policy": "Both separately frozen queues, original twelve plus native six, must complete before human test inspection or metric analysis. The initial twelve were frozen before their first fit; secondary six were frozen after initial training began and before human inspection of new test metrics.",
+  "original_private_plan_sha256": {
+    "robustness_plan": {
+      "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+    },
+    "native_input_plan": {
+      "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+      "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+    }
+  },
+  "public_plan_snapshot_sha256": {
+    "robustness_plan": {
+      "PROTOCOL.md": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "manifest.json": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76"
+    },
+    "native_input_plan": {
+      "PROTOCOL.md": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+      "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "manifest.json": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90"
+    }
+  },
+  "metadata_adaptations": [
+    {
+      "queue": "robustness_training",
+      "original_status_sha256": "f42f220273125026c0b4be860ff7becf06e215cb60679089aef2e1ae5445c423",
+      "original_provenance_sha256": "eee77edf3bc0541b43d7fc6a88287103d3278a91151dacb14ffae84730880c29",
+      "original_private_plan_sha256": {
+        "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+        "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+        "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+        "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+      },
+      "public_plan_snapshot_sha256": {
+        "PROTOCOL.md": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+        "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+        "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+        "manifest.json": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76"
+      },
+      "changes": [
+        "Queue status whitelist plus separately labeled legacy launcher inspection text and explicit global18 policy.",
+        "Provenance whitelist with legacy test_policy retained and labeled as legacy, original source/plan hashes and explicit applied global18 policy.",
+        "Dataset metadata restricted to vocabulary/fields/split rows, retaining original metadata SHA and complete cache-file hashes.",
+        "Private planning prose replaced only in public frozen_plan snapshot; exact configuration list bytes retained."
+      ]
+    },
+    {
+      "queue": "native_input_training",
+      "original_status_sha256": "b7b12fb933f46d37e72fcfa5d3cb3979b609a366eac9973173eed96546e01346",
+      "original_provenance_sha256": "eee7502500fec0420f765a9e86c8d22a764763aa485a51fe56af66357d66d99a",
+      "original_private_plan_sha256": {
+        "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+        "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+        "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+        "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+        "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+      },
+      "public_plan_snapshot_sha256": {
+        "PROTOCOL.md": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+        "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+        "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+        "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+        "manifest.json": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90"
+      },
+      "changes": [
+        "Queue status whitelist plus separately labeled legacy launcher inspection text and explicit global18 policy.",
+        "Provenance whitelist with legacy test_policy retained and labeled as legacy, original source/plan hashes and explicit applied global18 policy.",
+        "Dataset metadata restricted to vocabulary/fields/split rows, retaining original metadata SHA and complete cache-file hashes.",
+        "Private planning prose replaced only in public frozen_plan snapshot; exact configuration list bytes retained."
+      ]
+    }
+  ],
+  "pending_marker_was_present": true,
+  "raw_records_reserialized": false,
+  "source_record_hashes": [
+    {
+      "path": "native_input_training/frozen_plan/SHA256SUMS.json",
+      "sha256": "a77f1667e86db2e763957d75795d32117a10fb7ecb118957fdbc01ceff00481a"
+    },
+    {
+      "path": "native_input_training/frozen_plan/avazu.json",
+      "sha256": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689"
+    },
+    {
+      "path": "native_input_training/frozen_plan/criteo.json",
+      "sha256": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908"
+    },
+    {
+      "path": "native_input_training/provenance.json",
+      "sha256": "eee7502500fec0420f765a9e86c8d22a764763aa485a51fe56af66357d66d99a"
+    },
+    {
+      "path": "native_input_training/results_rounded.jsonl",
+      "sha256": "93a1c1638dd5d0253e7d009486df64d72f0f36f79e275df46bb60cdbd492f320"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/config.json",
+      "sha256": "e4e2b98280e9a705824da834be14bb00eaa006e8e40161c801c76518bda12160"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "30389f1aea85cad1811c0377c84a71ba631da2a0a76a4d3c6dbcdc2b5c4a929f"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/status.json",
+      "sha256": "dce592a61ff6abb57588275f470d0d105aba94f3b5f17f99b17352fcfa3a376c"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/config.json",
+      "sha256": "c9bd87f06bbb0154608aba2fa9285bf01978b01ef89aab89af29e7a9cb88a507"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "30639e7b65078b84208455073b6f5918d8d0c3952b6cf6342b926427524277d3"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/status.json",
+      "sha256": "8452f9d4537421dd8be9aa752af0e1987c4b52bfa92c2e58c46c9e30848187e1"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/config.json",
+      "sha256": "f0da08129031b92501834bee5192c71eeb04d4a4a84397480225ef9b86461d74"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "ef42a25fd90bdc59e2a36cf2ab687266dbbcbd322199e1b6abb67af85928a8e0"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/status.json",
+      "sha256": "04c1a42270134fdabd9dba556d85f2fe149155d3d7d8b7cd071f3bd128616d24"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/config.json",
+      "sha256": "550b7fea853aed59e7e6e718e8d0e03750308d6a1d177ff78522563b0294aae4"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "754b0d85883a39824c82352c5ec9f798c52498a06164b83497527a4ffdc83da7"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/status.json",
+      "sha256": "7dd01d408ebf3f21d04c8ac708c355881f577942789dd147c9d7ddca340144bb"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/config.json",
+      "sha256": "a5aeec75ed1533aba1f222fddc0ba040a454fdde26b04b573b7032e3b4effb9d"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "8a30a7452e3f622d4f31883b842c9149288352cf50b1bbc054b4e1d8cbc6a30d"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/status.json",
+      "sha256": "1127998a5ba1ec2deb9e92aabb2e2f81e91cd569e9413c64187bd8d87a7a965d"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/config.json",
+      "sha256": "012e96d095cde2bab24e66ed89773cfaf4872f24f980c0974becadf6df110324"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "b0f443d2078200f245b05efa64c47ca8f99195bd9d2d8c01fecba71ec1292d30"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/status.json",
+      "sha256": "dbf544eb7714e8daadd765adc040d6686a372926de7c5f4fa7cda54e3901fe08"
+    },
+    {
+      "path": "native_input_training/status.json",
+      "sha256": "b7b12fb933f46d37e72fcfa5d3cb3979b609a366eac9973173eed96546e01346"
+    },
+    {
+      "path": "robustness_inspection_gate.json",
+      "sha256": "aa83de842198367cb08969557b8051047815b73cc824883eed23a498ce530bbf"
+    },
+    {
+      "path": "robustness_training/frozen_plan/SHA256SUMS.json",
+      "sha256": "703818a412287e71a30d42dc4a7ba887bad896d49054a68bc8eae363395b996e"
+    },
+    {
+      "path": "robustness_training/frozen_plan/avazu.json",
+      "sha256": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95"
+    },
+    {
+      "path": "robustness_training/frozen_plan/criteo.json",
+      "sha256": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9"
+    },
+    {
+      "path": "robustness_training/provenance.json",
+      "sha256": "eee77edf3bc0541b43d7fc6a88287103d3278a91151dacb14ffae84730880c29"
+    },
+    {
+      "path": "robustness_training/results_rounded.jsonl",
+      "sha256": "6f92d459efd584ecd3669931b9429a25420ab651f115c8e34153af4d511699d4"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/config.json",
+      "sha256": "ff339c12613ad30f66428879abbaaf4dad6e6feb4d5658e749f15712338c82a3"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "14a12aa688eefaa4ae05203143cdfb33233f641cc34644d63497f4771e50e332"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/status.json",
+      "sha256": "dcf9b89a027138745a0a90ea70e38879e7dd6829880c0757ee7bc62591cbd767"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/config.json",
+      "sha256": "52ffdf115482c00f4b84209ceb8544ec5201e23b63b39fd1ab2b5751fe88401b"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "dbe756127c00fc3e07121d15e291afa1c6278f9db907251ad374cd0e3345d474"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/status.json",
+      "sha256": "f08b41bb38e4590ed4f0d1a86e08617441d5f25ee32367fd621419cd01a69480"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/config.json",
+      "sha256": "38b62e0f9b71cb1c853d292de4004afd903a989de20c32ca750de4cbf3bffa91"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "a1b6d06f84d74574a3ee942768824d72a598a26eba3cffeb3c00b7b9906adadf"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/status.json",
+      "sha256": "93f9e667b8997d518798bedc296bea0e25ca29628807e08f197672b291646371"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/config.json",
+      "sha256": "40800b7a4c340c580c214e4fd35aeb0e78c821f544c7814d5e02c2237fa0b9d9"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "34c5916a95b691f18b1da054364ccc3c4a50d3a33e871bb4739e050f45297521"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/status.json",
+      "sha256": "f52628f259ffe4cf205f98faa250c37ede7aa4c7f9c3111366dd8ab1b529e4f3"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/config.json",
+      "sha256": "f7b9fe0a036bf801ac12ab677880a4d38eef841a0d62ea1fa313a22c8f97388c"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "8a791d28081884403a64a53c2ea11586c8d07de7bba5a51605b62183853d9cf1"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/status.json",
+      "sha256": "9fa43e1717ac8e4be1ddce4bdf37a4bb00639cc97f6d652ac3cae37cc381c557"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/config.json",
+      "sha256": "1d05e0564a4e2ac9442984ee75ad2f77f0ad6c17027a3aaa669e55029c0d8c88"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "35578ec4ee1b193fec2f4613e087cdfd57df3164ffd6cae93eb444cbd0d6d697"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/status.json",
+      "sha256": "cbabb97bb7aaf26c1e38466681e43e05348190e54bc555c942d4405167cae038"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/config.json",
+      "sha256": "6f0855ff64a92357b41c001aa035c27babf7da8826ab8c4216fe42adcf270497"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "fd17a8561d147f6c5fb3b55d699fb2a6c297054ea9a53ec862c6aca275b8eacf"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/status.json",
+      "sha256": "ec9584a08d20575d65fe41f39543228dc646a2850b534dccf8dd2e25e0058dec"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/config.json",
+      "sha256": "e3b313105596765a98ce72be33b40538731320f444bd2d4d4a88db9674f9a3b0"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "31159415fcdeb2ddcd3f29da5f2b8aecdbaafb892b0e2d0208a346993bcb14a5"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/status.json",
+      "sha256": "14d3a13b9fbad498ccbedc1bee2a5f4650f940b33f164387c4f4eb48b14bd9dc"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/config.json",
+      "sha256": "bea9c74ec6a0d431e011cc6275d14fca8ac5e4cbf2d4fdf6f1d12a1375444168"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "0f6e09e8a6ef0b76a82af6d793cb18e30cddbf3c6577dbb80df04b4d22b20161"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/status.json",
+      "sha256": "3782d17f83e52ba33da5bbe97fd38ed883deb98c648831e745e9ba3249fee32e"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/config.json",
+      "sha256": "44e846703e1b8f921fa03a7dd2de0572bd3b6c99c6b4175050d634b811b1d35e"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "sha256": "43e630215f2465a9ec1128a35a41476d0a0e8fd4ddb428ec0f2eb63089f267e6"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/model_profile.json",
+      "sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/status.json",
+      "sha256": "923d72ffc3935ae2bb4bc3f06105d22099cad9ecdd94a06a6292bc6fb4cae324"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/config.json",
+      "sha256": "a52a62fae0f4f275b4d883f7b8af5cbb5624d3c9bee2856cc1bba2258ffb47b9"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "sha256": "498746c29268d082c3b70a0f9665c44f0d14cbeb95c311088b825e091a2307c8"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/model_profile.json",
+      "sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/status.json",
+      "sha256": "6b182b28a0bebf3bfb9cc88e79be99db56e2e1b95775e6f1fb5b6ccc7da94cfe"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/config.json",
+      "sha256": "b41571813f78200a3f97af771b08e644ce4e33ac227d64a069be20e545bfadc4"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "sha256": "c07bbc235f28da933bb30e130539596d9a59ba5ebedf870f09ee5958a96b9344"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/model_profile.json",
+      "sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/status.json",
+      "sha256": "7b4cb3900336d935f0ef003f61d8f97d29d119a55cccb752bfe8957650a9421d"
+    },
+    {
+      "path": "robustness_training/status.json",
+      "sha256": "f42f220273125026c0b4be860ff7becf06e215cb60679089aef2e1ae5445c423"
+    }
+  ],
+  "public_record_manifest": [
+    {
+      "path": "native_input_training/frozen_plan/PROTOCOL.md",
+      "bytes": 4735,
+      "public_sha256": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+      "original_source_sha256": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/frozen_plan/SHA256SUMS.json",
+      "bytes": 444,
+      "public_sha256": "c498c05e705824c7b17e8d14bf6a61768998dc15be87fa4a70da29176d790d8d",
+      "original_source_sha256": "c498c05e705824c7b17e8d14bf6a61768998dc15be87fa4a70da29176d790d8d",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/frozen_plan/avazu.json",
+      "bytes": 1530,
+      "public_sha256": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "original_source_sha256": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/frozen_plan/criteo.json",
+      "bytes": 1533,
+      "public_sha256": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "original_source_sha256": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/frozen_plan/manifest.json",
+      "bytes": 4285,
+      "public_sha256": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90",
+      "original_source_sha256": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/frozen_plan/synthetic_shape_audit.json",
+      "bytes": 1782,
+      "public_sha256": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "original_source_sha256": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "native_input_training/provenance.json",
+      "bytes": 12372,
+      "public_sha256": "095db299b2ee8bbb7e5542d6d0505e84d680f2833f8306bd0f1994af6bf08ca1",
+      "original_source_sha256": "eee7502500fec0420f765a9e86c8d22a764763aa485a51fe56af66357d66d99a",
+      "byte_identical_to_source": false,
+      "kind": "metadata_only_adaptation"
+    },
+    {
+      "path": "native_input_training/results_rounded.jsonl",
+      "bytes": 5358,
+      "public_sha256": "93a1c1638dd5d0253e7d009486df64d72f0f36f79e275df46bb60cdbd492f320",
+      "original_source_sha256": "93a1c1638dd5d0253e7d009486df64d72f0f36f79e275df46bb60cdbd492f320",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/config.json",
+      "bytes": 460,
+      "public_sha256": "e4e2b98280e9a705824da834be14bb00eaa006e8e40161c801c76518bda12160",
+      "original_source_sha256": "e4e2b98280e9a705824da834be14bb00eaa006e8e40161c801c76518bda12160",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 543,
+      "public_sha256": "30389f1aea85cad1811c0377c84a71ba631da2a0a76a4d3c6dbcdc2b5c4a929f",
+      "original_source_sha256": "30389f1aea85cad1811c0377c84a71ba631da2a0a76a4d3c6dbcdc2b5c4a929f",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 1126,
+      "public_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "original_source_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2032/status.json",
+      "bytes": 301,
+      "public_sha256": "dce592a61ff6abb57588275f470d0d105aba94f3b5f17f99b17352fcfa3a376c",
+      "original_source_sha256": "dce592a61ff6abb57588275f470d0d105aba94f3b5f17f99b17352fcfa3a376c",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/config.json",
+      "bytes": 460,
+      "public_sha256": "c9bd87f06bbb0154608aba2fa9285bf01978b01ef89aab89af29e7a9cb88a507",
+      "original_source_sha256": "c9bd87f06bbb0154608aba2fa9285bf01978b01ef89aab89af29e7a9cb88a507",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 541,
+      "public_sha256": "30639e7b65078b84208455073b6f5918d8d0c3952b6cf6342b926427524277d3",
+      "original_source_sha256": "30639e7b65078b84208455073b6f5918d8d0c3952b6cf6342b926427524277d3",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 1126,
+      "public_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "original_source_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2033/status.json",
+      "bytes": 302,
+      "public_sha256": "8452f9d4537421dd8be9aa752af0e1987c4b52bfa92c2e58c46c9e30848187e1",
+      "original_source_sha256": "8452f9d4537421dd8be9aa752af0e1987c4b52bfa92c2e58c46c9e30848187e1",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/config.json",
+      "bytes": 460,
+      "public_sha256": "f0da08129031b92501834bee5192c71eeb04d4a4a84397480225ef9b86461d74",
+      "original_source_sha256": "f0da08129031b92501834bee5192c71eeb04d4a4a84397480225ef9b86461d74",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 543,
+      "public_sha256": "ef42a25fd90bdc59e2a36cf2ab687266dbbcbd322199e1b6abb67af85928a8e0",
+      "original_source_sha256": "ef42a25fd90bdc59e2a36cf2ab687266dbbcbd322199e1b6abb67af85928a8e0",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 1126,
+      "public_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "original_source_sha256": "941c162273dd9dcb85f9c55e3aa93bce52f3c9349413272159325647c65ae103",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_avazu_fibinetpp_lr3e4_ep2_s2034/status.json",
+      "bytes": 302,
+      "public_sha256": "04c1a42270134fdabd9dba556d85f2fe149155d3d7d8b7cd071f3bd128616d24",
+      "original_source_sha256": "04c1a42270134fdabd9dba556d85f2fe149155d3d7d8b7cd071f3bd128616d24",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/config.json",
+      "bytes": 461,
+      "public_sha256": "550b7fea853aed59e7e6e718e8d0e03750308d6a1d177ff78522563b0294aae4",
+      "original_source_sha256": "550b7fea853aed59e7e6e718e8d0e03750308d6a1d177ff78522563b0294aae4",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 540,
+      "public_sha256": "754b0d85883a39824c82352c5ec9f798c52498a06164b83497527a4ffdc83da7",
+      "original_source_sha256": "754b0d85883a39824c82352c5ec9f798c52498a06164b83497527a4ffdc83da7",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 1129,
+      "public_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "original_source_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2032/status.json",
+      "bytes": 302,
+      "public_sha256": "7dd01d408ebf3f21d04c8ac708c355881f577942789dd147c9d7ddca340144bb",
+      "original_source_sha256": "7dd01d408ebf3f21d04c8ac708c355881f577942789dd147c9d7ddca340144bb",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/config.json",
+      "bytes": 461,
+      "public_sha256": "a5aeec75ed1533aba1f222fddc0ba040a454fdde26b04b573b7032e3b4effb9d",
+      "original_source_sha256": "a5aeec75ed1533aba1f222fddc0ba040a454fdde26b04b573b7032e3b4effb9d",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 538,
+      "public_sha256": "8a30a7452e3f622d4f31883b842c9149288352cf50b1bbc054b4e1d8cbc6a30d",
+      "original_source_sha256": "8a30a7452e3f622d4f31883b842c9149288352cf50b1bbc054b4e1d8cbc6a30d",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 1129,
+      "public_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "original_source_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2033/status.json",
+      "bytes": 303,
+      "public_sha256": "1127998a5ba1ec2deb9e92aabb2e2f81e91cd569e9413c64187bd8d87a7a965d",
+      "original_source_sha256": "1127998a5ba1ec2deb9e92aabb2e2f81e91cd569e9413c64187bd8d87a7a965d",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/config.json",
+      "bytes": 461,
+      "public_sha256": "012e96d095cde2bab24e66ed89773cfaf4872f24f980c0974becadf6df110324",
+      "original_source_sha256": "012e96d095cde2bab24e66ed89773cfaf4872f24f980c0974becadf6df110324",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 541,
+      "public_sha256": "b0f443d2078200f245b05efa64c47ca8f99195bd9d2d8c01fecba71ec1292d30",
+      "original_source_sha256": "b0f443d2078200f245b05efa64c47ca8f99195bd9d2d8c01fecba71ec1292d30",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 1129,
+      "public_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "original_source_sha256": "eef2dbb6833935910a062cd3e2123818f1ee3977d6ed08b50e38db919936f77b",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/runs/native_field_criteo_fibinetpp_lr3e4_ep2_s2034/status.json",
+      "bytes": 303,
+      "public_sha256": "dbf544eb7714e8daadd765adc040d6686a372926de7c5f4fa7cda54e3901fe08",
+      "original_source_sha256": "dbf544eb7714e8daadd765adc040d6686a372926de7c5f4fa7cda54e3901fe08",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "native_input_training/status.json",
+      "bytes": 3194,
+      "public_sha256": "d97709486e3bf44ed54e482134e9a77fc1e80188c3d30f6a67128a10299ac36e",
+      "original_source_sha256": "b7b12fb933f46d37e72fcfa5d3cb3979b609a366eac9973173eed96546e01346",
+      "byte_identical_to_source": false,
+      "kind": "metadata_only_adaptation"
+    },
+    {
+      "path": "robustness_inspection_gate.json",
+      "bytes": 366,
+      "public_sha256": "aa83de842198367cb08969557b8051047815b73cc824883eed23a498ce530bbf",
+      "original_source_sha256": "aa83de842198367cb08969557b8051047815b73cc824883eed23a498ce530bbf",
+      "byte_identical_to_source": true,
+      "kind": "inspection_policy"
+    },
+    {
+      "path": "robustness_training/frozen_plan/PROTOCOL.md",
+      "bytes": 5969,
+      "public_sha256": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+      "original_source_sha256": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "robustness_training/frozen_plan/SHA256SUMS.json",
+      "bytes": 344,
+      "public_sha256": "93573531f0d01ba846353dacfec1cb03d4df34e843c095799e4d814106516165",
+      "original_source_sha256": "93573531f0d01ba846353dacfec1cb03d4df34e843c095799e4d814106516165",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "robustness_training/frozen_plan/avazu.json",
+      "bytes": 4293,
+      "public_sha256": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "original_source_sha256": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "robustness_training/frozen_plan/criteo.json",
+      "bytes": 4305,
+      "public_sha256": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "original_source_sha256": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "robustness_training/frozen_plan/manifest.json",
+      "bytes": 3636,
+      "public_sha256": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76",
+      "original_source_sha256": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76",
+      "byte_identical_to_source": true,
+      "kind": "public_plan_snapshot_metadata"
+    },
+    {
+      "path": "robustness_training/provenance.json",
+      "bytes": 11214,
+      "public_sha256": "25aa1bdeb3074ebba01af0fd03b0ce30cf30eaf13f9f88b8e780cbb4c243c59e",
+      "original_source_sha256": "eee77edf3bc0541b43d7fc6a88287103d3278a91151dacb14ffae84730880c29",
+      "byte_identical_to_source": false,
+      "kind": "metadata_only_adaptation"
+    },
+    {
+      "path": "robustness_training/results_rounded.jsonl",
+      "bytes": 12541,
+      "public_sha256": "6f92d459efd584ecd3669931b9429a25420ab651f115c8e34153af4d511699d4",
+      "original_source_sha256": "6f92d459efd584ecd3669931b9429a25420ab651f115c8e34153af4d511699d4",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/config.json",
+      "bytes": 640,
+      "public_sha256": "ff339c12613ad30f66428879abbaaf4dad6e6feb4d5658e749f15712338c82a3",
+      "original_source_sha256": "ff339c12613ad30f66428879abbaaf4dad6e6feb4d5658e749f15712338c82a3",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 540,
+      "public_sha256": "14a12aa688eefaa4ae05203143cdfb33233f641cc34644d63497f4771e50e332",
+      "original_source_sha256": "14a12aa688eefaa4ae05203143cdfb33233f641cc34644d63497f4771e50e332",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 990,
+      "public_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "original_source_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2032/status.json",
+      "bytes": 307,
+      "public_sha256": "dcf9b89a027138745a0a90ea70e38879e7dd6829880c0757ee7bc62591cbd767",
+      "original_source_sha256": "dcf9b89a027138745a0a90ea70e38879e7dd6829880c0757ee7bc62591cbd767",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/config.json",
+      "bytes": 640,
+      "public_sha256": "52ffdf115482c00f4b84209ceb8544ec5201e23b63b39fd1ab2b5751fe88401b",
+      "original_source_sha256": "52ffdf115482c00f4b84209ceb8544ec5201e23b63b39fd1ab2b5751fe88401b",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 542,
+      "public_sha256": "dbe756127c00fc3e07121d15e291afa1c6278f9db907251ad374cd0e3345d474",
+      "original_source_sha256": "dbe756127c00fc3e07121d15e291afa1c6278f9db907251ad374cd0e3345d474",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 990,
+      "public_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "original_source_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2033/status.json",
+      "bytes": 308,
+      "public_sha256": "f08b41bb38e4590ed4f0d1a86e08617441d5f25ee32367fd621419cd01a69480",
+      "original_source_sha256": "f08b41bb38e4590ed4f0d1a86e08617441d5f25ee32367fd621419cd01a69480",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/config.json",
+      "bytes": 640,
+      "public_sha256": "38b62e0f9b71cb1c853d292de4004afd903a989de20c32ca750de4cbf3bffa91",
+      "original_source_sha256": "38b62e0f9b71cb1c853d292de4004afd903a989de20c32ca750de4cbf3bffa91",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 544,
+      "public_sha256": "a1b6d06f84d74574a3ee942768824d72a598a26eba3cffeb3c00b7b9906adadf",
+      "original_source_sha256": "a1b6d06f84d74574a3ee942768824d72a598a26eba3cffeb3c00b7b9906adadf",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 990,
+      "public_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "original_source_sha256": "831b53379b8bd3bf0f90d61b83a927dc8f62484126206c6fe0eca92ef1017867",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_learned_budget_lr3e4_ep2_s2034/status.json",
+      "bytes": 308,
+      "public_sha256": "93f9e667b8997d518798bedc296bea0e25ca29628807e08f197672b291646371",
+      "original_source_sha256": "93f9e667b8997d518798bedc296bea0e25ca29628807e08f197672b291646371",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/config.json",
+      "bytes": 636,
+      "public_sha256": "40800b7a4c340c580c214e4fd35aeb0e78c821f544c7814d5e02c2237fa0b9d9",
+      "original_source_sha256": "40800b7a4c340c580c214e4fd35aeb0e78c821f544c7814d5e02c2237fa0b9d9",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 545,
+      "public_sha256": "34c5916a95b691f18b1da054364ccc3c4a50d3a33e871bb4739e050f45297521",
+      "original_source_sha256": "34c5916a95b691f18b1da054364ccc3c4a50d3a33e871bb4739e050f45297521",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 739,
+      "public_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "original_source_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2032/status.json",
+      "bytes": 303,
+      "public_sha256": "f52628f259ffe4cf205f98faa250c37ede7aa4c7f9c3111366dd8ab1b529e4f3",
+      "original_source_sha256": "f52628f259ffe4cf205f98faa250c37ede7aa4c7f9c3111366dd8ab1b529e4f3",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/config.json",
+      "bytes": 636,
+      "public_sha256": "f7b9fe0a036bf801ac12ab677880a4d38eef841a0d62ea1fa313a22c8f97388c",
+      "original_source_sha256": "f7b9fe0a036bf801ac12ab677880a4d38eef841a0d62ea1fa313a22c8f97388c",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 540,
+      "public_sha256": "8a791d28081884403a64a53c2ea11586c8d07de7bba5a51605b62183853d9cf1",
+      "original_source_sha256": "8a791d28081884403a64a53c2ea11586c8d07de7bba5a51605b62183853d9cf1",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 739,
+      "public_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "original_source_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2033/status.json",
+      "bytes": 303,
+      "public_sha256": "9fa43e1717ac8e4be1ddce4bdf37a4bb00639cc97f6d652ac3cae37cc381c557",
+      "original_source_sha256": "9fa43e1717ac8e4be1ddce4bdf37a4bb00639cc97f6d652ac3cae37cc381c557",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/config.json",
+      "bytes": 636,
+      "public_sha256": "1d05e0564a4e2ac9442984ee75ad2f77f0ad6c17027a3aaa669e55029c0d8c88",
+      "original_source_sha256": "1d05e0564a4e2ac9442984ee75ad2f77f0ad6c17027a3aaa669e55029c0d8c88",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 544,
+      "public_sha256": "35578ec4ee1b193fec2f4613e087cdfd57df3164ffd6cae93eb444cbd0d6d697",
+      "original_source_sha256": "35578ec4ee1b193fec2f4613e087cdfd57df3164ffd6cae93eb444cbd0d6d697",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 739,
+      "public_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "original_source_sha256": "d53e7c6118a638d3564c22283d627527ab59876e5f20f249dfac21d9a0793b95",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_avazu_selection_lr3e4_ep2_s2034/status.json",
+      "bytes": 303,
+      "public_sha256": "cbabb97bb7aaf26c1e38466681e43e05348190e54bc555c942d4405167cae038",
+      "original_source_sha256": "cbabb97bb7aaf26c1e38466681e43e05348190e54bc555c942d4405167cae038",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/config.json",
+      "bytes": 642,
+      "public_sha256": "6f0855ff64a92357b41c001aa035c27babf7da8826ab8c4216fe42adcf270497",
+      "original_source_sha256": "6f0855ff64a92357b41c001aa035c27babf7da8826ab8c4216fe42adcf270497",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 542,
+      "public_sha256": "fd17a8561d147f6c5fb3b55d699fb2a6c297054ea9a53ec862c6aca275b8eacf",
+      "original_source_sha256": "fd17a8561d147f6c5fb3b55d699fb2a6c297054ea9a53ec862c6aca275b8eacf",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 994,
+      "public_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "original_source_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2032/status.json",
+      "bytes": 309,
+      "public_sha256": "ec9584a08d20575d65fe41f39543228dc646a2850b534dccf8dd2e25e0058dec",
+      "original_source_sha256": "ec9584a08d20575d65fe41f39543228dc646a2850b534dccf8dd2e25e0058dec",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/config.json",
+      "bytes": 642,
+      "public_sha256": "e3b313105596765a98ce72be33b40538731320f444bd2d4d4a88db9674f9a3b0",
+      "original_source_sha256": "e3b313105596765a98ce72be33b40538731320f444bd2d4d4a88db9674f9a3b0",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 539,
+      "public_sha256": "31159415fcdeb2ddcd3f29da5f2b8aecdbaafb892b0e2d0208a346993bcb14a5",
+      "original_source_sha256": "31159415fcdeb2ddcd3f29da5f2b8aecdbaafb892b0e2d0208a346993bcb14a5",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 994,
+      "public_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "original_source_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2033/status.json",
+      "bytes": 308,
+      "public_sha256": "14d3a13b9fbad498ccbedc1bee2a5f4650f940b33f164387c4f4eb48b14bd9dc",
+      "original_source_sha256": "14d3a13b9fbad498ccbedc1bee2a5f4650f940b33f164387c4f4eb48b14bd9dc",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/config.json",
+      "bytes": 642,
+      "public_sha256": "bea9c74ec6a0d431e011cc6275d14fca8ac5e4cbf2d4fdf6f1d12a1375444168",
+      "original_source_sha256": "bea9c74ec6a0d431e011cc6275d14fca8ac5e4cbf2d4fdf6f1d12a1375444168",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 541,
+      "public_sha256": "0f6e09e8a6ef0b76a82af6d793cb18e30cddbf3c6577dbb80df04b4d22b20161",
+      "original_source_sha256": "0f6e09e8a6ef0b76a82af6d793cb18e30cddbf3c6577dbb80df04b4d22b20161",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 994,
+      "public_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "original_source_sha256": "ce056d86293faadf07100fbb834135bfcc673dbbc221a4a8663e0056251bad3f",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_learned_budget_lr3e4_ep2_s2034/status.json",
+      "bytes": 308,
+      "public_sha256": "3782d17f83e52ba33da5bbe97fd38ed883deb98c648831e745e9ba3249fee32e",
+      "original_source_sha256": "3782d17f83e52ba33da5bbe97fd38ed883deb98c648831e745e9ba3249fee32e",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/config.json",
+      "bytes": 638,
+      "public_sha256": "44e846703e1b8f921fa03a7dd2de0572bd3b6c99c6b4175050d634b811b1d35e",
+      "original_source_sha256": "44e846703e1b8f921fa03a7dd2de0572bd3b6c99c6b4175050d634b811b1d35e",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/evaluations_full_precision.json",
+      "bytes": 541,
+      "public_sha256": "43e630215f2465a9ec1128a35a41476d0a0e8fd4ddb428ec0f2eb63089f267e6",
+      "original_source_sha256": "43e630215f2465a9ec1128a35a41476d0a0e8fd4ddb428ec0f2eb63089f267e6",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/model_profile.json",
+      "bytes": 742,
+      "public_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "original_source_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2032/status.json",
+      "bytes": 303,
+      "public_sha256": "923d72ffc3935ae2bb4bc3f06105d22099cad9ecdd94a06a6292bc6fb4cae324",
+      "original_source_sha256": "923d72ffc3935ae2bb4bc3f06105d22099cad9ecdd94a06a6292bc6fb4cae324",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/config.json",
+      "bytes": 638,
+      "public_sha256": "a52a62fae0f4f275b4d883f7b8af5cbb5624d3c9bee2856cc1bba2258ffb47b9",
+      "original_source_sha256": "a52a62fae0f4f275b4d883f7b8af5cbb5624d3c9bee2856cc1bba2258ffb47b9",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/evaluations_full_precision.json",
+      "bytes": 542,
+      "public_sha256": "498746c29268d082c3b70a0f9665c44f0d14cbeb95c311088b825e091a2307c8",
+      "original_source_sha256": "498746c29268d082c3b70a0f9665c44f0d14cbeb95c311088b825e091a2307c8",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/model_profile.json",
+      "bytes": 742,
+      "public_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "original_source_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2033/status.json",
+      "bytes": 304,
+      "public_sha256": "6b182b28a0bebf3bfb9cc88e79be99db56e2e1b95775e6f1fb5b6ccc7da94cfe",
+      "original_source_sha256": "6b182b28a0bebf3bfb9cc88e79be99db56e2e1b95775e6f1fb5b6ccc7da94cfe",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/config.json",
+      "bytes": 638,
+      "public_sha256": "b41571813f78200a3f97af771b08e644ce4e33ac227d64a069be20e545bfadc4",
+      "original_source_sha256": "b41571813f78200a3f97af771b08e644ce4e33ac227d64a069be20e545bfadc4",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/evaluations_full_precision.json",
+      "bytes": 540,
+      "public_sha256": "c07bbc235f28da933bb30e130539596d9a59ba5ebedf870f09ee5958a96b9344",
+      "original_source_sha256": "c07bbc235f28da933bb30e130539596d9a59ba5ebedf870f09ee5958a96b9344",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/model_profile.json",
+      "bytes": 742,
+      "public_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "original_source_sha256": "e03c43a94f86b50f78b520379fe98d1e7449a9c7fe5d816199bc7ff2dcc36c43",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/runs/robustness_r2_criteo_selection_lr3e4_ep2_s2034/status.json",
+      "bytes": 304,
+      "public_sha256": "7b4cb3900336d935f0ef003f61d8f97d29d119a55cccb752bfe8957650a9421d",
+      "original_source_sha256": "7b4cb3900336d935f0ef003f61d8f97d29d119a55cccb752bfe8957650a9421d",
+      "byte_identical_to_source": true,
+      "kind": "byte_identical_scientific_record"
+    },
+    {
+      "path": "robustness_training/status.json",
+      "bytes": 5274,
+      "public_sha256": "bf4b69f75c26d747fc5d8def57a9934463f2ac5c6885cca24c87391d70fe0a95",
+      "original_source_sha256": "f42f220273125026c0b4be860ff7becf06e215cb60679089aef2e1ae5445c423",
+      "byte_identical_to_source": false,
+      "kind": "metadata_only_adaptation"
+    }
+  ],
+  "privacy": {
+    "targeted_findings": 0,
+    "benign_contexts": [],
+    "limit": "Bounded targeted scan, not a proof of universal anonymity or absence of unknown encoded secrets."
+  },
+  "excluded": [
+    "harness logs",
+    "progress streams",
+    "private preanalysis/manifest prose",
+    "checkpoints",
+    "dataset arrays",
+    "raw predictions/examples",
+    "scratch analysis reports"
+  ],
+  "notes": [
+    "Configuration, evaluation, model-profile, per-run status and rounded metric records retain original bytes.",
+    "Queue status and provenance are explicitly adapted metadata exports; original source hashes remain recorded.",
+    "Legacy twelve-fit test_policy is retained as legacy text alongside the applied mandatory global eighteen-fit policy.",
+    "Original private planning-document hashes are opaque commitments, not hashes of the later English public metadata.",
+    "Public planning metadata was not jointly preregistered before all eighteen fits; the secondary six were frozen after initial training began, before human test inspection.",
+    "This exporter never changes the public model-code repository or the original execution artifacts."
+  ]
+}

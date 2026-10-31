@@ -1,0 +1,9 @@
+{
+  "require_all_queues_before_metric_access": true,
+  "total_planned_runs": 18,
+  "queues": [
+    {"directory": "robustness_training", "planned_runs": 12},
+    {"directory": "native_input_training", "planned_runs": 6}
+  ],
+  "purpose": "Preserve human test blindness until both separately frozen queues finish; no changes to original twelve-fit plan or results."
+}

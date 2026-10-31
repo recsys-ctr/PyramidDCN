@@ -1,0 +1,74 @@
+[
+  {
+    "name": "native_field_criteo_fibinetpp_lr3e4_ep2_s2032",
+    "seed": 2032,
+    "max_epochs": 2,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "native_field_fibinetpp_lr3e4_2ep_frozen",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ]
+    },
+    "lr": 0.0003,
+    "train_frac": 1.0,
+    "emb_lr_mult": 1.0,
+    "erank": false,
+    "funnel": false,
+    "agop": false
+  },
+  {
+    "name": "native_field_criteo_fibinetpp_lr3e4_ep2_s2033",
+    "seed": 2033,
+    "max_epochs": 2,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "native_field_fibinetpp_lr3e4_2ep_frozen",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ]
+    },
+    "lr": 0.0003,
+    "train_frac": 1.0,
+    "emb_lr_mult": 1.0,
+    "erank": false,
+    "funnel": false,
+    "agop": false
+  },
+  {
+    "name": "native_field_criteo_fibinetpp_lr3e4_ep2_s2034",
+    "seed": 2034,
+    "max_epochs": 2,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "native_field_fibinetpp_lr3e4_2ep_frozen",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ]
+    },
+    "lr": 0.0003,
+    "train_frac": 1.0,
+    "emb_lr_mult": 1.0,
+    "erank": false,
+    "funnel": false,
+    "agop": false
+  }
+]

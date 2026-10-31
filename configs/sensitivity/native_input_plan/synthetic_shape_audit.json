@@ -1,0 +1,66 @@
+{
+  "criteo": {
+    "scope": "Synthetic CPU forward only, vocabulary16, no training or data/metrics read",
+    "source_arm": "v3_criteo_fibinetpp_s2024",
+    "removed_input_proj": 512,
+    "native_fields": 39,
+    "embedding_dim": 16,
+    "native_flat_width": 624,
+    "embedding_class": "Embedding",
+    "bilinear_W_shape": [
+      16,
+      16
+    ],
+    "bilinear_pairs": 741,
+    "low_rank": 50,
+    "senet_groups": 2,
+    "senet_squeeze": 156,
+    "senet_hidden": 52,
+    "senet_expansion": 624,
+    "dnn_widths": [
+      512,
+      512,
+      512
+    ],
+    "dnn_input": 674,
+    "linear_flops_per_example": 1894996,
+    "custom_bilinear_flops_per_example": 68640,
+    "complete_matrix_flops_per_example": 1963636,
+    "nonembedding_params": 949405,
+    "full_vocabulary_embedding_params_analytic": 14571328,
+    "full_vocabulary_total_params_analytic": 15520733,
+    "passed": true
+  },
+  "avazu": {
+    "scope": "Synthetic CPU forward only, vocabulary16, no training or data/metrics read",
+    "source_arm": "v3_avazu_fibinetpp_s2024",
+    "removed_input_proj": 312,
+    "native_fields": 24,
+    "embedding_dim": 16,
+    "native_flat_width": 384,
+    "embedding_class": "Embedding",
+    "bilinear_W_shape": [
+      16,
+      16
+    ],
+    "bilinear_pairs": 276,
+    "low_rank": 50,
+    "senet_groups": 2,
+    "senet_squeeze": 96,
+    "senet_hidden": 32,
+    "senet_expansion": 384,
+    "dnn_widths": [
+      312,
+      312,
+      312
+    ],
+    "dnn_input": 434,
+    "linear_flops_per_example": 719136,
+    "custom_bilinear_flops_per_example": 30720,
+    "complete_matrix_flops_per_example": 749856,
+    "nonembedding_params": 360875,
+    "full_vocabulary_embedding_params_analytic": 60015600,
+    "full_vocabulary_total_params_analytic": 60376475,
+    "passed": true
+  }
+}

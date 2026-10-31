@@ -1,0 +1,92 @@
+{
+  "scope": "Public release staging of code and plans only; no training outcomes were accessed, staged, or represented as available.",
+  "original_private_plan_sha256": {
+    "robustness_plan": {
+      "PREANALYSIS_ko.md": "04fa24837dd53477fc0d1805037eeb0a1498c1cb175f855bdc7c0e5edbf46b1a",
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "manifest.json": "487f7ff7841077c3862f001697a621db3b88b1be71a09c34f20578b157cfeea5"
+    },
+    "native_input_plan": {
+      "PREANALYSIS_ko.md": "a8fc3423dd2768ed622542ff6a88dc0c92677c12579f391c4273c0fdad2be0e9",
+      "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "manifest.json": "6b791b7aff97e2310b875145438832c13f767e034e075ab9dd07ab51e8545d14"
+    }
+  },
+  "public_plan_sha256": {
+    "robustness_plan": {
+      "PROTOCOL.md": "43e921803857713fa69f748644bebf9bf8f4b05839a596fc0606a864baa22f8b",
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95",
+      "manifest.json": "983590030437b051ff6192dfa40ba110a2e8266c3d7fcbaf062ed9ee7a9b1b76"
+    },
+    "native_input_plan": {
+      "PROTOCOL.md": "a142f8c7f8a8aa9f6debf067d9ee3f00ad3e60c17d8aec6009703c001e87bf3d",
+      "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc",
+      "manifest.json": "c60d588f8a4f1c9d05896b5e1ab1c9c1d5dbbeda5da33a49851756425d71ea90"
+    }
+  },
+  "original_launcher_analysis_sha256": {
+    "launch_robustness_training.py": "1b7d456799a59e190f02f8b990b2928641ddbd23a998ae4305d64ca3b4facdd6",
+    "launch_native_input_training.py": "da0e9146449818ad3767ea3a7abef2fe7d5799deda28306f1a6dc8e41dbeb2d5",
+    "summarize_robustness_training.py": "36c524e451cd7536e111936851139abe0996ad781f83cef6f72101edafb8d617",
+    "summarize_native_input_training.py": "6439744cd2c20a6350b7cbd83d0d263f73934d81c4f510f79864c4348d2f40ee"
+  },
+  "public_launcher_analysis_sha256": {
+    "launch_robustness_training.py": "7f7625900fb6121f3335c74bc9871e14cf5143dcddcff9bfbc4c57bd1bf20000",
+    "launch_native_input_training.py": "198549fc46a729a9f19d2a809c1ecb7b7029208565ccfc214706937ee8ab5ac2",
+    "summarize_robustness_training.py": "e4a637d57b46d8ed7e5b5df64730702ef11c0168808bfc3345ea8e0504f30e7e",
+    "summarize_native_input_training.py": "f4f802bcfa2cd1884ed8efb5b5c7aa1fe591c244c82f587eaf33c3803d8d6073"
+  },
+  "unchanged_frozen_files": {
+    "robustness_plan": {
+      "criteo.json": "64752de46c5238723cbbb9ed3962959c5a865feff7637bf7c957327386b3dea9",
+      "avazu.json": "6bb7f92cad042db9d4781d1f3eccce6bd5267b14835e67aaac45595c8c136b95"
+    },
+    "native_input_plan": {
+      "criteo.json": "d8dea7d88054cc0b10b9072e822a04ced313d9c9e06c6f310935d7023888c908",
+      "avazu.json": "cfc93a0c0a2887c13d4b3c95370b56345baea9f103e54444064081fd37353689",
+      "synthetic_shape_audit.json": "25b4572ebf5d0934fdaf0b0ddf6d92c1deb75570eb38f75a6d10062afda45cdc"
+    }
+  },
+  "computational_ast_checks": {
+    "launch_robustness_training.py:instrumented_evaluate_AST_identical": true,
+    "launch_robustness_training.py:atomic_json_AST_identical": true,
+    "launch_robustness_training.py:digest_AST_identical": true,
+    "launch_robustness_training.py:HarnessLog_AST_identical": true,
+    "launch_robustness_training.py:entire_training_loop_AST_identical": true,
+    "launch_native_input_training.py:instrumented_evaluate_AST_identical": true,
+    "launch_native_input_training.py:atomic_json_AST_identical": true,
+    "launch_native_input_training.py:digest_AST_identical": true,
+    "launch_native_input_training.py:HarnessLog_AST_identical": true,
+    "launch_native_input_training.py:entire_training_loop_AST_identical": true,
+    "summarize_robustness_training.py:entire_metric_computation_AST_identical": true,
+    "summarize_robustness_training.py:number_AST_identical": true,
+    "summarize_robustness_training.py:integer_AST_identical": true,
+    "summarize_robustness_training.py:expected_name_AST_identical": true,
+    "summarize_robustness_training.py:mean_sd_AST_identical": true,
+    "summarize_robustness_training.py:write_csv_AST_identical": true,
+    "summarize_robustness_training.py:safe_status_report_AST_identical": true,
+    "summarize_native_input_training.py:entire_metric_computation_AST_identical": true
+  },
+  "changes": [
+    "Arm JSONs and native synthetic audit were copied byte-identically.",
+    "Private Korean planning documents were replaced by English scientific protocols; non-scientific internal context and manuscript hash were omitted from public manifests. Original private file hashes are retained as opaque commitments.",
+    "Public manifest source keys are repository-relative; public metadata add freeze chronology, global eighteen-fit policy and an explicit translation/adaptation note.",
+    "Native predecessor guard uses the public initial-plan SHA-256 set; the original private predecessor commitments are separately retained.",
+    "Summary plan hash guards use public plan bytes, so exported run bundles must carry the matching sanitized frozen_plan snapshots.",
+    "A shared mandatory inspection_gate.py strengthens both analysis entry points to require sibling original12/native6 statuses and exact completed rosters before metric access; absence of the gate fails closed.",
+    "Launcher status/provenance text now defers human inspection until all eighteen fits; the actual training and evaluation loops are unchanged.",
+    "Analysis report prose and filenames were translated to English; numeric/statistical segments are AST-identical."
+  ],
+  "not_claimed": [
+    "Entire launch/analysis scripts are not byte-identical after metadata/guard/output-language adaptation.",
+    "Public English metadata was not jointly preregistered before training.",
+    "The secondary six-fit plan was not frozen before the initial twelve began.",
+    "There are no results in this staging tree; analyses require later full-precision raw evaluation records after all eighteen fits complete."
+  ]
+}

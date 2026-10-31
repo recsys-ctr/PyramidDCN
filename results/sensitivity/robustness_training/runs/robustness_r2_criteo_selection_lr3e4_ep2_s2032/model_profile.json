@@ -1,0 +1,40 @@
+{
+  "total_params": 15319617,
+  "embedding_params": 14571328,
+  "nonembedding_params": 748289,
+  "parameter_dtypes": [
+    "torch.float32"
+  ],
+  "parameter_devices": [
+    "mps:0"
+  ],
+  "linear_shapes": [
+    {
+      "name": "embedding.proj",
+      "in": 624,
+      "out": 512
+    },
+    {
+      "name": "net.layers.0.cross.0",
+      "in": 512,
+      "out": 512
+    },
+    {
+      "name": "net.layers.1.cross.0",
+      "in": 512,
+      "out": 256
+    },
+    {
+      "name": "net.layers.2.cross.0",
+      "in": 256,
+      "out": 128
+    },
+    {
+      "name": "net.fc",
+      "in": 128,
+      "out": 1
+    }
+  ],
+  "matrix_flops_per_example": 1491200,
+  "matrix_flops_convention": "2*Linear MACs; pml_mv has no non-Linear matrix products"
+}
