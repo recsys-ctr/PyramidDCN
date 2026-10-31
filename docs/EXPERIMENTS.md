@@ -10,7 +10,7 @@ The release contains model definitions, training and evaluation, frozen run conf
 | --- | --- | ---: | --- |
 | `table1` | all four | 30 | Nine baseline families plus PyramidDCN, three seeds each |
 | `table2` | Criteo | 84 | Nine original backbones, two pyramidal conversions each, and PyramidDCN |
-| `table3_core` | all four | 47 | Reference, six selected alternatives, their reported matched-cost comparisons, and the corresponding seeds |
+| `table3_core` | all four | 72 | Reference, ten selected alternatives, their reported matched-cost comparisons, and the corresponding seeds |
 | `table3_full` | all four | 150 | Reference, all 31 alternative layer forms, and reported matched-cost variants |
 | `table4` | Criteo | 21 | Seven schedules under the two width/budget comparison settings |
 | `text_no_ln` | all four | 6 | Three no-LN runs and their three reference runs |
@@ -92,3 +92,5 @@ A complete table regeneration expects every required run, including the full lay
 The exported configurations were cross-checked against both the saved run record and an original JSON arm definition. In the training log, diagnostic dictionaries replace the `erank`, `funnel`, and `agop` boolean flags. The exported training configuration restores the original booleans rather than passing a result dictionary back into training.
 
 The frozen configurations replace the need to rerun the historical sequence of exploratory generators or width searches. In particular, Table 2's original-budget widths were selected under the original linear-layer FLOP cap, then reprofiled using complete matrix-product counts. They should not be reselected under a new cost metric when reproducing the reported experiments. The original definition filenames and source-record hashes remain available for traceability.
+
+The current core Table 3 contains eleven rows (reference plus ten alternatives), with compact formula aliases defined in the manuscript. Table 4 includes sample standard deviations in its AUC column and three per-layer effective-rank percentages; the redundant mean-rank column is omitted. The complete 31-alternative table remains available.

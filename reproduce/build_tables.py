@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DS = ['criteo', 'avazu', 'kkbox', 'kuairec']
 SEEDS = [2024, 2025, 2026]
 REF = 'v3n_stagger'
-BASE = [('dcnv2_lr', r'DCNv2, $r=\lfloor W/4\rfloor$~\cite{wang2021dcnv2}'),
+BASE = [('dcnv2_lr', r'DCNv2~\cite{wang2021dcnv2}'),
         ('mldcn', r'ML-DCN~\cite{li2026mldcn}'), ('masknet', r'MaskNet~\cite{wang2021masknet}'),
         ('qnn', r'QNN-$\alpha$~\cite{li2025qnn}'), ('ecn', r'ECN~\cite{li2024fcn}'),
         ('fcn', r'FCN~\cite{li2024fcn}'), ('gdcn', r'GDCN~\cite{wang2023gdcn}'),
@@ -150,19 +150,25 @@ def main():
     core = [next(r for r in t3 if r['arm'] == a) for a in core_arms]
     write_csv(out / 'table3_core.csv', core)
     # Formula columns use the explicit published definitions; numeric cells are all recomputed above.
-    formats = [(r'\textbf{\ours{}}', r'x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]'),
-               ('Learned input map', r'L_ix\had(A_ix_{i-1}+b_i)+L_ix'),
-               (r'Previous-state slice$^\dagger$', r'x_{i-1}[T_i]\had(A_ix_{i-1}+b_i)+x_{i-1}[T_i]'),
-               ('No product', r'x[S_i]+A_ix_{i-1}+b_i'),
-               (r'No input addend$^\dagger$', r'x[S_i]\had(A_ix_{i-1}+b_i)'),
-               ('Extra input cross', r'x[S_i]\had(A_ix_{i-1}+B_ix[S_i]+b_i)+x[S_i]'),
-               (r'Nested slices$^\dagger$ ($S_3\subset S_2$)', r'x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]')]
+    formats = [(r'\textbf{\ours{}}', r's_i\had c_i+s_i'),
+               ('Pooled input', r'u_i\had c_i+u_i'),
+               ('Frozen input map', r'f_i\had c_i+f_i'),
+               ('Learned input map', r'\ell_i\had c_i+\ell_i'),
+               (r'State slice$^\dagger$', r't_i\had c_i+t_i'),
+               ('No product', r's_i+c_i'),
+               ('Extra input cross', r's_i\had(c_i+B_is_i)+s_i'),
+               (r'No input addend$^\dagger$', r's_i\had c_i'),
+               (r'Learned addend$^\dagger$', r's_i\had c_i+\ell_i'),
+               (r'Other input slice$^\dagger$', r"s_i\had c_i+s'_i"),
+               (r'Nested slices$^\dagger$', r's_i\had c_i+s_i')]
+    if len(core) != len(formats):
+        raise ValueError('Core table membership and formula definitions differ')
     lines = []
     for i, (row, (label, formula)) in enumerate(zip(core, formats)):
-        if i in [1, 3, 6]: lines.append(r'\midrule')
+        if i in [1, 5, 7, 10]: lines.append(r'\midrule')
         d = '--' if row['arm'] == REF else percent(row['delta_auc_percent'])
         md = '' if row['matched_delta_auc_percent'] == '' else percent(row['matched_delta_auc_percent'])
-        lines.append(f'{label} & ${formula}$ & {row["flops_ratio"]:.2f} & {d} & {md}' + r' \\')
+        lines.append(f'{label} & ${formula}$ & {row["flops_ratio"]:.2f} & {d} & {md}'.rstrip() + r' \\')
     (out / 'table3_core_rows.tex').write_text('\n'.join(lines) + '\n')
     lines = []
     for row in t3:
@@ -175,17 +181,18 @@ def main():
                        ('$1/4$', 'v3n_o4_bal'), ('$1/8$', 'v3n_o8_bal'),
                        (None, None), ('$1$ (constant)', 'v3n_r1'), ('$1/4$', 'v3n_r4_bal'), ('$1/8$', 'v3n_r8_bal')]:
         if arm is None:
-            lines.append((r'\midrule'+'\n' if lines else '') + r'\multicolumn{7}{@{}l}{\emph{' + ('Matched FLOPs' if not lines else 'Matched first width, $d_1=W$') + r'}} \\'); continue
+            lines.append((r'\midrule'+'\n' if lines else '') + r'\multicolumn{6}{@{}l}{\emph{' + ('Matched FLOPs' if not lines else 'Matched first width, $d_1=W$') + r'}} \\'); continue
         rs = runs('criteo', arm); rr = runs('criteo', REF)
         ev = [r['erank']['rep_frac'][1:] for r in rs if r.get('erank')]
         if not ev: ev = [records[f'erk_criteo_{arm}_s{s}']['erank']['rep_frac'][1:] for s in SEEDS]
         per = [100*st.mean(v[i] for v in ev) for i in range(3)]
         delta = 100*(mean(rs)/mean(rr)-1)
         t4.append({'arm': arm, 'widths': rs[0]['dims'], 'matrix_flops': matrix_flops(rs[0]), 'auc': mean(rs),
-                   'delta_auc_percent': delta, 'effective_rank_percent': per, 'mean_effective_rank_percent': st.mean(per)})
+                   'auc_sample_sd': st.stdev(metric(rs)), 'delta_auc_percent': delta, 'effective_rank_percent': per, 'mean_effective_rank_percent': st.mean(per)})
         auc = mean_text(metric(rs)); auc = r'\textbf{' + auc + '}' if arm == REF else auc
+        auc += r' {\scriptsize$\pm$' + f'{st.stdev(metric(rs)):.5f}'[1:] + '}'
         cells = [label, str(rs[0]['dims']), f'{matrix_flops(rs[0])/1e6:.2f}M', auc,
-                 '--' if arm == REF else percent(delta), '/'.join(str(round(v)) for v in per), str(round(st.mean(per)))]
+                 '--' if arm == REF else percent(delta), '/'.join(str(round(v)) for v in per)]
         lines.append(' & '.join(cells) + r' \\')
     (out / 'table4_rows.tex').write_text('\n'.join(lines) + '\n'); write_csv(out / 'table4_schedule.csv', t4)
     no_ln = st.mean(mean(runs(ds, 'v3n_noln_dj')) - mean(runs(ds, REF)) for ds in DS)

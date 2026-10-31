@@ -1,11 +1,15 @@
-% Six targeted alternatives + reference. Every numeric cell is preserved.
-\textbf{\ours{}} & $x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]$ & 1.00 & -- &  \\
+\textbf{\ours{}} & $s_i\had c_i+s_i$ & 1.00 & -- & \\
 \midrule
-Learned input map & $L_ix\had(A_ix_{i-1}+b_i)+L_ix$ & 1.61 & $-$0.25\% & $-$0.30\% \\
-Previous-state slice$^\dagger$ & $x_{i-1}[T_i]\had(A_ix_{i-1}+b_i)+x_{i-1}[T_i]$ & 1.00 & $-$0.14\% &  \\
+Pooled input & $u_i\had c_i+u_i$ & 1.00 & $-$0.04\% & \\
+Frozen input map & $f_i\had c_i+f_i$ & 1.61 & $-$0.08\% & $-$0.16\% \\
+Learned input map & $\ell_i\had c_i+\ell_i$ & 1.61 & $-$0.25\% & $-$0.30\% \\
+State slice$^\dagger$ & $t_i\had c_i+t_i$ & 1.00 & $-$0.14\% & \\
 \midrule
-No product & $x[S_i]+A_ix_{i-1}+b_i$ & 1.00 & $-$1.82\% &  \\
-No input addend$^\dagger$ & $x[S_i]\had(A_ix_{i-1}+b_i)$ & 1.00 & $-$0.07\% &  \\
-Extra input cross & $x[S_i]\had(A_ix_{i-1}+B_ix[S_i]+b_i)+x[S_i]$ & 1.46 & +0.01\% & $-$0.05\% \\
+No product & $s_i+c_i$ & 1.00 & $-$1.82\% & \\
+Extra input cross & $s_i\had(c_i+B_is_i)+s_i$ & 1.46 & +0.01\% & $-$0.05\% \\
 \midrule
-Nested slices$^\dagger$ ($S_3\subset S_2$) & $x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]$ & 1.00 & $-$0.03\% &  \\
+No input addend$^\dagger$ & $s_i\had c_i$ & 1.00 & $-$0.07\% & \\
+Learned addend$^\dagger$ & $s_i\had c_i+\ell_i$ & 1.61 & $-$0.11\% & \\
+Other input slice$^\dagger$ & $s_i\had c_i+s'_i$ & 1.00 & 0.00\% & \\
+\midrule
+Nested slices$^\dagger$ & $s_i\had c_i+s_i$ & 1.00 & $-$0.03\% & \\
