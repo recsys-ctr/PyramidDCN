@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "validated_utc": "2026-10-31T05:34:58.476299+00:00",
+  "scope": "Release portability and computational checks only; synthetic smoke checks are not benchmark retraining or independent confirmation of published metrics.",
+  "environment": {
+    "python": "3.13.15",
+    "platform": "macOS arm64",
+    "device": "cpu",
+    "threads": 1,
+    "packages": {
+      "torch": "2.13.0",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.0"
+    }
+  },
+  "original_source_files_sha256": {
+    "research/wsdm27_scratch/x4_runner.py": "4d4856d40b652f0a5deaf95e49ae94440201f8687b9bed27cbecbbf110afd3d6",
+    "research/wsdm27_scratch/cond_pyramid_screen.py": "847ca0dc6598c173738073217727fbd02e2258877dccec1fafb9e38c9cbe7276",
+    "research/wsdm27_scratch/pyramid_baselines.py": "5fe998187826bd08156aeb6159189055f9347e9f09ee88e94dd5e706b67400b0",
+    "research/wsdm27_scratch/pyramid_extra.py": "4b1683c041c063028f3a408c6beb9cd3fcf14f398154752e5a51dd8d8d2246ff",
+    "research/wsdm27_scratch/x4_baselines.py": "9ed57ce09270b9063889ac5d426959922bde64ba009c4acbffacbbbbfd5cf6be",
+    "research/wsdm27_scratch/extra_baselines.py": "0338a6267c40092a550cb85a060d2c453f09a7c33de9be0a5a7add07a207bbca",
+    "research/wsdm27_scratch/flops.py": "1156cea760c0f1c64614f5b9ff37ae0d55f9f2dc93794f2d8bd987fa9b1c7678"
+  },
+  "compatibility_initializer_source": {
+    "path": "src/torch/modules/compat.py",
+    "sha256": "7ade11a3d5dd6f8ab4b7c81d684f87b4e4574e7698f49f1f3a9a1c915203e47a",
+    "initializer": "xavier_uniform_ weights, zero biases"
+  },
+  "release_core_files_sha256": {
+    "experiments/x4_runner.py": "d97e8a556ba24a6c8ccacecef6cba1fb3f95da2d48d0c564e2985cb4ef8e59e4",
+    "experiments/cond_pyramid_screen.py": "4db047e2aa40218eb3aab8a3e711d1a3560d214741c17d9d3f0c9bfe27d2a3bf",
+    "experiments/pyramid_baselines.py": "92eb588a201102b2ddd7cf5ed2148ae47932ecb65a968ad58d80d0e3ad020924",
+    "experiments/pyramid_extra.py": "93f593465261c2f4914ccb6c3743b0a802509cf61d0572129dbfae03c9648938",
+    "experiments/x4_baselines.py": "9ed57ce09270b9063889ac5d426959922bde64ba009c4acbffacbbbbfd5cf6be",
+    "experiments/extra_baselines.py": "450f3b8b7b51bff5e3ca69a990184873ad5a20dfbe7c5df3ab1ae2d41596dfd7",
+    "experiments/flops.py": "1156cea760c0f1c64614f5b9ff37ae0d55f9f2dc93794f2d8bd987fa9b1c7678",
+    "experiments/compat.py": "7ade11a3d5dd6f8ab4b7c81d684f87b4e4574e7698f49f1f3a9a1c915203e47a",
+    "experiments/paths.py": "33b469c575d7317b7109aec909360236370aeaf2efe806bdb4d27055a57c1447",
+    "experiments/__init__.py": "2ca05aa3cca681bf9a87affda5e38169a6e9fea6e24ccfb611402c7066efd17c"
+  },
+  "portability_changes": [
+    "Package-relative imports replace local sys.path and production src imports.",
+    "Data directory is explicit (--data-dir or CTR_DATA); import without datasets is supported.",
+    "Unused one_epoch_diag/bench_criteo dependency and obsolete standalone CondPyramid screen were removed.",
+    "Unused legacy production pml/pyramid/pml_res/pml_gate branches raise explicit NotImplementedError. Published saved arms do not select these branches.",
+    "CLI accepts an arm JSON file as well as the original JSON string. Any failed arm now produces a nonzero process exit status.",
+    "Training math, model operations, parameter initialization and RNG ordering are unchanged in the published experiment paths."
+  ],
+  "source_equivalence_check": {
+    "status": "passed",
+    "configuration_count": 29,
+    "dataset": "Criteo",
+    "source_results": "research/wsdm27_scratch/v3_criteo.jsonl",
+    "source_results_sha256": "f0e6267f462e5a036da49f083ab8ab63f6ee9fc1c7d6c49beb4c3459eab5bd18",
+    "configuration_names": [
+      "v3_criteo_dcnv2_lr_s2024",
+      "v3_criteo_mldcn_s2024",
+      "v3_criteo_masknet_s2024",
+      "v3_criteo_qnn_s2024",
+      "v3_criteo_ecn_s2024",
+      "v3_criteo_fcn_s2024",
+      "v3_criteo_gdcn_s2024",
+      "v3_criteo_finalmlp_s2024",
+      "v3_criteo_fibinetpp_s2024",
+      "fair_criteo_v3f_r4_s2024",
+      "fair_criteo_v3n_stagger_s2024",
+      "fair_criteo_v3p_pyr2_dcnv2_s2024",
+      "fair_criteo_v3p_pyr_mldcn_s2024",
+      "fair_criteo_v3p_pyr_masknet_s2024",
+      "fair_criteo_v3p_pyr2_qnn_s2024",
+      "fair_criteo_v3p_pyr_ecn_s2024",
+      "fair_criteo_v3p_pyr_fcn_s2024",
+      "fair_criteo_v3p_pyr_gdcn_s2024",
+      "fair_criteo_v3p_pyr_finalmlp_s2024",
+      "fair_criteo_v3p_pyr_fibinetpp_s2024",
+      "fair_criteo_v3p_eqa2_dcnv2_s2024",
+      "fair_criteo_v3p_eqa_mldcn_s2024",
+      "fair_criteo_v3p_eqa_masknet_s2024",
+      "fair_criteo_v3p_eqa2_qnn_s2024",
+      "fair_criteo_v3p_eqa_ecn_s2024",
+      "fair_criteo_v3p_eqa_fcn_s2024",
+      "fair_criteo_v3p_eqa_gdcn_s2024",
+      "fair_criteo_v3p_eqa_finalmlp_s2024",
+      "fair_criteo_v3p_eqa_fibinetpp_s2024"
+    ],
+    "initialization_seed": 2024,
+    "loss_rng_seed": 77,
+    "synthetic_embedding_vocab_size": 32,
+    "preserved": "Original metadata field count, embedding dimensions, all saved dense widths/operators/normalization/loss settings.",
+    "batch_size": 4,
+    "comparison": "torch.equal on every state_dict entry after seeded initialization, eval forward logits, scalar train loss, and every parameter gradient (including matching absent gradients).",
+    "tolerances": "Exact equality; no numerical tolerance used.",
+    "models": "11 Table-1/source configurations plus 18 Table-2 pyramidal/budget configurations. Rank-W DCNv2 is included because Table 2 starts from that setting.",
+    "method": "Original x4_runner and package-relative release imported side by side; torch.manual_seed reset before constructing each model and before each training loss."
+  },
+  "source_equivalence_one_epoch": {
+    "status": "passed",
+    "synthetic_rows_per_split": 8,
+    "fields": 4,
+    "embedding_dim": 8,
+    "input_projection": 32,
+    "widths": [
+      32,
+      16,
+      8
+    ],
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch_size": 4,
+    "matched_fields": [
+      "valid_auc",
+      "valid_logloss",
+      "test_auc",
+      "test_logloss",
+      "serving_linear_flops_2x",
+      "dense_params",
+      "best_epoch"
+    ],
+    "note": "Temporary synthetic data and results were removed automatically; no real benchmark training was run."
+  },
+  "release_smoke_test": {
+    "path": "tests/test_smoke.py",
+    "sha256": "2ebe27d21a3160f7ca1a8550710308da1f0c92c03325f96001739dc5c54d4bf9",
+    "command": "python tests/test_smoke.py --full-catalog",
+    "status": "passed",
+    "test_count": 4,
+    "elapsed_seconds": 16.927,
+    "checks": [
+      "PyramidDCN recurrence and original-input coordinate selections with an independent formula calculation.",
+      "Small synthetic forward, finite training loss, finite backward gradients for PyramidDCN and all nine baseline families.",
+      "One-epoch train/validation/test through the standalone package CLI and JSON-file arm input.",
+      "Build, eval forward, train loss and backward for every distinct recorded configuration, preserving original dense widths and replacing embedding vocabulary only."
+    ],
+    "full_catalog": {
+      "record_count_by_dataset": {
+        "avazu": 180,
+        "criteo": 258,
+        "kkbox": 180,
+        "kuairec": 180
+      },
+      "total_record_count": 798,
+      "distinct_configuration_count_by_dataset": {
+        "avazu": 50,
+        "criteo": 75,
+        "kkbox": 50,
+        "kuairec": 50
+      },
+      "total_distinct_configurations": 225,
+      "deduplication_ignored_keys": [
+        "name",
+        "seed",
+        "erank",
+        "funnel",
+        "agop"
+      ],
+      "synthetic_vocab_size": 128,
+      "batch_size": 4,
+      "post_training_diagnostics_executed": false,
+      "config_files_sha256": {
+        "configs/all/avazu.json": "72f66424d296cd29930b77c596880024cc81c07bed10b890c49c2a86c2fe8376",
+        "configs/all/criteo.json": "f6a21b667338d11ecc44e2894c9bc322b815a06938c7bb1b3404eb68eeefadc1",
+        "configs/all/kkbox.json": "06848249def63aea7cf634c603b4360df546d1f48429717e1fefef61cbff0856",
+        "configs/all/kuairec.json": "0093e0c212113a07e49f67db39c1712c73897e11ce300bc5a10d07648fd547cb"
+      }
+    }
+  },
+  "limitations": [
+    "No full benchmark retraining or GPU/MPS/CUDA smoke test was performed for this release verification.",
+    "Exact source-equivalence comparison covers 29 Criteo configurations; all 225 distinct stored configurations were additionally checked for valid forward/loss/backward in the portable release.",
+    "Post-training effective-rank/funnel/AGOP analysis is outside the full-catalog model smoke pass.",
+    "Package versions describe the tested environment, not a claim that other versions reproduce identical benchmark metrics."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "torch_version": "2.13.0",
+  "device": "CPU",
+  "batch_size": 1,
+  "training": false,
+  "synthetic_vocab_size": 16,
+  "sha256": {
+    "research/wsdm27_scratch/flops.py": "1156cea760c0f1c64614f5b9ff37ae0d55f9f2dc93794f2d8bd987fa9b1c7678",
+    "research/wsdm27_scratch/x4_runner.py": "4d4856d40b652f0a5deaf95e49ae94440201f8687b9bed27cbecbbf110afd3d6",
+    "research/wsdm27_scratch/x4_baselines.py": "9ed57ce09270b9063889ac5d426959922bde64ba009c4acbffacbbbbfd5cf6be",
+    "research/wsdm27_scratch/extra_baselines.py": "0338a6267c40092a550cb85a060d2c453f09a7c33de9be0a5a7add07a207bbca",
+    "research/wsdm27_scratch/pyramid_baselines.py": "5fe998187826bd08156aeb6159189055f9347e9f09ee88e94dd5e706b67400b0"
+  },
+  "scope": "Matrix multiplies dispatched during eval forward; non-matrix operations excluded."
+}

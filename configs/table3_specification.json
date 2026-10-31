@@ -1,0 +1,226 @@
+[
+  {
+    "label": "\\ours{}",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]$",
+    "arm": "v3n_stagger",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Nested slices$^\\dagger$",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]$, $\\boldsymbol{S_3\\subset S_2}$",
+    "arm": "v3p_mpos_none",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Pooled input",
+    "formula": "$\\boldsymbol{\\bar x_i}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\bar x_i}$",
+    "arm": "v3n_pool",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Frozen random projection",
+    "formula": "$\\boldsymbol{\\Omega_ix}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\Omega_ix}$",
+    "arm": "mx_rp",
+    "reference": "v3n_stagger",
+    "matched_arm": "mx_rp_eq"
+  },
+  {
+    "label": "Learned projection",
+    "formula": "$\\boldsymbol{L_ix}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{L_ix}$",
+    "arm": "mx_lp",
+    "reference": "v3n_stagger",
+    "matched_arm": "v3n_lp_eq"
+  },
+  {
+    "label": "Two slices",
+    "formula": "$x[S_i]\\had\\boldsymbol{x[S'_i]}\\had(A_ix_{i-1}+b_i)+x[S_i]$",
+    "arm": "cx_two",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "SiLU of the slice",
+    "formula": "$\\boldsymbol{\\mathrm{SiLU}(x[S_i])}\\had(A_ix_{i-1}+b_i)+x[S_i]$",
+    "arm": "cx_silu",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Output slice$^\\dagger$",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\tilde x_{i-1}}$",
+    "arm": "v3n_staterr_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Output slice, nothing added",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{0}$",
+    "arm": "mx_prev0",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Self-crossing",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_i\\boldsymbol{\\tilde x_{i-1}}+b_i)+\\boldsymbol{0}$",
+    "arm": "mx_selfprev",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Learned projection",
+    "formula": "$\\boldsymbol{L_ix_{i-1}}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{L_ix_{i-1}}$",
+    "arm": "mx_lps",
+    "reference": "v3n_stagger",
+    "matched_arm": "mx_lps_eq"
+  },
+  {
+    "label": "Affine map",
+    "formula": "$\\boldsymbol{(B_ix_{i-1}+b'_i)}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{0}$",
+    "arm": "mx_quad",
+    "reference": "v3n_stagger",
+    "matched_arm": "mx_quad_eq"
+  },
+  {
+    "label": "GLU",
+    "formula": "$\\boldsymbol{\\sigma(B_ix_{i-1}+b'_i)}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{0}$",
+    "arm": "mx_glu",
+    "reference": "v3n_stagger",
+    "matched_arm": "mx_glu_eq"
+  },
+  {
+    "label": "Half slice, half output",
+    "formula": "$\\boldsymbol{q_i}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{q_i}$",
+    "arm": "cx_linexp",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Roles swapped",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_i\\boldsymbol{x}+b_i)+\\boldsymbol{\\tilde x_{i-1}}$",
+    "arm": "mx_swap",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Swapped, nothing added",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_i\\boldsymbol{x}+b_i)+\\boldsymbol{0}$",
+    "arm": "mx_swap0",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "ReLU",
+    "formula": "$x[S_i]\\had\\boldsymbol{\\mathrm{ReLU}}(A_ix_{i-1}+b_i)+x[S_i]$",
+    "arm": "cx_relu",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Square",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)^{\\boldsymbol{2}}+x[S_i]$",
+    "arm": "cx_sq",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Product of two maps",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)\\had\\boldsymbol{(B_ix_{i-1}+b'_i)}+x[S_i]$",
+    "arm": "cx_prod",
+    "reference": "v3n_stagger",
+    "matched_arm": "cx_prod_eq"
+  },
+  {
+    "label": "Sigmoid gate",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)\\had\\boldsymbol{\\sigma(B_ix_{i-1}+b'_i)}+x[S_i]$",
+    "arm": "cx_sig",
+    "reference": "v3n_stagger",
+    "matched_arm": "cx_sig_eq"
+  },
+  {
+    "label": "Slice in the cross",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+\\boldsymbol{B_ix[S_i]}+b_i)+x[S_i]$",
+    "arm": "cx_inaware",
+    "reference": "v3n_stagger",
+    "matched_arm": "cx_inaware_eq"
+  },
+  {
+    "label": "Mixture of experts",
+    "formula": "$x[S_i]\\had(\\boldsymbol{\\textstyle\\sum_k g_{ik}U_{ik}V_{ik}x_{i-1}}+b_i)+x[S_i]$",
+    "arm": "cx_mix",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Half the units linear",
+    "formula": "\\ours{} on $d_i/2$ units, $\\boldsymbol{A_ix_{i-1}+b_i}$ on the rest",
+    "arm": "cx_split",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Input, not previous output",
+    "formula": "$x[S_i]\\had(A_i\\boldsymbol{x}+b_i)+x[S_i]$, all $x_i$ read",
+    "arm": "cx_inonly",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Self-crossing of the slice",
+    "formula": "$x[S_i]\\had(A_i\\boldsymbol{x[S_i]}+b_i)+\\boldsymbol{0}$, all $x_i$ read",
+    "arm": "mx_selfin",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "No product",
+    "formula": "$x[S_i]\\,\\boldsymbol{+}\\,(A_ix_{i-1}+b_i)$",
+    "arm": "mx_add",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Other slice$^\\dagger$",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{x[S'_i]}$",
+    "arm": "v3n_rescomp_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Learned map$^\\dagger$",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{L_ix}$",
+    "arm": "v3n_reslearned_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Nothing$^\\dagger$",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{0}$",
+    "arm": "v3n_nores_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Input + sliced output",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]+\\boldsymbol{\\tilde x_{i-1}}$",
+    "arm": "v3n_stateres_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "Input + projected output",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]+\\boldsymbol{R_ix_{i-1}}$",
+    "arm": "v3r_rres_dj",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  },
+  {
+    "label": "All layers",
+    "formula": "$\\hat y=w^\\top\\boldsymbol{[x_1;\\ldots;x_L]}+b_o$",
+    "arm": "cx_readout",
+    "reference": "v3n_stagger",
+    "matched_arm": null
+  }
+]

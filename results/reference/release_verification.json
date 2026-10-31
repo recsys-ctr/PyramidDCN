@@ -1,0 +1,13 @@
+{
+  "table_regeneration": "pass: all four main tables plus complete 31-alternative table and Holm36 summary exactly match frozen manuscript rows",
+  "profiled_architecture_dataset_configurations": 225,
+  "profile_scope": "all exported model shapes, seed/diagnostic duplicates removed",
+  "matrix_counts_match_logged_linear_plus_direct_bilinear_corrections": true,
+  "runtime": {
+    "torch": "2.11.0",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.8.0"
+  },
+  "training": "No benchmark training performed for this release verification."
+}

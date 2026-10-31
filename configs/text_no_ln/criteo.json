@@ -1,0 +1,158 @@
+[
+  {
+    "name": "fair_criteo_v3n_noln_dj_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "ln": false
+  },
+  {
+    "name": "fair_criteo_v3n_noln_dj_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "ln": false
+  },
+  {
+    "name": "fair_criteo_v3n_noln_dj_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "ln": false
+  },
+  {
+    "name": "fair_criteo_v3n_stagger_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "erank": true
+  },
+  {
+    "name": "fair_criteo_v3n_stagger_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "erank": true
+  },
+  {
+    "name": "fair_criteo_v3n_stagger_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      512,
+      256,
+      128
+    ],
+    "t": 1.0,
+    "input_proj": 512,
+    "erank": true
+  }
+]

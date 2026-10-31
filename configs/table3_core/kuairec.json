@@ -1,0 +1,1222 @@
+[
+  {
+    "name": "fair_kuairec_v3n_stagger_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_stagger_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3p_mpos_none_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "copy",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_mx_lp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_mx_lp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_mx_lp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_lp_eq_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      248,
+      124,
+      62
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3n_lp_eq_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      248,
+      124,
+      62
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3n_lp_eq_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "learned",
+    "dims": [
+      248,
+      124,
+      62
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_v3n_staterr_dj_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "reread": "state"
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_eq_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "balanced",
+    "dims": [
+      324,
+      162,
+      81
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_eq_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "balanced",
+    "dims": [
+      324,
+      162,
+      81
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_cx_inaware_eq_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "balanced",
+    "dims": [
+      324,
+      162,
+      81
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "inaware",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_mx_add_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "add",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_mx_add_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "add",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_mx_add_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "cross": "add",
+    "erank": true
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  },
+  {
+    "name": "fair_kuairec_v3n_nores_dj_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      472,
+      236,
+      118
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 472,
+    "res": false
+  }
+]

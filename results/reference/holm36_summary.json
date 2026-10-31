@@ -1,0 +1,12 @@
+{
+  "test_auc": {
+    "comparisons": 36,
+    "max_p_holm36": 0.01974916959549057,
+    "all_significant": true
+  },
+  "test_logloss": {
+    "comparisons": 36,
+    "max_p_holm36": 0.0158093892045414,
+    "all_significant": true
+  }
+}

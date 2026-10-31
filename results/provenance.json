@@ -1,0 +1,6274 @@
+{
+  "source_root": "research/wsdm27_scratch",
+  "source_jsonl_files": {
+    "v3_criteo.jsonl": {
+      "sha256": "f0e6267f462e5a036da49f083ab8ab63f6ee9fc1c7d6c49beb4c3459eab5bd18",
+      "bytes": 241544
+    },
+    "x4_fair_criteo.jsonl": {
+      "sha256": "349cb96bb8eea4875367c0e7152489ed7ec168a71dbfe09aeb4b7f3376cf7871",
+      "bytes": 227467
+    },
+    "v3_seeds8_criteo.jsonl": {
+      "sha256": "dcb3622cce77f98431cf718e67199e46ecf38ce72cc96aba6c6a6dd9d419b84a",
+      "bytes": 23252
+    },
+    "v3_dj_criteo.jsonl": {
+      "sha256": "129700e4c63f880cdafdec223d20ab967578de3c0b905f070805147911d38fae",
+      "bytes": 80671
+    },
+    "v3_rev_criteo.jsonl": {
+      "sha256": "0a7c94836a0207333a35894037340441a6d30122e201b98095f4eb713b9d201e",
+      "bytes": 10312
+    },
+    "v3_cx_criteo.jsonl": {
+      "sha256": "4a0021891e052a3bb486f62ef4973f4ef3b2ef6189d2a3e8544623d9356d1866",
+      "bytes": 41961
+    },
+    "v3_mx_criteo.jsonl": {
+      "sha256": "799f42d18b606fc03bfd1e006e014bdf30dcb344b6529ed6f99eb19e08ae831e",
+      "bytes": 39363
+    },
+    "v3_erank_criteo.jsonl": {
+      "sha256": "d7fc6697f2bcc1bc3ad0d3cc4eadbff5fa1819cbb508f38b7277c8c3a686200c",
+      "bytes": 25513
+    },
+    "v3_avazu.jsonl": {
+      "sha256": "0168e08f3295814fd3e5c41d9bcc2c0999f4160cb4d7d5bca9767510dbe9021e",
+      "bytes": 182131
+    },
+    "x4_fair_avazu.jsonl": {
+      "sha256": "91942396cf35269c8878a9aa8e42c4ff68182baaaec224e9b2c430e67d5050b5",
+      "bytes": 30862
+    },
+    "v3_seeds8_avazu.jsonl": {
+      "sha256": "aa858559c692ca6b3bf6e37ae19a9ad0d1dbc50499ca9707e29d84544b7ff956",
+      "bytes": 23088
+    },
+    "v3_dj_avazu.jsonl": {
+      "sha256": "d904cbd87b53321b01e6c6b067b053f8f2e47bb24505db9716e9cd1145f9fd62",
+      "bytes": 62583
+    },
+    "v3_rev_avazu.jsonl": {
+      "sha256": "002ae9e4f8cbc6a54e2f8b1921f1e2bf36da3315017b676c22a65c30073a84d0",
+      "bytes": 10216
+    },
+    "v3_cx_avazu.jsonl": {
+      "sha256": "987a0569890d6f6629f4a1903833819cd497cfbcde8dc217abeadac96619d3f8",
+      "bytes": 41625
+    },
+    "v3_mx_avazu.jsonl": {
+      "sha256": "f21a7b89fb6267aa93e1c166278b6745d91f09aec91d0961402ce4b5755b9a61",
+      "bytes": 39012
+    },
+    "v3_erank_avazu.jsonl": {
+      "sha256": "e14be46e4a861528924ff4b18ab9e4da0185d1a7869bbaf3b7d3f82794fcf669",
+      "bytes": 25325
+    },
+    "v3_kkbox.jsonl": {
+      "sha256": "492ee93eb8faa164712200b38fe7ad0fc43ec7a4a75ef91b22862e9bb8e31fbe",
+      "bytes": 181161
+    },
+    "x4_fair_kkbox.jsonl": {
+      "sha256": "71aeab8a0c6d456ee9f5e968d2f256588d8b88c8a989d944254f26432cfce559",
+      "bytes": 30694
+    },
+    "v3_seeds8_kkbox.jsonl": {
+      "sha256": "860a68f61b29dbb980ad95c67d4f1e062905b2e09f0583b9fef25f5fb7c614e2",
+      "bytes": 22953
+    },
+    "v3_dj_kkbox.jsonl": {
+      "sha256": "40251f110b7bf643e40b01899ae3e5690be6aeefabd8670a74d0601d75c66cc6",
+      "bytes": 81707
+    },
+    "v3_rev_kkbox.jsonl": {
+      "sha256": "0eaf62ecb18236eb0f965d72d605adfbf215a1a8324dd50b453990d9ef2533f1",
+      "bytes": 10185
+    },
+    "v3_cx_kkbox.jsonl": {
+      "sha256": "47562a5985af841c6012175cb94a543e0a9b1b005ca131eecc27f523531d0901",
+      "bytes": 41420
+    },
+    "v3_mx_kkbox.jsonl": {
+      "sha256": "d35af5726cac6012f0825a92ad6099cf85b01380b183195b919313458c4dcc80",
+      "bytes": 38871
+    },
+    "v3_erank_kkbox.jsonl": {
+      "sha256": "cc8805b554e8e910975741922f73fdf993914dd782acaddb4ac8fd119aaeda08",
+      "bytes": 25188
+    },
+    "v3_kuairec.jsonl": {
+      "sha256": "3857e5ce2da62e136bda0b19bff069794d75478d276d55483ea3c11123469da1",
+      "bytes": 182364
+    },
+    "x4_fair_kuairec.jsonl": {
+      "sha256": "8a107bbbf57a232433db1bea80c6d657fb7e6ff224ea9b7da502a869d73f64fe",
+      "bytes": 30886
+    },
+    "v3_seeds8_kuairec.jsonl": {
+      "sha256": "816db88a6f22bf98b33276b55cc1dc24ed5eb70c6244cfcb7a94d9de071d263c",
+      "bytes": 23129
+    },
+    "v3_dj_kuairec.jsonl": {
+      "sha256": "fc90dffb4cbe995908d549b2928db076977163e77091a2ce0a24398121d749ee",
+      "bytes": 80298
+    },
+    "v3_rev_kuairec.jsonl": {
+      "sha256": "6effc332c48beb5bfe38527346d8c077d0fd8511d5c43d31b5f3ed904aa46b68",
+      "bytes": 10264
+    },
+    "v3_cx_kuairec.jsonl": {
+      "sha256": "b31ce500a5795af7c709c0dc76b763bef3c1aa1de1fed5335eb0f6f68b8431f9",
+      "bytes": 41729
+    },
+    "v3_mx_kuairec.jsonl": {
+      "sha256": "9a99825599f43943386ae4b3f8b71c61ef1c56dbc75e9ec5ca8239f85a08d960",
+      "bytes": 39118
+    },
+    "v3_erank_kuairec.jsonl": {
+      "sha256": "418f0ca1b92a0ca752a61dcc3cc786569ec566a923be3c63ec0bc178f4ebde07",
+      "bytes": 25329
+    }
+  },
+  "selected_runs": {
+    "fair_criteo_v3f_r4_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 277,
+      "arm_definition_files": [
+        "v3_final_fun_criteo.json"
+      ]
+    },
+    "fair_criteo_v3f_r4_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 278,
+      "arm_definition_files": [
+        "v3_final_fun_criteo.json"
+      ]
+    },
+    "fair_criteo_v3f_r4_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 279,
+      "arm_definition_files": [
+        "v3_final_fun_criteo.json"
+      ]
+    },
+    "v3_criteo_mldcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_mldcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_mldcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_masknet_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_masknet_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_masknet_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_qnn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_qnn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_qnn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_ecn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_ecn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_ecn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_fcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_fcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_fcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_gdcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_gdcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_gdcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_finalmlp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_finalmlp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_finalmlp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_fibinetpp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_t1fibi_criteo.json"
+      ]
+    },
+    "v3_criteo_fibinetpp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_t1fibi_criteo.json"
+      ]
+    },
+    "v3_criteo_fibinetpp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_t1fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 301,
+      "arm_definition_files": [
+        "v3_stagger_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 302,
+      "arm_definition_files": [
+        "v3_stagger_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 303,
+      "arm_definition_files": [
+        "v3_stagger_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2027": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2028": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2029": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2030": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_stagger_s2031": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 145,
+      "arm_definition_files": [
+        "v3_mpos_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 146,
+      "arm_definition_files": [
+        "v3_mpos_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 147,
+      "arm_definition_files": [
+        "v3_mpos_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2027": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2028": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2029": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2030": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_mpos_none_s2031": {
+      "source_file": "v3_seeds8_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_seeds8_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_pool_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 216,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_pool_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 217,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_pool_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 218,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_eq_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_eq_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_rp_eq_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lp_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lp_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lp_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_lp_eq_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 271,
+      "arm_definition_files": [
+        "v3_final_abl_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_lp_eq_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 272,
+      "arm_definition_files": [
+        "v3_final_abl_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_lp_eq_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 273,
+      "arm_definition_files": [
+        "v3_final_abl_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_two_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_two_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_two_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_silu_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_silu_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_silu_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2027": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2028": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2029": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2030": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_staterr_dj_s2031": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_mx_prev0_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_prev0_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_prev0_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfprev_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfprev_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfprev_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_eq_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_eq_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_lps_eq_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_eq_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_eq_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_quad_eq_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 37,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 38,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 39,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_eq_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_eq_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_glu_eq_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_linexp_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_linexp_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_linexp_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap0_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap0_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_swap0_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_relu_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_relu_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_relu_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sq_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sq_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sq_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_eq_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_eq_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_prod_eq_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_eq_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_eq_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_sig_eq_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 46,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 47,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 48,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_eq_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_eq_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inaware_eq_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_mix_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_mix_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_mix_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_split_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_split_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_split_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inonly_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inonly_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_inonly_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfin_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfin_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_selfin_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_add_s2024": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_add_s2025": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_mx_add_s2026": {
+      "source_file": "v3_mx_criteo.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_mx_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2027": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2028": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2029": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2030": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_rescomp_dj_s2031": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2027": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2028": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2029": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2030": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_reslearned_dj_s2031": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2027": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2028": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2029": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2030": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_nores_dj_s2031": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_stateres_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 69,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_stateres_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 70,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_stateres_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 71,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3r_rres_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 72,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3r_rres_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 73,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3r_rres_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 74,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_cx_readout_s2024": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_readout_s2025": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_cx_readout_s2026": {
+      "source_file": "v3_cx_criteo.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_cx_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_noln_dj_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 95,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_noln_dj_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 96,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_criteo_v3n_noln_dj_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 98,
+      "arm_definition_files": [
+        "v3_dj_criteo.json",
+        "v3_dj_criteo_v1.json",
+        "v3_dj_criteo_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3f_r4_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 193,
+      "arm_definition_files": [
+        "v3_final_fun_avazu.json"
+      ]
+    },
+    "fair_avazu_v3f_r4_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 194,
+      "arm_definition_files": [
+        "v3_final_fun_avazu.json"
+      ]
+    },
+    "fair_avazu_v3f_r4_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 195,
+      "arm_definition_files": [
+        "v3_final_fun_avazu.json"
+      ]
+    },
+    "v3_avazu_mldcn_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_mldcn_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_mldcn_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_masknet_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_masknet_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_masknet_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_qnn_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_qnn_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_qnn_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_ecn_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_ecn_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_ecn_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_fcn_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_fcn_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_fcn_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_gdcn_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_gdcn_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_gdcn_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_finalmlp_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_finalmlp_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_finalmlp_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_t1_avazu.json"
+      ]
+    },
+    "v3_avazu_fibinetpp_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_t1fibi_avazu.json"
+      ]
+    },
+    "v3_avazu_fibinetpp_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_t1fibi_avazu.json"
+      ]
+    },
+    "v3_avazu_fibinetpp_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_t1fibi_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 222,
+      "arm_definition_files": [
+        "v3_stagger_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 223,
+      "arm_definition_files": [
+        "v3_stagger_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 224,
+      "arm_definition_files": [
+        "v3_stagger_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2027": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2028": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2029": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2030": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_stagger_s2031": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_nomask_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_nomask_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_nomask_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2027": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2028": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2029": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2030": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3p_mpos_none_s2031": {
+      "source_file": "v3_seeds8_avazu.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_seeds8_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_pool_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 181,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_pool_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 182,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_pool_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 183,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_eq_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_eq_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_rp_eq_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lp_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lp_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lp_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_lp_eq_s2024": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 142,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_lp_eq_s2025": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 143,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_lp_eq_s2026": {
+      "source_file": "v3_avazu.jsonl",
+      "source_line": 144,
+      "arm_definition_files": [
+        "v3_final_abl_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_two_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_two_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_two_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_silu_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_silu_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_silu_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2027": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2028": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2029": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2030": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_staterr_dj_s2031": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_mx_prev0_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_prev0_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_prev0_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfprev_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfprev_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfprev_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_eq_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_eq_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_lps_eq_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_eq_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_eq_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_quad_eq_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 37,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 38,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 39,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_eq_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_eq_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_glu_eq_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_linexp_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_linexp_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_linexp_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap0_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap0_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_swap0_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_relu_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_relu_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_relu_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sq_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sq_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sq_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 46,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_eq_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_eq_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_prod_eq_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_eq_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_eq_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_sig_eq_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 47,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 48,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_eq_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_eq_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inaware_eq_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_mix_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_mix_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_mix_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_split_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_split_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_split_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inonly_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inonly_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_inonly_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfin_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfin_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_selfin_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_add_s2024": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_add_s2025": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_mx_add_s2026": {
+      "source_file": "v3_mx_avazu.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_mx_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2027": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2028": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2029": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2030": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_rescomp_dj_s2031": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2027": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2028": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2029": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2030": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_reslearned_dj_s2031": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2027": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2028": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2029": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2030": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_nores_dj_s2031": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_stateres_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 69,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_stateres_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 70,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_stateres_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 71,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3r_rres_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 72,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3r_rres_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 73,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3r_rres_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 74,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_cx_readout_s2024": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_readout_s2025": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_cx_readout_s2026": {
+      "source_file": "v3_cx_avazu.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_cx_avazu.json"
+      ]
+    },
+    "fair_avazu_v3n_noln_dj_s2024": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 75,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_noln_dj_s2025": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 76,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_avazu_v3n_noln_dj_s2026": {
+      "source_file": "v3_dj_avazu.jsonl",
+      "source_line": 77,
+      "arm_definition_files": [
+        "v3_dj_avazu.json",
+        "v3_dj_avazu_v1.json",
+        "v3_dj_avazu_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3f_r4_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 193,
+      "arm_definition_files": [
+        "v3_final_fun_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3f_r4_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 194,
+      "arm_definition_files": [
+        "v3_final_fun_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3f_r4_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 195,
+      "arm_definition_files": [
+        "v3_final_fun_kkbox.json"
+      ]
+    },
+    "v3_kkbox_mldcn_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_mldcn_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_mldcn_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_masknet_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_masknet_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_masknet_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_qnn_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_qnn_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_qnn_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_ecn_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_ecn_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_ecn_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fcn_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fcn_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fcn_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_gdcn_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_gdcn_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_gdcn_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_finalmlp_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_finalmlp_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_finalmlp_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_t1_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fibinetpp_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_t1fibi_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fibinetpp_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_t1fibi_kkbox.json"
+      ]
+    },
+    "v3_kkbox_fibinetpp_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_t1fibi_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 214,
+      "arm_definition_files": [
+        "v3_stagger_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 215,
+      "arm_definition_files": [
+        "v3_stagger_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 249,
+      "arm_definition_files": [
+        "v3_stagger_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2027": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2028": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2029": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2030": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_stagger_s2031": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_nomask_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_nomask_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_nomask_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2027": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2028": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2029": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2030": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3p_mpos_none_s2031": {
+      "source_file": "v3_seeds8_kkbox.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_seeds8_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_pool_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 181,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_pool_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 182,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_pool_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 183,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_eq_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_eq_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_rp_eq_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lp_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lp_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lp_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_lp_eq_s2024": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 142,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_lp_eq_s2025": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 143,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_lp_eq_s2026": {
+      "source_file": "v3_kkbox.jsonl",
+      "source_line": 144,
+      "arm_definition_files": [
+        "v3_final_abl_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_two_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_two_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_two_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_silu_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_silu_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_silu_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2027": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2028": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2029": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2030": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_staterr_dj_s2031": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_mx_prev0_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_prev0_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_prev0_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfprev_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfprev_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfprev_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_eq_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_eq_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_lps_eq_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_eq_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_eq_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_quad_eq_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 37,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 38,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 39,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_eq_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_eq_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_glu_eq_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_linexp_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_linexp_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_linexp_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap0_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap0_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_swap0_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_relu_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_relu_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_relu_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sq_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sq_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sq_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_eq_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_eq_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_prod_eq_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_eq_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_eq_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_sig_eq_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 46,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 47,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 48,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_eq_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_eq_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inaware_eq_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_mix_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_mix_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_mix_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_split_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_split_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_split_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inonly_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inonly_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_inonly_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfin_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfin_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_selfin_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_add_s2024": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_add_s2025": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_mx_add_s2026": {
+      "source_file": "v3_mx_kkbox.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_mx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2027": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2028": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2029": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2030": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_rescomp_dj_s2031": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2027": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2028": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2029": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2030": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_reslearned_dj_s2031": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2027": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2028": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2029": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2030": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_nores_dj_s2031": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_stateres_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 72,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_stateres_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 73,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_stateres_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 74,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3r_rres_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 75,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3r_rres_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 76,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3r_rres_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 77,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_cx_readout_s2024": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_readout_s2025": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_cx_readout_s2026": {
+      "source_file": "v3_cx_kkbox.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_cx_kkbox.json"
+      ]
+    },
+    "fair_kkbox_v3n_noln_dj_s2024": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 99,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_noln_dj_s2025": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 100,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kkbox_v3n_noln_dj_s2026": {
+      "source_file": "v3_dj_kkbox.jsonl",
+      "source_line": 101,
+      "arm_definition_files": [
+        "v3_dj_kkbox.json",
+        "v3_dj_kkbox_v1.json",
+        "v3_dj_kkbox_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3f_r4_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 193,
+      "arm_definition_files": [
+        "v3_final_fun_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3f_r4_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 194,
+      "arm_definition_files": [
+        "v3_final_fun_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3f_r4_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 195,
+      "arm_definition_files": [
+        "v3_final_fun_kuairec.json"
+      ]
+    },
+    "v3_kuairec_mldcn_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_mldcn_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_mldcn_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_masknet_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_masknet_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_masknet_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_qnn_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_qnn_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_qnn_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_ecn_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_ecn_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_ecn_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fcn_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fcn_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fcn_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_gdcn_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_gdcn_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_gdcn_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_finalmlp_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_finalmlp_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_finalmlp_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_t1_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fibinetpp_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_t1fibi_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fibinetpp_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_t1fibi_kuairec.json"
+      ]
+    },
+    "v3_kuairec_fibinetpp_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_t1fibi_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 214,
+      "arm_definition_files": [
+        "v3_stagger_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 215,
+      "arm_definition_files": [
+        "v3_stagger_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 216,
+      "arm_definition_files": [
+        "v3_stagger_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2027": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2028": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2029": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2030": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_stagger_s2031": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_nomask_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_nomask_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_nomask_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2027": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2028": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2029": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2030": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3p_mpos_none_s2031": {
+      "source_file": "v3_seeds8_kuairec.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_seeds8_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_pool_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 181,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_pool_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 182,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_pool_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 183,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_eq_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_eq_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_rp_eq_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lp_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lp_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lp_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_lp_eq_s2024": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 142,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_lp_eq_s2025": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 143,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_lp_eq_s2026": {
+      "source_file": "v3_kuairec.jsonl",
+      "source_line": 144,
+      "arm_definition_files": [
+        "v3_final_abl_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_two_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_two_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_two_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_silu_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_silu_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_silu_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2027": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2028": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2029": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2030": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_staterr_dj_s2031": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_mx_prev0_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_prev0_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_prev0_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfprev_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 28,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfprev_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 29,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfprev_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 30,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_eq_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_eq_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_lps_eq_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_eq_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_eq_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_quad_eq_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 37,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 38,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 39,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_eq_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_eq_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_glu_eq_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_linexp_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_linexp_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_linexp_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap0_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap0_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_swap0_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_relu_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_relu_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_relu_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sq_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sq_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 26,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sq_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 27,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 43,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 44,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_eq_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_eq_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_prod_eq_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 40,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 42,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_eq_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_eq_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_sig_eq_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 46,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 47,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 48,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_eq_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_eq_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inaware_eq_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_mix_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_mix_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_mix_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 25,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_split_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_split_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_split_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inonly_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inonly_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_inonly_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfin_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 31,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfin_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 32,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_selfin_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 33,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_add_s2024": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_add_s2025": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_mx_add_s2026": {
+      "source_file": "v3_mx_kuairec.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_mx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2027": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2028": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2029": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 6,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2030": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_rescomp_dj_s2031": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2027": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2028": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 13,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2029": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2030": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 15,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_reslearned_dj_s2031": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 17,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 18,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 19,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2027": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 20,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2028": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 21,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2029": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 22,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2030": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 23,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_nores_dj_s2031": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 24,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_stateres_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 69,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_stateres_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 70,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_stateres_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 71,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3r_rres_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 72,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3r_rres_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 73,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3r_rres_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 74,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_cx_readout_s2024": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 1,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_readout_s2025": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_cx_readout_s2026": {
+      "source_file": "v3_cx_kuairec.jsonl",
+      "source_line": 3,
+      "arm_definition_files": [
+        "v3_cx_kuairec.json"
+      ]
+    },
+    "fair_kuairec_v3n_noln_dj_s2024": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 96,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_noln_dj_s2025": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 97,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "fair_kuairec_v3n_noln_dj_s2026": {
+      "source_file": "v3_dj_kuairec.jsonl",
+      "source_line": 98,
+      "arm_definition_files": [
+        "v3_dj_kuairec.json",
+        "v3_dj_kuairec_v1.json",
+        "v3_dj_kuairec_v2_general.json"
+      ]
+    },
+    "v3_criteo_dcnv2_lr_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 2,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_dcnv2_lr_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 14,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "v3_criteo_dcnv2_lr_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 16,
+      "arm_definition_files": [
+        "v3_t1_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_dcnv2_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 289,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_dcnv2_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 290,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_dcnv2_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 291,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_dcnv2_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 292,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_dcnv2_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 293,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_dcnv2_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 294,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_mldcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 103,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_mldcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 104,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_mldcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 105,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_mldcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 45,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_mldcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 66,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_mldcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 69,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_masknet_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 106,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_masknet_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 107,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_masknet_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 108,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_masknet_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 46,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_masknet_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 67,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_masknet_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 68,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_qnn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 295,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_qnn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 296,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr2_qnn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 297,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_qnn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 298,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_qnn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 299,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa2_qnn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 300,
+      "arm_definition_files": [
+        "v3_fix_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_ecn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 112,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_ecn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 113,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_ecn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 114,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_ecn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 47,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_ecn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 70,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_ecn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 71,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 115,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 116,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 118,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 49,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 75,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 76,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_gdcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 117,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_gdcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 119,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_gdcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 120,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_gdcn_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 50,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_gdcn_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 74,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_gdcn_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 77,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_finalmlp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 121,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_finalmlp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 122,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_finalmlp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 123,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_finalmlp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 51,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_finalmlp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 78,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_finalmlp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 80,
+      "arm_definition_files": [
+        "v3_t23_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fibinetpp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 34,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fibinetpp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 35,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_pyr_fibinetpp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 36,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fibinetpp_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 37,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fibinetpp_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 39,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3p_eqa_fibinetpp_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 41,
+      "arm_definition_files": [
+        "v3_t23fibi_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o1_bal_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 77,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o1_bal_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 79,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o1_bal_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 80,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o4_bal_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 81,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o4_bal_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 82,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o4_bal_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 83,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o8_bal_s2024": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 84,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o8_bal_s2025": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 85,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_o8_bal_s2026": {
+      "source_file": "v3_dj_criteo.jsonl",
+      "source_line": 86,
+      "arm_definition_files": [
+        "v3_dj_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r1_s2024": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 180,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r1_s2025": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 181,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r1_s2026": {
+      "source_file": "v3_criteo.jsonl",
+      "source_line": 182,
+      "arm_definition_files": [
+        "v3_nm_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r4_bal_s2024": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r4_bal_s2025": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 8,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r4_bal_s2026": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 9,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r8_bal_s2024": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 10,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r8_bal_s2025": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 11,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "fair_criteo_v3n_r8_bal_s2026": {
+      "source_file": "v3_rev_criteo.jsonl",
+      "source_line": 12,
+      "arm_definition_files": [
+        "v3_rev_criteo.json"
+      ]
+    },
+    "erk_criteo_v3n_r1_s2024": {
+      "source_file": "v3_erank_criteo.jsonl",
+      "source_line": 4,
+      "arm_definition_files": [
+        "v3_erank_criteo.json"
+      ]
+    },
+    "erk_criteo_v3n_r1_s2025": {
+      "source_file": "v3_erank_criteo.jsonl",
+      "source_line": 5,
+      "arm_definition_files": [
+        "v3_erank_criteo.json"
+      ]
+    },
+    "erk_criteo_v3n_r1_s2026": {
+      "source_file": "v3_erank_criteo.jsonl",
+      "source_line": 7,
+      "arm_definition_files": [
+        "v3_erank_criteo.json"
+      ]
+    }
+  },
+  "duplicate_records_seen": [],
+  "configuration_validation": "Each exported configuration matches its original JSONL record; erank/funnel/agop boolean flags are taken from original arm JSON because recorded diagnostics overwrite these flags.",
+  "scope": "Current main Tables 1\u20134; all 31 alternative layer forms plus matched-cost variants in the author reference table; reported no-LN text comparison; constant-width effective-rank rerun.",
+  "source_config_files": {
+    "v3_cx_avazu.json": {
+      "sha256": "7f83a269a38946395e1870b62179d17dff956a1af917b874e5f255f44e465445",
+      "bytes": 18374
+    },
+    "v3_cx_criteo.json": {
+      "sha256": "6f9da3b02f169301b75097f6cd8b521d3d3e7772cfe750696872f04eb2f99f3e",
+      "bytes": 18467
+    },
+    "v3_cx_kkbox.json": {
+      "sha256": "fd0c5d66669b449120c3dd92325b8381dc73a0e05d7d1cdd77eb91ce97d2b48a",
+      "bytes": 18371
+    },
+    "v3_cx_kuairec.json": {
+      "sha256": "4d0be51c0cca11a4d65cb3f004f8c0e5285bd4c336388999c2a3637e34392eab",
+      "bytes": 18515
+    },
+    "v3_dj_avazu.json": {
+      "sha256": "0b06548a871109f9c9ab2f0419ea37f40e153383d770e3693c76bc893d45c0ab",
+      "bytes": 38863
+    },
+    "v3_dj_avazu_v1.json": {
+      "sha256": "8c6f4b0a7d93db74d56f688c5472761fee9df3b5e99f42b5ec418948b31a8522",
+      "bytes": 38773
+    },
+    "v3_dj_avazu_v2_general.json": {
+      "sha256": "c54acfeed11c46bedbb5e760e4e2061cfb16c123b500f774b18435ff3cc7ea86",
+      "bytes": 28054
+    },
+    "v3_dj_criteo.json": {
+      "sha256": "f4032edb1a1cfa36bc89b8b3740523bb0baea742edd17cee3ea934e0cc76e667",
+      "bytes": 39065
+    },
+    "v3_dj_criteo_v1.json": {
+      "sha256": "07713f6fa127276e8ab451c8b8d20543e7b1ea242b4ed998fba2835f45635a0e",
+      "bytes": 38975
+    },
+    "v3_dj_criteo_v2_general.json": {
+      "sha256": "58109c819de3fd03b3f4e69008bebb1f749158b335777955a3fa661a6b63515f",
+      "bytes": 28202
+    },
+    "v3_dj_kkbox.json": {
+      "sha256": "2f6f07c78b1c5e56927e7f200d85bf754950300824d98d33ab22f05db94226d5",
+      "bytes": 38854
+    },
+    "v3_dj_kkbox_v1.json": {
+      "sha256": "6becef096b3d546fca3504ad9f5c2af50023a35e4635804fac063ef2fe6b9b51",
+      "bytes": 38764
+    },
+    "v3_dj_kkbox_v2_general.json": {
+      "sha256": "4368227746253e486f8b05a680936f03c7a52c4af73ec1bae16bf4d03485bf00",
+      "bytes": 28051
+    },
+    "v3_dj_kuairec.json": {
+      "sha256": "f64a124686bd393ca8efce9c250fdf64bb299f4b241f5794b5fb7def359b5abb",
+      "bytes": 39166
+    },
+    "v3_dj_kuairec_v1.json": {
+      "sha256": "329fb6411c3f53dcc6c26739fa3bc05f914cfba69e6d56e8f40d90706b5a7749",
+      "bytes": 39076
+    },
+    "v3_dj_kuairec_v2_general.json": {
+      "sha256": "713b71ee8fe7b89a710ee5b9d6df609d837dc4c30ba50ab2b02dd1611a82669e",
+      "bytes": 28273
+    },
+    "v3_erank_criteo.json": {
+      "sha256": "b9dbc775a01eaf7e3783d5a121076aeae2f80ca860848f21d9f0a7fe0b6fa5bf",
+      "bytes": 9032
+    },
+    "v3_final_abl_avazu.json": {
+      "sha256": "5445eaf4d146ccb754f3f2780c308036df709551c40978a4e09e466889513974",
+      "bytes": 14018
+    },
+    "v3_final_abl_criteo.json": {
+      "sha256": "70084f603202b453634d368ee742afa8994e36b615be1254f2d54b6b65f482f7",
+      "bytes": 878
+    },
+    "v3_final_abl_kkbox.json": {
+      "sha256": "c3ff6e0f06bb24c60c0d39227ed8be9a4446839f494d2b837c9f94d677529cc2",
+      "bytes": 14009
+    },
+    "v3_final_abl_kuairec.json": {
+      "sha256": "b25475870d524c5203c2f3a717533aeea69335da5f262f39e695acd333c46479",
+      "bytes": 14150
+    },
+    "v3_final_fun_avazu.json": {
+      "sha256": "3c769f5cbf0fabf226aab2a168e3438b0dbd4a14b240c08225602288fdfd2c0f",
+      "bytes": 5312
+    },
+    "v3_final_fun_criteo.json": {
+      "sha256": "665bde0a86614cda12b170a6e98eb214252bac0e19dd616c90d4fd507272e64c",
+      "bytes": 5339
+    },
+    "v3_final_fun_kkbox.json": {
+      "sha256": "43d5e935eef38b7b11d51058f7f301b87bd78f967e76d54e6d3fe66bbba70420",
+      "bytes": 5312
+    },
+    "v3_final_fun_kuairec.json": {
+      "sha256": "61b96d20caab8fce482496a145bfcf5e5bec33e6fa069bb1abf0c08b9b0a569d",
+      "bytes": 5354
+    },
+    "v3_fix_criteo.json": {
+      "sha256": "ea0e34ce861c5777e9c5d6e3f11b6623f0c60214b041786b8372ca7800985584",
+      "bytes": 4787
+    },
+    "v3_mpos_criteo.json": {
+      "sha256": "a75b812f582912757d9e279fc3e7dc82b9fb7c153499ce8d11261242f639c044",
+      "bytes": 4460
+    },
+    "v3_mx_avazu.json": {
+      "sha256": "d641fb189bedc021022570e1e816211162facaa6f1f363209e90e3411d4b7b93",
+      "bytes": 17144
+    },
+    "v3_mx_criteo.json": {
+      "sha256": "5a5c5b0f004b1451a0cc6f98e338714dd4d2bb1dddbf9a456f708e06aba8da47",
+      "bytes": 17234
+    },
+    "v3_mx_kkbox.json": {
+      "sha256": "dcb14a4a7e3b9d2e6e538c4a5fb6d56008dbc020566391ec731ba9aff5f7f051",
+      "bytes": 17144
+    },
+    "v3_mx_kuairec.json": {
+      "sha256": "85d4cf9606748d4c719cecc5fcb07a42ca21b0d368c6696e799fc0a0c971bdbc",
+      "bytes": 17279
+    },
+    "v3_nm_criteo.json": {
+      "sha256": "053df24daed5a66c744a8611041e9a88becb2cde1b138344f701d424bda4478c",
+      "bytes": 13232
+    },
+    "v3_nomask_avazu.json": {
+      "sha256": "faccbb3af589db1d86d7cfc683efdf58c159557d4397ae9ef526ae559b72b016",
+      "bytes": 1040
+    },
+    "v3_nomask_kkbox.json": {
+      "sha256": "5b372f2f09883749f1ee2cbd14d9699535c902e327152eac98c08d0fb16500f3",
+      "bytes": 1040
+    },
+    "v3_nomask_kuairec.json": {
+      "sha256": "8db08dfdd8db3194db361dcefb7e2c35451d082a2494d099f23d95e7c732e8a4",
+      "bytes": 1049
+    },
+    "v3_rev_criteo.json": {
+      "sha256": "c08a1a73195ad49e0b880f2dbbe87e0d1d7d632b6815d3d58d3e9d0884923523",
+      "bytes": 4391
+    },
+    "v3_seeds8_avazu.json": {
+      "sha256": "7dd7d017f03396a3ebe92e8f1f37945d22ca13dd8bcf60e9d344e0eba1368978",
+      "bytes": 11027
+    },
+    "v3_seeds8_criteo.json": {
+      "sha256": "11713d8e0d0f7448eface8c12cc63971485a077e7e66d037480af688377b8e9c",
+      "bytes": 11087
+    },
+    "v3_seeds8_kkbox.json": {
+      "sha256": "d772fd79af264eefaaf34fa01c96b97a829185a85e3e016e96411a7dba051599",
+      "bytes": 11027
+    },
+    "v3_seeds8_kuairec.json": {
+      "sha256": "e09b95ebb52d948d79b61d5fcfecb1c8e93c03e17504d9503e4375126a6c6c59",
+      "bytes": 11117
+    },
+    "v3_stagger_avazu.json": {
+      "sha256": "d36497c4d144c66b7b179391f26e1d3605ed8c32d2263f4578889205ec1ac98e",
+      "bytes": 926
+    },
+    "v3_stagger_criteo.json": {
+      "sha256": "12dd6b1494a3505d0b43729fe43542eb886eae90519605309fbde0caf7221b5e",
+      "bytes": 932
+    },
+    "v3_stagger_kkbox.json": {
+      "sha256": "657570fcbc6d8113e91ef3bd8cf422a191130e8dd8bc450e8360283245f1c2f8",
+      "bytes": 926
+    },
+    "v3_stagger_kuairec.json": {
+      "sha256": "3b99d5b6b5751db44e15e07857f41980444fcb66029779f131aa54ec62e919e0",
+      "bytes": 935
+    },
+    "v3_t1_avazu.json": {
+      "sha256": "205584d99bbde1b8136a0d88076e4e1ae337c9f414cffb416bea676dc20de70e",
+      "bytes": 9149
+    },
+    "v3_t1_criteo.json": {
+      "sha256": "8f1241bac2af185ff814637bb0ae845228c91a9198e0404213e9b21a562abba4",
+      "bytes": 9182
+    },
+    "v3_t1_kkbox.json": {
+      "sha256": "2a116821e2377b524679f6d18649d56884d298e6eb099810f99155d1e7b4b22d",
+      "bytes": 9149
+    },
+    "v3_t1_kuairec.json": {
+      "sha256": "85cbe982dddf46d6c89125c472b51a84e9bc43364505ae32738925213e6da059",
+      "bytes": 9212
+    },
+    "v3_t1fibi_avazu.json": {
+      "sha256": "db0ba6f5db6de87771e8c02ee5874ba885e22e5870b67b18f3a786a16c6ce19d",
+      "bytes": 803
+    },
+    "v3_t1fibi_criteo.json": {
+      "sha256": "572c6443dd0d2033d80908988df2a7c2a48814f3a91ffc7b3d28d6a4d3eb1446",
+      "bytes": 806
+    },
+    "v3_t1fibi_kkbox.json": {
+      "sha256": "8cceb5a4fb679c5f138f9dfba85cbe1a7e1e05ce42081436d4fd2820f1d29521",
+      "bytes": 803
+    },
+    "v3_t1fibi_kuairec.json": {
+      "sha256": "647981778061ada28e1a55ed333894fed097302cbaecb4672e4730028ad35b66",
+      "bytes": 809
+    },
+    "v3_t23_criteo.json": {
+      "sha256": "04882adf64d9d212ce7e14cbc93a68d9db9c12f608cac80e76e41f89d257512b",
+      "bytes": 33839
+    },
+    "v3_t23fibi_criteo.json": {
+      "sha256": "2d7ccd21eef5127339b8c3948e31a516b69916d11ac6c6caa005cff306a444cc",
+      "bytes": 2828
+    }
+  },
+  "source_table_specification": {
+    "file": "table_rq_tex.py",
+    "sha256": "2379eb6b0e9d687f98dcc32e6c57ff9eecb1751cb91efecb8c4a4d5504c8c2fb"
+  }
+}

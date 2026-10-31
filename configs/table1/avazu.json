@@ -1,0 +1,704 @@
+[
+  {
+    "name": "fair_avazu_v3f_r4_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:o256_dcnv2",
+    "preset": {
+      "project": false,
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312,
+    "funnel": true
+  },
+  {
+    "name": "fair_avazu_v3f_r4_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:o256_dcnv2",
+    "preset": {
+      "project": false,
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312,
+    "funnel": true
+  },
+  {
+    "name": "fair_avazu_v3f_r4_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:o256_dcnv2",
+    "preset": {
+      "project": false,
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312,
+    "funnel": true
+  },
+  {
+    "name": "v3_avazu_mldcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "mldcn",
+    "rank": 312,
+    "layers": 3,
+    "t": 0.5,
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_mldcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "mldcn",
+    "rank": 312,
+    "layers": 3,
+    "t": 0.5,
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_mldcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "mldcn",
+    "rank": 312,
+    "layers": 3,
+    "t": 0.5,
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_masknet_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:masknet",
+    "overrides": {
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_masknet_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:masknet",
+    "overrides": {
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_masknet_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:masknet",
+    "overrides": {
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_qnn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_qnn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_qnn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_qnn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_qnn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_qnn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_ecn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_ecn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_ecn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_ecn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_ecn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_ecn",
+    "preset": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fcn",
+    "overrides": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fcn",
+    "overrides": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fcn",
+    "overrides": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_gdcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_gdcn",
+    "preset": {
+      "d": 312,
+      "in_proj": false,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_gdcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_gdcn",
+    "preset": {
+      "d": 312,
+      "in_proj": false,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_gdcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pyramid:p_gdcn",
+    "preset": {
+      "d": 312,
+      "in_proj": false,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "kw": {
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_finalmlp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:finalmlp",
+    "overrides": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp2_hidden_units": [
+        312
+      ],
+      "num_heads": 8,
+      "mlp1_dropout": 0.0,
+      "mlp2_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_finalmlp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:finalmlp",
+    "overrides": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp2_hidden_units": [
+        312
+      ],
+      "num_heads": 8,
+      "mlp1_dropout": 0.0,
+      "mlp2_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_finalmlp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:finalmlp",
+    "overrides": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp2_hidden_units": [
+        312
+      ],
+      "num_heads": 8,
+      "mlp1_dropout": 0.0,
+      "mlp2_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fibinetpp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fibinetpp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "v3_avazu_fibinetpp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "baseline:fibinetpp",
+    "overrides": {
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ]
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "fair_avazu_v3n_stagger_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      312,
+      156,
+      78
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 312,
+    "erank": true
+  },
+  {
+    "name": "fair_avazu_v3n_stagger_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      312,
+      156,
+      78
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 312,
+    "erank": true
+  },
+  {
+    "name": "fair_avazu_v3n_stagger_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "pml_mv",
+    "views": 1,
+    "anchor": "stagger",
+    "dims": [
+      312,
+      156,
+      78
+    ],
+    "rows": [
+      0,
+      0,
+      0
+    ],
+    "t": 1.0,
+    "input_proj": 312,
+    "erank": true
+  }
+]
