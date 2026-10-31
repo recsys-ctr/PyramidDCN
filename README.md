@@ -67,6 +67,8 @@ Run the data-free smoke test with:
 python -m unittest discover -s tests -v
 ```
 
+A supplementary [CPU graph latency diagnostic](diagnostics/cpu_latency/README.md) includes its portable benchmark, raw timings, and limitations. The graphs use random weights; the diagnostic is separate from trained prediction results.
+
 ## Layout
 
 | Directory | Contents |
