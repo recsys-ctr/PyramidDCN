@@ -333,17 +333,12 @@
     "results/kuairec.jsonl": "c2643e4fc751fd1c85da3da6f1c0f84d15fe658328230df4207b0ac102911dbc",
     "configs/experiment_index.json": "5914c8a4347e120304bb60cce9640979700b9e6238a6219ca6d14196765b7648",
     "configs/table3_specification.json": "864b1594cf552e6439add15843b4b74dc6232a22088f66b34d4719bee08476c5",
-    "results/reference/tables/table3_core_gpt_rows.tex": "36ab0f9f833d37f879058c12ad801698c5dce43aee8b7870787da7b5ef0e6d66",
-    "results/reference/tables/table3_full_gpt_rows.tex": "0603feb7393603a98777b3da0d20a173308e35b61258fc27e15340e6be696806"
+    "results/reference/tables/table3_core_rows.tex": "36ab0f9f833d37f879058c12ad801698c5dce43aee8b7870787da7b5ef0e6d66",
+    "results/reference/tables/table3_full_rows.tex": "29563123d9f594592899767d7b41eeaf4bdaa0efe4e72a74b07c5f9e775a024a"
   },
   "output_sha256": {
     "table3_per_dataset.csv": "5a8945f136b1a279a7fe93a2ad49d05f601012a8496c656f9cd44224ef046a75",
     "table3_four_dataset_aggregates.csv": "b13224862acf6c4fd5632906952f88b5c5e6552fc00a560ad4882e4a6eba731c"
-  },
-  "privacy_boundary": {
-    "input_scope": "Only the four named historical scalar JSONL files, two public configuration files, and two public reference tables.",
-    "excluded": "No training examples, checkpoints, new training outputs, external services, author identities, private review text, or review scores. Internal per-run provenance and dense-parameter counts are not exported.",
-    "paths": "All recorded input paths are repository-relative; historical run names are reproducibility identifiers."
   },
   "analysis_scope": "Descriptive seed summaries only; no tests, significance labels, new predictive training, or new manuscript claims."
 }

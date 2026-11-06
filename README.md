@@ -1,90 +1,70 @@
 # PyramidDCN
 
-Research code for **PyramidDCN: Progressively Narrowing Cross Networks for CTR Prediction**.
+Code for **PyramidDCN: Progressively Narrowing Cross Networks for CTR Prediction**.
 
-PyramidDCN computes cross interactions in progressively narrower hidden states. Each layer reuses fixed coordinates of a shared learned input representation as its multiplicative input and input skip connection. The default three-layer schedule is `[W, W/2, W/4]`.
+PyramidDCN uses a wide first cross layer and progressively narrows later layers.
+Fixed, width-matched slices of the projected input provide the multiplicative
+input and input skip connection without learned per-layer input projections.
+The default cross-layer widths are `[W, W/2, W/4]`.
 
-## What is included
+## Installation
 
-- The experiment harness and model implementations used for the reported results, with machine-specific paths removed.
-- Fixed configurations and saved scalar results for all four benchmarks, all four paper tables, the full exploratory layer-comparison table, and additional historical normalization/effective-rank diagnostics.
-- Dataset preprocessing scripts, training/evaluation, matrix-FLOP profiling, statistical recomputation, and table generation.
-- Provenance linking each recorded run to its original configuration/result file and source hash.
-
-The four main tables use **798 distinct historical recorded runs**. A separate sensitivity study adds **18 fits** on Criteo and Avazu; its protocol and full-precision records are kept separate from the historical table inputs. The release excludes raw datasets, embedding caches, trained checkpoints, private research-agent tooling, and manuscript drafts.
-
-## Install
-
-Use Python 3.11 or newer and install PyTorch for your hardware, then install the remaining dependencies:
+Use Python 3.11+ and install PyTorch for your device, then:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-The CPU path works without an accelerator. Use `--device cuda` or `--device mps` when supported. See `docs/CORE_VALIDATION.json` for the environments used to verify the portable model code and `docs/EXPERIMENTS.md` for the experiment protocol.
+## Reproduce the paper tables
 
-## Reproduce tables from saved results
-
-This recomputes the reported statistics and table rows without retraining:
+The saved results are included; no dataset download or retraining is needed:
 
 ```bash
 python -m reproduce.build_tables
+python -m reproduce.verify_tables
 ```
 
-See `python -m reproduce.build_tables --help` for output options. Matrix-product FLOPs include the shared input projection, head, and custom bilinear contractions. They exclude embedding lookups, normalization, reductions, and elementwise operations and are not latency measurements.
+Tables are written to `outputs/tables/`. FLOPs count matrix multiplications,
+including the input projection, prediction head, and bilinear contractions.
 
-## Supplementary evidence
+## Train
 
-[Per-dataset Table 3 results](docs/TABLE3_BY_DATASET.md) expose all four datasets separately, with matching reference cohorts, sample standard deviations and exact matrix-FLOP ratios. The CSV files are in `results/reference/`; they reproduce the existing table and add no new training.
-
-The [two-epoch sensitivity study](docs/SENSITIVITY_PROTOCOL.md) uses a separately fixed learning rate and validation checkpoint selection. It compares PyramidDCN with a near-budget learned-input-map variant and with FiBiNet++ retaining semantic fields. The initial twelve-fit plan and the later six-fit plan have distinct freeze times. The eighteen fits are not a jointly preregistered study, and reused benchmark splits are not independent confirmatory holdouts. All raw scalar records are in `results/sensitivity/`, separately from the original table-generation inputs. These are controlled implementation comparisons, not independently tuned official-baseline reproductions.
-
-## Train the recorded configurations
-
-Prepare a benchmark following [data/README.md](data/README.md). A prepared dataset has `meta.json` and `{train,valid,test}_{cats,y}.npy` files. Then, for example:
+Prepare a dataset using [data/README.md](data/README.md), then run:
 
 ```bash
 python -m reproduce.run --table table1 --dataset criteo \
   --data-dir /path/to/prepared/criteo --device cuda \
-  --output outputs/table1_criteo.jsonl
+  --output outputs/criteo.jsonl
 ```
 
-For one recorded arm, add `--name ORIGINAL_RUN_NAME`; `--seed 2024` selects a seed, and `--limit 1` limits the run count. Table groups are `table1`, `table2`, `table3_core`, `table3_full`, `table4`, `text_no_ln`, `effective_rank_rerun`, and `all`. Table 2, Table 4, and the effective-rank reruns are Criteo-only. The main-table configurations use one training epoch. Changing the training protocol creates a new experiment rather than reproducing the saved result.
+Use `--table table2`, `table3_core`, `table3_full`, or `table4` for the other
+comparisons. Add `--seed 2024`, `--name RUN_NAME`, or `--limit 1` to select runs.
+Supported devices include `cpu`, `cuda`, and `mps`.
 
-The experiment harness is also available directly:
+## Contents
 
-```bash
-python -m experiments.x4_runner --data-dir /path/to/prepared/criteo \
-  --arms configs/table1/criteo.json --device cpu --eval_test \
-  --out outputs/direct_criteo.jsonl
-```
+| Path | Contents |
+| --- | --- |
+| `experiments/` | Models, training, evaluation, and FLOP counting |
+| `configs/` | Dataset metadata and exact experiment configurations |
+| `data/` | Dataset preparation scripts |
+| `results/` | Saved metrics, reference tables, and run provenance |
+| `reproduce/` | Run launcher and table generation |
+| `tests/` | Synthetic forward, backward, and training checks |
 
-## Interpretation and validation
+See [the experiment protocol](docs/EXPERIMENTS.md) for hyperparameters and
+comparison settings, [per-dataset ablations](docs/TABLE3_BY_DATASET.md), and
+[additional sensitivity experiments](docs/SENSITIVITY_PROTOCOL.md).
 
-The main-table results are controlled comparisons under a shared input design and training protocol. In that protocol, FiBiNet++ receives groups of projected coordinates rather than semantic fields. The separate sensitivity study also evaluates FiBiNet++ with semantic fields; it is a different protocol and does not isolate projection removal from the historical table comparison.
-
-The portable core was checked against the original harness on seeded model initialization, logits, losses, gradients, and a tiny end-to-end training run. These checks verify the release implementation; they are not newly trained benchmark results. The original Criteo preprocessing source was unavailable: its replacement was reconstructed from the existing cache and checked on sample correspondence. The validation scope is documented in [data/README.md](data/README.md).
-
-Run the data-free smoke test with:
+The main results use a shared projected-input protocol, without independent
+baseline tuning. FiBiNet++ uses projected-coordinate groups in that protocol;
+its semantic-field comparison is reported separately. The Criteo encoder was
+reconstructed and checked on sampled cache correspondences; full-cache
+equivalence has not been established. Raw data and checkpoints are not included.
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-A supplementary [CPU graph latency diagnostic](diagnostics/cpu_latency/README.md) includes its portable benchmark, raw timings, and limitations. The graphs use random weights; the diagnostic is separate from trained prediction results.
-
-## Layout
-
-| Directory | Contents |
-| --- | --- |
-| `experiments/` | Model, loss, training, evaluation, and diagnostic code |
-| `configs/` | Complete recorded arm definitions and dataset metadata |
-| `data/` | Preprocessing scripts and dataset instructions |
-| `results/` | Saved scalar metrics and provenance; no examples or model weights |
-| `reproduce/` | Run launcher, table/statistics generation, FLOP profiling |
-| `docs/` | Protocol, validation, and implementation details |
-| `tests/` | Synthetic smoke tests |
-
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for baseline sources and applicable notices.
+Baseline sources and license notices are in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

@@ -21,11 +21,11 @@ def main():
         out = Path(temp)
         subprocess.run([sys.executable, '-m', 'reproduce.build_tables', '--results-dir', str(args.results_dir.resolve()), '--out-dir', str(out)], check=True, cwd=ROOT)
         reference = ROOT / 'results' / 'reference'
-        pairs = [('table1_extended_matrix_gpt_rows.tex', 'table1_rows.tex'),
-                 ('table2_gpt_rows.tex', 'table2_rows.tex'),
-                 ('table3_core_gpt_rows.tex', 'table3_core_rows.tex'),
-                 ('table3_full_gpt_rows.tex', 'table3_full_rows.tex'),
-                 ('table4_gpt_rows.tex', 'table4_rows.tex')]
+        pairs = [('table1_rows.tex', 'table1_rows.tex'),
+                 ('table2_rows.tex', 'table2_rows.tex'),
+                 ('table3_core_rows.tex', 'table3_core_rows.tex'),
+                 ('table3_full_rows.tex', 'table3_full_rows.tex'),
+                 ('table4_rows.tex', 'table4_rows.tex')]
         for expected, actual in pairs:
             if rows(reference / 'tables' / expected) != rows(out / actual):
                 raise AssertionError(f'Rows differ: {expected}')

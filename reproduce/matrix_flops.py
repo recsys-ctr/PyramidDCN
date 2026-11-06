@@ -1,7 +1,7 @@
 """Matrix-product FLOPs of a logged run (2026-10-30). serving_linear_flops_2x counts nn.Linear only, which misses the
 direct matmuls of FiBiNet++'s bilinear interaction (V W, then (V W) V^T on W/8 fields of size 8) and of FinalMLP's
 multi-head bilinear fusion (x_h^T W_h y_h; the pyramid fusion contracts the wider head first). Totals agree with
-torch.utils.flop_counter on the built models (reproduce/profile_flops.py and results/reference/matrix_flops_gpt.csv)."""
+torch.utils.flop_counter on the built models (reproduce/profile_flops.py and results/reference/matrix_flops.csv)."""
 
 
 def matrix_flops(r):

@@ -1,8 +1,4 @@
-"""Recompute Tables 1–4 and exact Welch/Holm statistics from scalar run records.
-
-Uses the frozen published records by default, or JSONL records in --results-dir.
-No training, data downloads, manuscript parsing, or fixed-t significance shortcuts.
-"""
+"""Recompute Tables 1–4 and Welch/Holm statistics from saved scalar results."""
 import argparse
 import csv
 import json
@@ -181,18 +177,15 @@ def main():
                        ('$1/4$', 'v3n_o4_bal'), ('$1/8$', 'v3n_o8_bal'),
                        (None, None), ('$1$ (constant)', 'v3n_r1'), ('$1/4$', 'v3n_r4_bal'), ('$1/8$', 'v3n_r8_bal')]:
         if arm is None:
-            lines.append((r'\midrule'+'\n' if lines else '') + r'\multicolumn{6}{@{}l}{\emph{' + ('Matched FLOPs' if not lines else 'Matched first width, $d_1=W$') + r'}} \\'); continue
+            lines.append((r'\midrule'+'\n' if lines else '') + r'\multicolumn{5}{@{}l}{\emph{' + ('Matched FLOPs' if not lines else 'Matched first width, $d_1=W$') + r'}} \\'); continue
         rs = runs('criteo', arm); rr = runs('criteo', REF)
-        ev = [r['erank']['rep_frac'][1:] for r in rs if r.get('erank')]
-        if not ev: ev = [records[f'erk_criteo_{arm}_s{s}']['erank']['rep_frac'][1:] for s in SEEDS]
-        per = [100*st.mean(v[i] for v in ev) for i in range(3)]
         delta = 100*(mean(rs)/mean(rr)-1)
         t4.append({'arm': arm, 'widths': rs[0]['dims'], 'matrix_flops': matrix_flops(rs[0]), 'auc': mean(rs),
-                   'auc_sample_sd': st.stdev(metric(rs)), 'delta_auc_percent': delta, 'effective_rank_percent': per, 'mean_effective_rank_percent': st.mean(per)})
+                   'auc_sample_sd': st.stdev(metric(rs)), 'delta_auc_percent': delta})
         auc = mean_text(metric(rs)); auc = r'\textbf{' + auc + '}' if arm == REF else auc
         auc += r' {\scriptsize$\pm$' + f'{st.stdev(metric(rs)):.5f}'[1:] + '}'
         cells = [label, str(rs[0]['dims']), f'{matrix_flops(rs[0])/1e6:.2f}M', auc,
-                 '--' if arm == REF else percent(delta), '/'.join(str(round(v)) for v in per)]
+                 '--' if arm == REF else percent(delta)]
         lines.append(' & '.join(cells) + r' \\')
     (out / 'table4_rows.tex').write_text('\n'.join(lines) + '\n'); write_csv(out / 'table4_schedule.csv', t4)
     no_ln = st.mean(mean(runs(ds, 'v3n_noln_dj')) - mean(runs(ds, REF)) for ds in DS)
