@@ -1,0 +1,15 @@
+\textbf{\ours{}} & $s_i\had c_i+s_i$ & 1.00 & -- & \\
+\midrule
+Input pooling & $u_i\had c_i+u_i$ & 1.00 & $-$0.05\%$^*$ & \\
+Frozen projection & $f_i\had c_i+f_i$ & 1.61 & $-$0.09\%$^*$ & $-$0.16\%$^*$ \\
+Learned projection & $\ell_i\had c_i+\ell_i$ & 1.61 & $-$0.26\%$^*$ & $-$0.31\%$^*$ \\
+Previous-layer channels & $t_i\had c_i+t_i$ & 1.00 & $-$0.14\%$^*$ & \\
+\midrule
+Addition only & $s_i+c_i$ & 1.00 & $-$1.83\%$^*$ & \\
+Input self-interaction & $s_i\had(c_i+B_is_i)+s_i$ & 1.46 & +0.01\%$^*$ & $-$0.05\%$^*$ \\
+\midrule
+No input skip & $s_i\had c_i$ & 1.00 & $-$0.07\%$^*$ & \\
+Projected input skip & $s_i\had c_i+\ell_i$ & 1.61 & $-$0.11\%$^*$ & \\
+Shifted input skip & $s_i\had c_i+s'_i$ & 1.00 & 0.00\% & \\
+\midrule
+Channel overlap & $s_i\had c_i+s_i$ & 1.00 & $-$0.03\%$^*$ & \\

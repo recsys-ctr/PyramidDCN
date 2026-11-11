@@ -1,0 +1,554 @@
+{
+  "delta_convention": "default [W, W/2, W/4] minus comparison; positive AUC and negative LogLoss favor the default.",
+  "datasets": {
+    "criteo": {
+      "default": {
+        "widths": [
+          512,
+          256,
+          128
+        ],
+        "projected_input_width": 512,
+        "matrix_FLOPs": 1491200,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8095796666666667,
+            "sample_SD": 5.24436205207873e-05
+          },
+          "test_LogLoss": {
+            "mean": 0.4421676666666667,
+            "sample_SD": 8.403174003514114e-05
+          }
+        },
+        "run_names": [
+          "criteo_pyramiddcn_s2024",
+          "criteo_pyramiddcn_s2025",
+          "criteo_pyramiddcn_s2026"
+        ],
+        "FLOPs_ratio_to_default": 1.0
+      },
+      "constant": {
+        "widths": [
+          344,
+          344,
+          344
+        ],
+        "projected_input_width": 512,
+        "matrix_FLOPs": 1465264,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8094923333333334,
+            "sample_SD": 2.7574142476857888e-05
+          },
+          "test_LogLoss": {
+            "mean": 0.44228766666666663,
+            "sample_SD": 0.00013162193332927525
+          }
+        },
+        "run_names": [
+          "criteo_width_ratio_1_matched_flops_s2024",
+          "criteo_width_ratio_1_matched_flops_s2025",
+          "criteo_width_ratio_1_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9826072961373391,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": 8.733333333329114e-05,
+            "sample_SD": 7.965760059986536e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.00010599999999993948
+              },
+              {
+                "seed": 2025,
+                "difference": 0.0
+              },
+              {
+                "seed": 2026,
+                "difference": 0.00015599999999993397
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": -0.00011999999999999049,
+            "sample_SD": 7.954244150139908e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.00020700000000001273
+              },
+              {
+                "seed": 2025,
+                "difference": -5.099999999996774e-05
+              },
+              {
+                "seed": 2026,
+                "difference": -0.00010199999999999099
+              }
+            ]
+          }
+        }
+      },
+      "widening": {
+        "widths": [
+          182,
+          364,
+          728
+        ],
+        "projected_input_width": 512,
+        "matrix_FLOPs": 1489280,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8093853333333333,
+            "sample_SD": 4.4117267972171625e-05
+          },
+          "test_LogLoss": {
+            "mean": 0.44241033333333335,
+            "sample_SD": 0.00020268777302375106
+          }
+        },
+        "run_names": [
+          "criteo_width_ratio_2_matched_flops_s2024",
+          "criteo_width_ratio_2_matched_flops_s2025",
+          "criteo_width_ratio_2_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9987124463519313,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": 0.00019433333333333339,
+            "sample_SD": 8.326663997872859e-06,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.00019700000000000273
+              },
+              {
+                "seed": 2025,
+                "difference": 0.00018499999999999073
+              },
+              {
+                "seed": 2026,
+                "difference": 0.00020100000000000673
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": -0.0002426666666666688,
+            "sample_SD": 0.00021713206426812135,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0004790000000000072
+              },
+              {
+                "seed": 2025,
+                "difference": -0.00019700000000000273
+              },
+              {
+                "seed": 2026,
+                "difference": -5.1999999999996493e-05
+              }
+            ]
+          }
+        }
+      }
+    },
+    "avazu": {
+      "default": {
+        "widths": [
+          312,
+          156,
+          78
+        ],
+        "projected_input_width": 312,
+        "matrix_FLOPs": 556140,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.7934556666666667,
+            "sample_SD": 8.700191568772476e-05
+          },
+          "test_LogLoss": {
+            "mean": 0.371738,
+            "sample_SD": 3.9962482405373766e-05
+          }
+        },
+        "run_names": [
+          "avazu_pyramiddcn_s2024",
+          "avazu_pyramiddcn_s2025",
+          "avazu_pyramiddcn_s2026"
+        ],
+        "FLOPs_ratio_to_default": 1.0
+      },
+      "widening": {
+        "widths": [
+          110,
+          220,
+          440
+        ],
+        "projected_input_width": 312,
+        "matrix_FLOPs": 551136,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.7931983333333333,
+            "sample_SD": 7.50088883621941e-05
+          },
+          "test_LogLoss": {
+            "mean": 0.37193699999999996,
+            "sample_SD": 8.487048957087975e-05
+          }
+        },
+        "run_names": [
+          "avazu_width_ratio_2_matched_flops_s2024",
+          "avazu_width_ratio_2_matched_flops_s2025",
+          "avazu_width_ratio_2_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9910022656165713,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": 0.0002573333333332946,
+            "sample_SD": 5.357549190937846e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.0002949999999999342
+              },
+              {
+                "seed": 2025,
+                "difference": 0.0002809999999999757
+              },
+              {
+                "seed": 2026,
+                "difference": 0.00019599999999997397
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": -0.00019899999999998622,
+            "sample_SD": 9.914131328563457e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0002909999999999857
+              },
+              {
+                "seed": 2025,
+                "difference": -0.00021199999999998997
+              },
+              {
+                "seed": 2026,
+                "difference": -9.399999999998299e-05
+              }
+            ]
+          }
+        }
+      }
+    },
+    "kkbox": {
+      "default": {
+        "widths": [
+          248,
+          124,
+          62
+        ],
+        "projected_input_width": 248,
+        "matrix_FLOPs": 350796,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.815035,
+            "sample_SD": 0.0007314615505958165
+          },
+          "test_LogLoss": {
+            "mean": 0.5234763333333333,
+            "sample_SD": 0.0008377447900961928
+          }
+        },
+        "run_names": [
+          "kkbox_pyramiddcn_s2024",
+          "kkbox_pyramiddcn_s2025",
+          "kkbox_pyramiddcn_s2026"
+        ],
+        "FLOPs_ratio_to_default": 1.0
+      },
+      "constant": {
+        "widths": [
+          168,
+          168,
+          168
+        ],
+        "projected_input_width": 248,
+        "matrix_FLOPs": 347344,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.816142,
+            "sample_SD": 0.0006775669708596849
+          },
+          "test_LogLoss": {
+            "mean": 0.5221136666666667,
+            "sample_SD": 0.0008622356599754665
+          }
+        },
+        "run_names": [
+          "kkbox_width_ratio_1_matched_flops_s2024",
+          "kkbox_width_ratio_1_matched_flops_s2025",
+          "kkbox_width_ratio_1_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9901595229136022,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": -0.001107000000000043,
+            "sample_SD": 0.0002292880284707264,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0013680000000000359
+              },
+              {
+                "seed": 2025,
+                "difference": -0.0010149999999999881
+              },
+              {
+                "seed": 2026,
+                "difference": -0.0009380000000001054
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": 0.0013626666666666603,
+            "sample_SD": 0.00032351867540115136,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.0017049999999999566
+              },
+              {
+                "seed": 2025,
+                "difference": 0.0013210000000000166
+              },
+              {
+                "seed": 2026,
+                "difference": 0.0010620000000000074
+              }
+            ]
+          }
+        }
+      },
+      "widening": {
+        "widths": [
+          88,
+          176,
+          352
+        ],
+        "projected_input_width": 248,
+        "matrix_FLOPs": 350016,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8161683333333334,
+            "sample_SD": 0.000638323063450912
+          },
+          "test_LogLoss": {
+            "mean": 0.522039,
+            "sample_SD": 0.0007015133640922454
+          }
+        },
+        "run_names": [
+          "kkbox_width_ratio_2_matched_flops_s2024",
+          "kkbox_width_ratio_2_matched_flops_s2025",
+          "kkbox_width_ratio_2_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9977764854787398,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": -0.0011333333333333566,
+            "sample_SD": 0.0001912859987906386,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0010510000000000241
+              },
+              {
+                "seed": 2025,
+                "difference": -0.0009970000000000256
+              },
+              {
+                "seed": 2026,
+                "difference": -0.0013520000000000199
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": 0.0014373333333333276,
+            "sample_SD": 0.00017564262960149236,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.0014199999999999768
+              },
+              {
+                "seed": 2025,
+                "difference": 0.0012710000000000221
+              },
+              {
+                "seed": 2026,
+                "difference": 0.0016209999999999836
+              }
+            ]
+          }
+        }
+      }
+    },
+    "kuairec": {
+      "default": {
+        "widths": [
+          472,
+          236,
+          118
+        ],
+        "projected_input_width": 472,
+        "matrix_FLOPs": 1268028,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.856785,
+            "sample_SD": 0.00016988525539316643
+          },
+          "test_LogLoss": {
+            "mean": 0.19776266666666667,
+            "sample_SD": 0.00016870190672701888
+          }
+        },
+        "run_names": [
+          "kuairec_pyramiddcn_s2024",
+          "kuairec_pyramiddcn_s2025",
+          "kuairec_pyramiddcn_s2026"
+        ],
+        "FLOPs_ratio_to_default": 1.0
+      },
+      "constant": {
+        "widths": [
+          320,
+          320,
+          320
+        ],
+        "projected_input_width": 472,
+        "matrix_FLOPs": 1256064,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8575083333333333,
+            "sample_SD": 0.0002851952547525059
+          },
+          "test_LogLoss": {
+            "mean": 0.19749166666666668,
+            "sample_SD": 0.00019468007944659763
+          }
+        },
+        "run_names": [
+          "kuairec_width_ratio_1_matched_flops_s2024",
+          "kuairec_width_ratio_1_matched_flops_s2025",
+          "kuairec_width_ratio_1_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9905648771162782,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": -0.000723333333333335,
+            "sample_SD": 0.00012128616299206897,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0008620000000000294
+              },
+              {
+                "seed": 2025,
+                "difference": -0.0006709999999999772
+              },
+              {
+                "seed": 2026,
+                "difference": -0.0006369999999999987
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": 0.00027099999999999347,
+            "sample_SD": 3.7749172176363926e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 0.0003060000000000007
+              },
+              {
+                "seed": 2025,
+                "difference": 0.00027599999999999847
+              },
+              {
+                "seed": 2026,
+                "difference": 0.00023099999999998122
+              }
+            ]
+          }
+        }
+      },
+      "widening": {
+        "widths": [
+          167,
+          334,
+          668
+        ],
+        "projected_input_width": 472,
+        "matrix_FLOPs": 1260508,
+        "metrics": {
+          "test_AUC": {
+            "mean": 0.8570813333333334,
+            "sample_SD": 0.00016701596730050718
+          },
+          "test_LogLoss": {
+            "mean": 0.197667,
+            "sample_SD": 0.00012504799078753766
+          }
+        },
+        "run_names": [
+          "kuairec_width_ratio_2_matched_flops_s2024",
+          "kuairec_width_ratio_2_matched_flops_s2025",
+          "kuairec_width_ratio_2_matched_flops_s2026"
+        ],
+        "FLOPs_ratio_to_default": 0.9940695315876306,
+        "paired_differences": {
+          "test_AUC": {
+            "mean": -0.00029633333333330586,
+            "sample_SD": 4.4814432199101006e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": -0.0002729999999999677
+              },
+              {
+                "seed": 2025,
+                "difference": -0.000268000000000046
+              },
+              {
+                "seed": 2026,
+                "difference": -0.00034799999999990394
+              }
+            ]
+          },
+          "test_LogLoss": {
+            "mean": 9.566666666666057e-05,
+            "sample_SD": 5.619905100027787e-05,
+            "per_seed": [
+              {
+                "seed": 2024,
+                "difference": 3.400000000000625e-05
+              },
+              {
+                "seed": 2025,
+                "difference": 0.00010899999999999799
+              },
+              {
+                "seed": 2026,
+                "difference": 0.00014399999999997748
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

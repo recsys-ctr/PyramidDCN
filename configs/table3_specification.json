@@ -1,0 +1,79 @@
+[
+  {
+    "label": "\\ours{}",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]$",
+    "arm": "pyramiddcn",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Channel overlap",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+x[S_i]$, $\\boldsymbol{S_3\\subset S_2}$",
+    "arm": "channel_overlap",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Input pooling",
+    "formula": "$\\boldsymbol{\\bar x_i}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\bar x_i}$",
+    "arm": "input_pooling",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Frozen projection",
+    "formula": "$\\boldsymbol{\\Omega_ix}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\Omega_ix}$",
+    "arm": "frozen_projection",
+    "reference": "pyramiddcn",
+    "matched_arm": "frozen_projection_matched_flops"
+  },
+  {
+    "label": "Learned projection",
+    "formula": "$\\boldsymbol{L_ix}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{L_ix}$",
+    "arm": "learned_projection",
+    "reference": "pyramiddcn",
+    "matched_arm": "learned_projection_matched_flops"
+  },
+  {
+    "label": "Previous-layer channels",
+    "formula": "$\\boldsymbol{\\tilde x_{i-1}}\\had(A_ix_{i-1}+b_i)+\\boldsymbol{\\tilde x_{i-1}}$",
+    "arm": "previous_layer_channels",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Input self-interaction",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+\\boldsymbol{B_ix[S_i]}+b_i)+x[S_i]$",
+    "arm": "input_self_interaction",
+    "reference": "pyramiddcn",
+    "matched_arm": "input_self_interaction_matched_flops"
+  },
+  {
+    "label": "Addition only",
+    "formula": "$x[S_i]\\,\\boldsymbol{+}\\,(A_ix_{i-1}+b_i)$",
+    "arm": "addition_only",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Shifted input skip",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{x[S'_i]}$",
+    "arm": "shifted_input_skip",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "Projected input skip",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{L_ix}$",
+    "arm": "projected_input_skip",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  },
+  {
+    "label": "No input skip",
+    "formula": "$x[S_i]\\had(A_ix_{i-1}+b_i)+\\boldsymbol{0}$",
+    "arm": "no_input_skip",
+    "reference": "pyramiddcn",
+    "matched_arm": null
+  }
+]

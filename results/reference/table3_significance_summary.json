@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "datasets": [
+    "criteo",
+    "avazu",
+    "kkbox",
+    "kuairec"
+  ],
+  "comparisons": 13,
+  "significant_holm05": 12,
+  "method": "Two-sided paired t-tests on eight seed-wise normalized four-dataset averages; Holm across 13 comparisons."
+}

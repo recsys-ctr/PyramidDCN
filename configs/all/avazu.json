@@ -1,0 +1,2964 @@
+[
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        216,
+        108,
+        54
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_self_interaction_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_addition_only_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "cross": "add"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_frozen_projection_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_dcnv2_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "DCNv2",
+    "args": {
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_dcnv2_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "DCNv2",
+    "args": {
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_dcnv2_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "DCNv2",
+    "args": {
+      "rank": 78,
+      "dnn_widths": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_learned_projection_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        160,
+        80,
+        40
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_no_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_input_pooling_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_shifted_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_projected_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_pyramiddcn_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_previous_layer_channels_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_channel_overlap_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        312,
+        156,
+        78
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_ecn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "ECN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_ecn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "ECN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_ecn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "ECN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCN",
+    "args": {
+      "structure": "sp",
+      "exp_num_layers": 4,
+      "lin_num_layers": 2,
+      "net_dropout": 0.0,
+      "batch_norm": false,
+      "layer_norm": false,
+      "num_heads": 1
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCN",
+    "args": {
+      "structure": "sp",
+      "exp_num_layers": 4,
+      "lin_num_layers": 2,
+      "net_dropout": 0.0,
+      "batch_norm": false,
+      "layer_norm": false,
+      "num_heads": 1
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCN",
+    "args": {
+      "structure": "sp",
+      "exp_num_layers": 4,
+      "lin_num_layers": 2,
+      "net_dropout": 0.0,
+      "batch_norm": false,
+      "layer_norm": false,
+      "num_heads": 1
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fibinetpp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fibinetpp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_fibinetpp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_finalmlp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FinalMLP",
+    "args": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp1_hidden_activations": "relu",
+      "mlp1_dropout": 0.0,
+      "mlp1_batch_norm": false,
+      "mlp2_hidden_units": [
+        312
+      ],
+      "mlp2_hidden_activations": "relu",
+      "mlp2_dropout": 0.0,
+      "mlp2_batch_norm": false,
+      "num_heads": 8
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_finalmlp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FinalMLP",
+    "args": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp1_hidden_activations": "relu",
+      "mlp1_dropout": 0.0,
+      "mlp1_batch_norm": false,
+      "mlp2_hidden_units": [
+        312
+      ],
+      "mlp2_hidden_activations": "relu",
+      "mlp2_dropout": 0.0,
+      "mlp2_batch_norm": false,
+      "num_heads": 8
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_finalmlp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FinalMLP",
+    "args": {
+      "mlp1_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "mlp1_hidden_activations": "relu",
+      "mlp1_dropout": 0.0,
+      "mlp1_batch_norm": false,
+      "mlp2_hidden_units": [
+        312
+      ],
+      "mlp2_hidden_activations": "relu",
+      "mlp2_dropout": 0.0,
+      "mlp2_batch_norm": false,
+      "num_heads": 8
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_gdcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 312,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_gdcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 312,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_gdcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 312,
+      "cross_widths": [
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_units": [
+        312,
+        312,
+        312
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_masknet_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MaskNet",
+    "args": {
+      "model_type": "ParallelMaskNet",
+      "parallel_num_blocks": 2,
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_activations": "relu",
+      "net_dropout": 0.0,
+      "emb_layernorm": false,
+      "net_layernorm": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_masknet_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MaskNet",
+    "args": {
+      "model_type": "ParallelMaskNet",
+      "parallel_num_blocks": 2,
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_activations": "relu",
+      "net_dropout": 0.0,
+      "emb_layernorm": false,
+      "net_layernorm": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_masknet_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MaskNet",
+    "args": {
+      "model_type": "ParallelMaskNet",
+      "parallel_num_blocks": 2,
+      "parallel_block_dim": 312,
+      "reduction_ratio": 2,
+      "dnn_hidden_units": [
+        312,
+        312,
+        312,
+        312,
+        312
+      ],
+      "dnn_hidden_activations": "relu",
+      "net_dropout": 0.0,
+      "emb_layernorm": false,
+      "net_layernorm": false
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_mldcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MLDCN",
+    "args": {
+      "rank": 312,
+      "num_layers": 3,
+      "t": 0.5
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_mldcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MLDCN",
+    "args": {
+      "rank": 312,
+      "num_layers": 3,
+      "t": 0.5
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_mldcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "MLDCN",
+    "args": {
+      "rank": 312,
+      "num_layers": 3,
+      "t": 0.5
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_qnn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "QNN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_qnn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "QNN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  },
+  {
+    "name": "avazu_qnn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "QNN",
+    "args": {
+      "widths": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "net_dropout": 0.0
+    },
+    "input_proj": 312
+  }
+]
