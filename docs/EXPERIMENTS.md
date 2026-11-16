@@ -47,7 +47,8 @@ fields. See [TABLE2_MODELS.md](TABLE2_MODELS.md) for the exact adaptations.
 
 AUC and LogLoss use arithmetic means and sample standard deviations across
 seeds. The builder uses matching seed IDs for two-sided paired t-tests and
-Holm correction at 0.05. Families are fixed as follows:
+Holm correction at 0.05, implemented once in `reproduce/statistics.py`.
+Incomplete or non-finite pairs are rejected. Families are fixed as follows:
 
 | Table | Metric | Comparisons per family | Paired observations |
 | --- | --- | ---: | ---: |
@@ -84,7 +85,6 @@ metric summaries, profiling results and statistics. Each saved result must
 match its launcher configuration. Training outputs should go to `outputs/`,
 not overwrite `results/`.
 
-Additional width comparisons discussed in RQ4 are retained under
-`results/reference/rq4_width_comparisons/`; they are separate from the seven
-three-seed Table 4 conditions. Later unselected architecture trials and
-additional Table 4 seeds are not substituted into these tables.
+Only selected Table 1–4 runs and their dependencies are included. Unselected
+architecture trials, additional Table 4 seeds and supplementary width studies
+are excluded from this release.

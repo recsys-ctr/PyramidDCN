@@ -104,28 +104,15 @@ class ExperimentSmokeTest(unittest.TestCase):
         self.assertTrue(bool(torch.isfinite(x.grad).all()))
 
     def test_baselines_forward_loss_backward(self):
-        width = 32
-        cases = [
-            pyramid_arm(),
-            dict(model="DCNv2", input_proj=width, args=dict(rank=8, dnn_widths=[width] * 5, net_dropout=0.0)),
-            dict(model="MLDCN", input_proj=width, args=dict(rank=width, num_layers=3, t=0.5)),
-            dict(model="MaskNet", input_proj=width,
-                 args=dict(parallel_num_blocks=2, parallel_block_dim=width, reduction_ratio=2,
-                           dnn_hidden_units=[width] * 5, net_dropout=0.0, emb_layernorm=False,
-                           net_layernorm=False)),
-            dict(model="QNN", input_proj=width, args=dict(widths=[width] * 4, num_rows=[5] * 4, net_dropout=0.0)),
-            dict(model="ECN", input_proj=width, args=dict(widths=[width] * 4, net_dropout=0.0)),
-            dict(model="FCN", input_proj=width, args=dict(net_dropout=0.0)),
-            dict(model="GDCN", input_proj=width,
-                 args=dict(d=width, cross_widths=[width] * 3, dnn_hidden_units=[width] * 3, net_dropout=0.0)),
-            dict(model="FinalMLP", input_proj=width,
-                 args=dict(mlp1_hidden_units=[width] * 2, mlp2_hidden_units=[width], num_heads=8,
-                           mlp1_dropout=0.0, mlp2_dropout=0.0)),
-            dict(model="FiBiNetPP", input_proj=width, args=dict(dnn_hidden_units=[width] * 3)),
-        ]
+        # Exercise only model classes present in the selected Table 1–4 catalog.
+        cases = {}
+        for _, arm, _ in distinct_catalog():
+            cases.setdefault(arm["model"], arm)
+        from models import MODELS
+        self.assertEqual(set(cases), set(MODELS))
         cats = torch.arange(16).reshape(4, 4)
         labels = torch.tensor([0.0, 1.0, 0.0, 1.0])
-        for arm in cases:
+        for arm in cases.values():
             with self.subTest(model=arm["model"]):
                 torch.manual_seed(2024)
                 self.assert_backward(train.CTRModel(arm), cats, labels)

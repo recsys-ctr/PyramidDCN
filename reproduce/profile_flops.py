@@ -37,7 +37,7 @@ def main():
             cats = torch.zeros(1, len(metadata[ds]['fields']), dtype=torch.long)
             torch.manual_seed(0)
             model = train.CTRModel(config).cpu().eval()
-            linear = 2 * train.linear_macs(model, torch.zeros(1, 0), cats)
+            linear = train.linear_flops(model, torch.zeros(1, 0), cats)
             with torch.no_grad(), FlopCounterMode(display=False) as counter:
                 prediction = model(None, cats)
             matrix = counter.get_total_flops()

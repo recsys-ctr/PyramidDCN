@@ -17,7 +17,7 @@ class GatedCrossNetwork(nn.Module):
 
     def __init__(self, d_in, widths, shrink="slice", res="state"):
         super().__init__()
-        self.res = res  # "reread": the residual is the anchor P_i(x0) instead of S_i(x_{i-1})
+        assert res == "state"  # selected runs preserve the previous-state residual
         self.w, self.wg, self.b = nn.ModuleList(), nn.ModuleList(), nn.ParameterList()
         self.skip, self.anchor = nn.ModuleList(), nn.ModuleList()
         prev, cum = d_in, torch.arange(d_in)
@@ -39,7 +39,7 @@ class GatedCrossNetwork(nn.Module):
         for i in range(len(self.w)):
             a = self.anchor[i](x0)
             c = self.w[i](x) + self.b[i]
-            x = a * c * torch.sigmoid(self.wg[i](x)) + (self.skip[i](x) if self.res == "state" else a)
+            x = a * c * torch.sigmoid(self.wg[i](x)) + self.skip[i](x)
         return x
 
 

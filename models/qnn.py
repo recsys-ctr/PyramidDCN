@@ -88,8 +88,8 @@ class QNN(BaseModel):
 
 
 class PyramidQNN(QNN):
-    """QNN-alpha with narrowing widths (Table 2).  The first layer keeps the width d of the projected input;
-    later layers narrow.  With res="reread_anchor" every layer re-reads the input through a parameter-free
+    """QNN-alpha with narrowing widths (Table 2).  Later layers narrow; the selected budget variant has an initial
+    512-to-944 expansion and three layers instead of four.  With res="reread_anchor" every layer re-reads the input through a parameter-free
     strided slice, as the multiplier and as the skip term."""
 
     def __init__(self, vocab_size, num_fields=39, emb_dim=16, d=256, widths=(256, 128, 64, 32), num_rows=(1, 2, 2, 2),

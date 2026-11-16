@@ -5,7 +5,7 @@ dataset/seed observations. All 13 populated non-reference cells form one
 Holm family. This reproduces the paired tests reported in Table 3.
 """
 import numpy as np
-from scipy.stats import ttest_rel
+from .statistics import paired_ttest, holm
 
 TABLE3_SEEDS = list(range(2024, 2032))
 
@@ -27,18 +27,14 @@ def paired_tests(runs, core, datasets, reference):
             variant = (100 * a / denominator).mean(axis=0)
             baseline = (100 * b / denominator).mean(axis=0)
             differences = (100 * (a - b) / denominator).mean(axis=0)
-            test = ttest_rel(variant, baseline)
+            test = paired_ttest(variant, baseline)
             tests.append({'core_arm': row['arm'], 'arm': arm, 'comparison': comparison,
                           'n_seed_blocks': 8, 'mean_relative_AUC_difference_percent': float(differences.mean()),
                           't': float(test.statistic), 'df': int(test.df), 'p_raw': float(test.pvalue)})
             seed_rows.extend({'arm': arm, 'comparison': comparison, 'seed': seed,
                               'relative_AUC_difference_percent': float(value)}
                              for seed, value in zip(TABLE3_SEEDS, differences))
-    if len(tests) != 13:
-        raise ValueError('Expected all 13 Table 3 comparisons in one Holm family')
-    previous = 0.0
-    for i, test in enumerate(sorted(tests, key=lambda r: r['p_raw'])):
-        previous = max(previous, min(1.0, (len(tests) - i) * test['p_raw']))
-        test['p_holm13'] = previous
-        test['significant_holm05'] = previous < .05
+    holm(tests, 'p_holm13', 13)
+    for test in tests:
+        test['significant_holm05'] = test['p_holm13'] < .05
     return tests, seed_rows

@@ -97,7 +97,7 @@ def make_reread(d_src, widths, rr="slice"):
 
 class ReReadMLP(MLP_Block):
     """MLP_Block whose hidden layer i adds a re-read of the block input: h_i = block_i(h_{i-1}) + r_i(x)
-    (the residual of the narrowing design applied to an MLP; widths must not exceed the input width).
+    (selected budget variants may repeat input coordinates when the first layer widens).
     Same `mlp` Sequential as MLP_Block, so official init code that walks `mlp` still applies."""
 
     def __init__(self, input_dim, hidden_units=(), hidden_activations="ReLU", output_dim=None, output_activation=None,

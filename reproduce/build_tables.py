@@ -7,7 +7,7 @@ import statistics as st
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
-from scipy.stats import ttest_rel
+from .statistics import paired_ttest, holm
 from .matrix_flops import matrix_flops
 from .table3_statistics import TABLE3_SEEDS, paired_tests
 
@@ -42,13 +42,6 @@ def write_csv(path, rows):
         writer.writeheader(); writer.writerows(rows)
 
 
-def holm(rows, field):
-    previous = 0.
-    for i, row in enumerate(sorted(rows, key=lambda x: x['p_raw'])):
-        previous = max(previous, min(1., (len(rows) - i) * row['p_raw']))
-        row[field] = previous
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--results-dir', type=Path, default=ROOT / 'results')
@@ -77,13 +70,13 @@ def main():
         for key, _ in BASE:
             for m in ['test_auc', 'test_logloss']:
                 x, y = metric(runs(ds, REF), m), metric(runs(ds, key), m)
-                test = ttest_rel(x, y)
+                test = paired_ttest(x, y)
                 comparisons.append({'dataset': ds, 'baseline': key, 'metric': m, 'n_ours': len(x), 'n_baseline': len(y),
                                     'mean_ours': st.mean(x), 'mean_baseline': st.mean(y),
                                     't': float(test.statistic), 'df': float(test.df), 'p_raw': float(test.pvalue)})
     stats = {}
     for m in ['test_auc', 'test_logloss']:
-        family = [r for r in comparisons if r['metric'] == m]; holm(family, 'p_holm32')
+        family = [r for r in comparisons if r['metric'] == m]; holm(family, 'p_holm32', 32)
         stats[m] = {'comparisons': len(family), 'max_p_holm32': max(r['p_holm32'] for r in family),
                     'all_significant': all(r['p_holm32'] < .05 for r in family)}
     write_csv(out / 'main_comparisons.csv', comparisons)
@@ -108,12 +101,12 @@ def main():
         original = runs('criteo', k)
         for typ in ['pyramid', 'pyramid_matched_flops']:
             rs = runs('criteo', f'{k}_{typ}')
-            test = ttest_rel(metric(rs), metric(original))
+            test = paired_ttest(metric(rs), metric(original))
             t2tests.append({'model': k, 'configuration': typ, 'n': len(rs),
                             'delta_auc': mean(rs)-mean(original), 't': float(test.statistic),
                             'df': float(test.df), 'p_raw': float(test.pvalue)})
         t2data.append((k,label,original))
-    holm(t2tests, 'p_holm16')
+    holm(t2tests, 'p_holm16', 16)
     t2lookup = {(r['model'],r['configuration']):r for r in t2tests}
     for k,label,original in t2data:
         p = runs('criteo', f'{k}_pyramid'); q = runs('criteo', f'{k}_pyramid_matched_flops')
@@ -186,10 +179,10 @@ def main():
     for arm in ['width_ratio_1_matched_flops', 'width_ratio_1_4_matched_flops', 'width_ratio_1_8_matched_flops',
                 'width_ratio_1', 'width_ratio_1_4', 'width_ratio_1_8']:
         rs, rr = runs('criteo', arm), runs('criteo', REF)
-        result = ttest_rel(metric(rs), metric(rr))
+        result = paired_ttest(metric(rs), metric(rr))
         t4tests.append(dict(arm=arm, n=len(rs), difference=mean(rs)-mean(rr), t=float(result.statistic),
                             df=float(result.df), p_raw=float(result.pvalue)))
-    holm(t4tests, 'p_holm6')
+    holm(t4tests, 'p_holm6', 6)
     t4lookup = {r['arm']: r for r in t4tests}
     write_csv(out / 'table4_significance.csv', t4tests)
     t4 = []; lines = []

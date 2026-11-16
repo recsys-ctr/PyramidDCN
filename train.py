@@ -81,8 +81,8 @@ def load(split):
 
 
 @torch.no_grad()
-def linear_macs(model: nn.Module, dense: torch.Tensor, cats: torch.Tensor) -> int:
-    """Per-example multiply-adds (MACs) of the nn.Linear calls in the eval graph; FLOPs = 2 x MACs.
+def linear_flops(model: nn.Module, dense: torch.Tensor, cats: torch.Tensor) -> int:
+    """Per-example matrix FLOPs of nn.Linear calls in the evaluation graph.
 
     Counts every nn.Linear call via forward hooks (so reused layers count per call);
     embedding lookups, activations, LayerNorm, Hadamard products and reductions are excluded.
@@ -93,7 +93,7 @@ def linear_macs(model: nn.Module, dense: torch.Tensor, cats: torch.Tensor) -> in
     def hook(module, inputs, output):
         nonlocal total
         rows = inputs[0].numel() // module.in_features
-        total += rows * module.in_features * module.out_features
+        total += 2 * rows * module.in_features * module.out_features
 
     was_training = model.training
     model.eval()
@@ -167,7 +167,7 @@ def run_arm(arm, data, out, eval_test, device):
     np.random.seed(seed)
     model = CTRModel(arm)
     nn.init.normal_(model.embedding.weight, 0.0, arm["emb_init_std"])  # one embedding initialization for every model
-    macs = linear_macs(model, torch.zeros(2, 0), tr_cats[:2])
+    flops = linear_flops(model, torch.zeros(2, 0), tr_cats[:2])
     model = model.to(device)
     emb_params = [model.embedding.weight]
     dense_params = [p for p in model.parameters() if p is not model.embedding.weight]
@@ -191,7 +191,7 @@ def run_arm(arm, data, out, eval_test, device):
     print(f"[{arm['name']}] " + json.dumps(history[-1]), flush=True)
     # params counts every parameter; dense_params excludes the embedding table (the count of Section 3.3)
     rec = dict(arm, dataset=DATASET, best_epoch=1, valid_auc=round(auc, 6), valid_logloss=round(ll, 6),
-               linear_macs=macs, linear_flops=2 * macs,
+               linear_flops=flops,
                params=sum(p.numel() for p in emb_params + dense_params),
                dense_params=sum(p.numel() for p in dense_params),
                total_s=round(time.time() - t_start), history=history)

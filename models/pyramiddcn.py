@@ -21,7 +21,7 @@ import math
 
 import torch.nn as nn
 
-from .layers import StridedSlice, even_idx
+from .layers import StridedSlice, even_idx, balanced_idx
 
 
 def init_linear(module: nn.Module) -> None:
@@ -29,25 +29,6 @@ def init_linear(module: nn.Module) -> None:
         nn.init.xavier_uniform_(module.weight)
         if module.bias is not None:
             nn.init.zeros_(module.bias)
-
-
-def balanced_idx(d0, dims):
-    """Least-used selection rule of Section 3.1: layer i keeps the d_i input coordinates that layers 1..i-1 used least,
-    evenly spaced among equally used ones (a layer wider than the input first takes every coordinate once, then
-    continues with the least used).  For halving widths it gives 1,3,5,... | 2,6,10,... (1-based)."""
-    count, out = [0] * d0, []
-    for d in dims:
-        pick, need = [], d
-        while need > 0:
-            m = min(count)
-            tied = [c for c in range(d0) if count[c] == m]
-            take = tied if need >= len(tied) else [tied[int(v)] for v in even_idx(len(tied), need)]
-            for c in take:
-                count[c] += 1
-            pick += take
-            need -= len(take)
-        out.append(sorted(pick))
-    return out
 
 
 class GroupPool(nn.Module):

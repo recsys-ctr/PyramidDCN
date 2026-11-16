@@ -70,4 +70,3 @@ class AlternativeMaskNet(BaseModel):
         for select, block in zip(self.input_selection, self.blocks):
             hidden = block(select(x), hidden)
         return self.fc(hidden).squeeze(-1)
-

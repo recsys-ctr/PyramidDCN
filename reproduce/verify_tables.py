@@ -76,6 +76,12 @@ def main():
                     cohorts.setdefault(c['name'].rsplit('_s',1)[0],[]).append(c['seed'])
                 assert all(len(v)==len(expected_seeds) and set(v)==expected_seeds for v in cohorts.values())
         assert len(allnames)==index['unique_runs']==610
+        for ds in index['datasets']:
+            selected = set().union(*(set(group.get(ds, [])) for group in index['groups'].values()))
+            catalog = json.loads((ROOT/f'configs/all/{ds}.json').read_text())
+            records = [json.loads(line) for line in (args.results_dir/f'{ds}.jsonl').read_text().splitlines() if line.strip()]
+            assert len(catalog) == len(selected) == len(records), f'Extra or missing runs: {ds}'
+            assert {r['name'] for r in catalog} == {r['name'] for r in records} == selected
         print('PASS: 610 selected runs, all four tables and all 99 paired/Holm comparisons.')
 
 if __name__=='__main__':main()

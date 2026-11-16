@@ -13,6 +13,7 @@ selected on 2026-11-15.
 
 All runs train for one epoch. There are **610 distinct runs** after sharing
 identical runs across tables. ECN is used inside FCN, not as a separate baseline.
+Only selected model implementations and their shared dependencies are included.
 
 ## Install
 
@@ -36,7 +37,8 @@ python -m reproduce.verify_tables
 
 `outputs/tables/` contains the table rows, metric summaries and all 99 statistical
 comparisons. Every table uses two-sided paired t-tests with Holm correction
-within its table and metric. Missing seeds or mismatched configurations fail
+within its table and metric, through `reproduce/statistics.py`. Missing seeds,
+extra runs or mismatched configurations fail
 verification.
 
 ## Retrain
