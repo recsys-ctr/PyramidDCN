@@ -48,7 +48,7 @@ class GDCN(BaseModel):
     width of the projected input."""
 
     def __init__(self, vocab_size, num_fields=39, emb_dim=16, d=256, cross_widths=None, dnn_hidden_units=None,
-                 dnn_activations="ReLU", net_dropout=0.5, batch_norm=True, shrink="slice", res="state", rr="slice"):
+                 dnn_activations="ReLU", net_dropout=0.5, batch_norm=True, shrink="slice", res="state", rr="slice", balanced_input=False):
         super().__init__(vocab_size, num_fields, emb_dim)
         self.d0, self.d = num_fields * emb_dim, d
         assert d == self.d0  # reads the projected input directly
@@ -58,7 +58,11 @@ class GDCN(BaseModel):
         self.dnn = make_mlp(d, self.dnn_widths, dnn_activations, net_dropout, batch_norm, res, rr)
         self.fc = nn.Linear(self.cross_widths[-1] + self.dnn_widths[-1], 1)
         self.reset_parameters()
+        if balanced_input:
+            self.cross_net.anchor = nn.ModuleList(StridedSlice(idx) for idx in balanced_idx(d, self.cross_widths))
 
     def logits(self, feature_emb):
         x0 = feature_emb.flatten(start_dim=1)
         return self.fc(torch.cat([self.cross_net(x0), self.dnn(x0)], dim=1)).squeeze(-1)
+
+from .layers import StridedSlice, balanced_idx

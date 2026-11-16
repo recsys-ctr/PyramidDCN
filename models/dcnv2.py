@@ -57,3 +57,40 @@ class DCNv2(BaseModel):
             for V, U, S, P in zip(self.V, self.U, self.skip, self.anchor):
                 x = S(x) + P(x0) * U(V(x))
         return self.fc(torch.cat([x, self.parallel_dnn(x0)], dim=-1)).squeeze(-1)
+
+from .layers import balanced_idx
+
+class DCNVariant(BaseModel):
+    def __init__(self,vocab,fields,embedding_dim,arm):
+        super().__init__(vocab,fields,embedding_dim)
+        W=fields*embedding_dim
+        self.topology=arm['topology'];self.parameterization=arm['parameterization']
+        widths=arm['cross_widths'];self.V=nn.ModuleList();self.U=nn.ModuleList()
+        self.skip=nn.ModuleList();self.anchor=nn.ModuleList()
+        indices=balanced_idx(W,widths)
+        previous=W
+        for i,width in enumerate(widths):
+            if self.parameterization=='lowrank':
+                rank=arm['ranks'][i]
+                self.V.append(nn.Linear(previous,rank,bias=False))
+                self.U.append(nn.Linear(rank,width))
+            else:
+                self.V.append(nn.Identity())
+                self.U.append(nn.Linear(previous,width))
+            self.skip.append(nn.Identity() if previous==width else StridedSlice(even_idx(previous,width)))
+            self.anchor.append(nn.Identity() if W==width else StridedSlice(indices[i]))
+            previous=width
+        mlp_input=W if self.topology=='parallel' else widths[-1]
+        self.dnn=MLP_Block(mlp_input,arm['mlp_widths'],'relu',None,None,0.,True)
+        head_input=arm['mlp_widths'][-1]+(widths[-1] if self.topology=='parallel' else 0)
+        self.fc=nn.Linear(head_input,1)
+        self.reset_parameters()
+
+    def logits(self,feature_emb):
+        x=feature_emb.flatten(1);h=x
+        for v,u,s,a in zip(self.V,self.U,self.skip,self.anchor):
+            h=s(h)+a(x)*u(v(h))
+        if self.topology=='parallel':
+            z=torch.cat([h,self.dnn(x)],dim=-1)
+        else:z=self.dnn(h)
+        return self.fc(z).squeeze(-1)

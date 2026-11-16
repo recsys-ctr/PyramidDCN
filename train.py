@@ -107,26 +107,7 @@ def linear_macs(model: nn.Module, dense: torch.Tensor, cats: torch.Tensor) -> in
     return total
 
 
-class ProjEmbedding(nn.Module):
-    """Shared input stage of every model: one EMB-wide table, flattened (d0), then a bias-free Linear d0 -> W
-    (xavier normal, as FuxiCTR initializes Linear layers).  Every backbone sees the same W-wide input, viewed as
-    W/8 groups of width 8 (models that only flatten their input are unaffected by the grouping)."""
-
-    def __init__(self, vocab_size, num_fields, emb_dim, width, pe=8):
-        super().__init__()
-        assert width % pe == 0, width
-        self.table = nn.Embedding(vocab_size, emb_dim)
-        nn.init.normal_(self.table.weight, std=1e-4)
-        self.proj = nn.Linear(num_fields * emb_dim, width, bias=False)
-        nn.init.xavier_normal_(self.proj.weight)
-        self.pf, self.pe = width // pe, pe
-
-    @property
-    def weight(self):  # the runner treats model.embedding.weight as the embedding table
-        return self.table.weight
-
-    def forward(self, cats):
-        return self.proj(self.table(cats.long()).flatten(1)).view(-1, self.pf, self.pe)
+from models.embedding import ProjEmbedding
 
 
 class CTRModel(nn.Module):
@@ -139,6 +120,10 @@ class CTRModel(nn.Module):
         if arm["model"] not in MODELS:
             raise ValueError(f"unknown model {arm['model']!r}; choose from {tuple(MODELS)}")
         cls, args, width = MODELS[arm["model"]], arm.get("args", {}), arm["input_proj"]
+        if arm["model"] == "NarrowMLDCN":
+            self.base = cls(META["vocab_size"], N_FIELDS, EMB, width, **args)
+            self.embedding = self.base.embedding
+            return
         if issubclass(cls, BaseModel):  # built on the W-wide projected input, viewed as W/8 groups of width 8
             self.base = cls(META["vocab_size"], width // 8, 8, **args)
         else:
@@ -186,7 +171,8 @@ def run_arm(arm, data, out, eval_test, device):
     model = model.to(device)
     emb_params = [model.embedding.weight]
     dense_params = [p for p in model.parameters() if p is not model.embedding.weight]
-    opt = torch.optim.Adam([{"params": emb_params, "lr": LR}, {"params": dense_params, "lr": LR}])
+    learning_rate = float(arm.get("lr", LR))
+    opt = torch.optim.Adam([{"params": emb_params, "lr": learning_rate}, {"params": dense_params, "lr": learning_rate}])
     batch, t_start = arm["batch"], time.time()
     model.train()
     perm = torch.randperm(len(tr_y), generator=torch.Generator().manual_seed(seed * 1000 + 1))

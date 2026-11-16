@@ -1,27 +1,13 @@
-"""PyramidDCN and the nine baselines of the paper, one file per model.
+"""Model registry for the selected experiments.
 
-The "model" field of a run configuration (configs/) is a class name; its "args" are the keyword arguments of that
-class.
+The `model` and `args` fields in configs/ select the class and constructor.
+Selected classes: PyramidDCN; DCNVariant; MLDCN/NarrowMLDCN;
+CrossOnlyMaskNet/AlternativeMaskNet; FCNP; GDCN; QNN/PyramidQNN;
+FinalMLP/PyramidFinalMLP; FiBiNetPP/PyramidFiBiNetPP.
 
-    Paper        File            Classes
-    PyramidDCN   pyramiddcn.py   PyramidDCN
-    DCNv2        dcnv2.py        DCNv2
-    ML-DCN       mldcn.py        MLDCN, PyramidMLDCN
-    MaskNet      masknet.py      MaskNet, PyramidMaskNet
-    QNN-alpha    qnn.py          QNN, PyramidQNN
-    ECN          ecn.py          ECN, PyramidECN
-    FCN          fcn.py          FCN, PyramidFCN
-    GDCN         gdcn.py         GDCN
-    FinalMLP     finalmlp.py     FinalMLP, PyramidFinalMLP
-    FiBiNet++    fibinetpp.py    FiBiNetPP, PyramidFiBiNetPP
-
-Pyramid<Model> is the pyramidal conversion of <Model> in Table 2.  DCNv2 and GDCN take per-layer widths, so their
-conversions are the same classes with narrowing cross_widths.  The Table 3 variants and the Table 4 widths are
-keyword arguments of PyramidDCN.  base.py and layers.py hold the shared pieces.
-
-Interfaces: PyramidDCN, MLDCN and PyramidMLDCN map the projected input x [B, W] to logits [B].  The other models
-subclass BaseModel (FuxiCTR conventions): forward(dense, cats) -> logits [B] and loss(cats, y); train.py replaces
-their embedding table by the shared projected input.
+The original modules also retain reusable components and earlier variants.
+ECN is a branch of FCNP, not a separately reported baseline. See
+`docs/TABLE2_MODELS.md` for the precise selected architectures.
 """
 from .base import BaseModel
 from .dcnv2 import DCNv2
@@ -38,3 +24,9 @@ from .qnn import QNN, PyramidQNN
 MODELS = {cls.__name__: cls for cls in (
     PyramidDCN, DCNv2, MLDCN, PyramidMLDCN, MaskNet, PyramidMaskNet, QNN, PyramidQNN, ECN, PyramidECN,
     FCN, PyramidFCN, GDCN, FinalMLP, PyramidFinalMLP, FiBiNetPP, PyramidFiBiNetPP)}
+
+from .dcnv2 import DCNVariant
+from .fcn import FCNP
+from .masknet_serial import CrossOnlyMaskNet, AlternativeMaskNet
+from .mldcn_narrow import NarrowMLDCN
+MODELS.update({cls.__name__: cls for cls in (DCNVariant, FCNP, CrossOnlyMaskNet, AlternativeMaskNet, NarrowMLDCN)})

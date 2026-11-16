@@ -186,3 +186,52 @@ class PyramidFCN(BaseModel):
 
     def loss(self, cats, y):
         return tri_bce(*self.branch_logits(cats), y)
+
+
+class FCNP(BaseModel):
+    """Three-layer ECN and LCN in parallel, with probability-space Tri-BCE."""
+    def __init__(self, vocab_size, num_fields, emb_dim, widths, converted=False):
+        super().__init__(vocab_size, num_fields, emb_dim)
+        assert len(widths) == 3
+        d = num_fields * emb_dim
+        kwargs = dict(net_dropout=0., batch_norm=False, layer_norm=False)
+        if converted:
+            self.ECN = PyramidLCACrossNetwork(d, widths, ["self"] * 3, **kwargs)
+            self.LCN = PyramidLCACrossNetwork(d, widths, ["x0"] * 3, **kwargs)
+        else:
+            assert widths == [d] * 3
+            self.ECN = LCACrossNetwork(d, ["self"] * 3, **kwargs)
+            self.LCN = LCACrossNetwork(d, ["x0"] * 3, **kwargs)
+        self.reset_parameters()
+        if converted:
+            self.LCN.anchor = nn.ModuleList(StridedSlice(idx) for idx in balanced_idx(d, widths))
+
+    def branch_logits(self, cats):
+        x = multihead_feature_emb(self.embed(cats), 1)
+        return self.ECN(x).mean(dim=1).squeeze(-1), self.LCN(x).mean(dim=1).squeeze(-1)
+
+    def forward(self, dense, cats):
+        a, b = self.branch_logits(cats)
+        return (a + b) * 0.5
+
+    def loss(self, cats, y):
+        return original_tri_bce(*self.branch_logits(cats), y)
+
+from .layers import StridedSlice, balanced_idx
+
+def original_tri_bce(a, b, labels, return_parts=False):
+    y = labels.float().reshape(-1)
+    p, pa, pb = torch.sigmoid((a + b) * 0.5), torch.sigmoid(a), torch.sigmoid(b)
+    main = F.binary_cross_entropy(p, y)
+    la = F.binary_cross_entropy(pa, y)
+    lb = F.binary_cross_entropy(pb, y)
+    wa = torch.where(la > main, la - main, torch.zeros_like(la))
+    wb = torch.where(lb > main, lb - main, torch.zeros_like(lb))
+    loss = main + la * wa + lb * wb
+    if return_parts:
+        return loss, {"ensemble_bce": main, "ecn_bce": la, "lcn_bce": lb,
+                      "ecn_logit_absmax": a.detach().abs().max(),
+                      "lcn_logit_absmax": b.detach().abs().max(),
+                      "saturated_fraction": ((pa < 1e-7) | (pa > 1 - 1e-7) |
+                                               (pb < 1e-7) | (pb > 1 - 1e-7)).float().mean()}
+    return loss

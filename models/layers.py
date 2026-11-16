@@ -122,3 +122,22 @@ def make_mlp(input_dim, hidden_units, act, dropout, batch_norm, res="state", rr=
     if res == "reread":
         return ReReadMLP(input_dim, hidden_units, act, None, None, dropout, batch_norm, rr=rr)
     return MLP_Block(input_dim, hidden_units, act, None, None, dropout, batch_norm)
+
+def balanced_idx(d0, dims):
+    """Least-used re-read: layer i keeps the d_i input coordinates that
+    layers 1..i-1 used least, evenly spaced among equally used ones (a layer wider than the input first takes every
+    coordinate once, then continues with the least used).  Overlap between layers is thus the minimum possible and usage
+    counts never differ by more than one.  For halving widths it gives 1,3,5,... | 2,6,10,... | 4,12,20,... (1-based)."""
+    count, out = [0] * d0, []
+    for d in dims:
+        pick, need = [], d
+        while need > 0:
+            m = min(count)
+            tied = [c for c in range(d0) if count[c] == m]
+            take = tied if need >= len(tied) else [tied[int(v)] for v in even_idx(len(tied), need)]
+            for c in take:
+                count[c] += 1
+            pick += take
+            need -= len(take)
+        out.append(sorted(pick))
+    return out

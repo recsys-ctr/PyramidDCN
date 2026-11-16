@@ -1,0 +1,612 @@
+{
+  "kkbox": {
+    "metadata": {
+      "fields": [
+        "msno",
+        "song_id",
+        "source_system_tab",
+        "source_screen_name",
+        "source_type",
+        "city",
+        "bd",
+        "gender",
+        "registered_via",
+        "registration_init_time",
+        "expiration_date",
+        "song_length",
+        "genre_ids",
+        "artist_name",
+        "composer",
+        "lyricist",
+        "language",
+        "name",
+        "isrc"
+      ],
+      "field_vocab": {
+        "msno": 25962,
+        "song_id": 53290,
+        "source_system_tab": 9,
+        "source_screen_name": 20,
+        "source_type": 13,
+        "city": 22,
+        "bd": 87,
+        "gender": 3,
+        "registered_via": 6,
+        "registration_init_time": 3770,
+        "expiration_date": 1215,
+        "song_length": 20643,
+        "genre_ids": 345,
+        "artist_name": 11975,
+        "composer": 18697,
+        "lyricist": 10338,
+        "language": 11,
+        "name": 44066,
+        "isrc": 43437
+      },
+      "offsets": {
+        "msno": 0,
+        "song_id": 25962,
+        "source_system_tab": 79252,
+        "source_screen_name": 79261,
+        "source_type": 79281,
+        "city": 79294,
+        "bd": 79316,
+        "gender": 79403,
+        "registered_via": 79406,
+        "registration_init_time": 79412,
+        "expiration_date": 83182,
+        "song_length": 84397,
+        "genre_ids": 105040,
+        "artist_name": 105385,
+        "composer": 117360,
+        "lyricist": 136057,
+        "language": 146395,
+        "name": 146406,
+        "isrc": 190472
+      },
+      "vocab_size": 233909
+    },
+    "arrays": {
+      "train_cats.npy": {
+        "shape": [
+          5901932,
+          19
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "89ec36eee284444eecf432f4d27f53432c95d92d71f2e69750d34bb2249eb4c4"
+      },
+      "train_y.npy": {
+        "shape": [
+          5901932
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "8bc096808a478e754cd09ec561d22b57c2042d26068bc0ee2598ffa45cf8a5c5"
+      },
+      "valid_cats.npy": {
+        "shape": [
+          737743,
+          19
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "54faf90aa8f76bc3d51c6b895a9c8ac98550d2f6c6dd80af4b46e2204564e078"
+      },
+      "valid_y.npy": {
+        "shape": [
+          737743
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "164a6ef3d5b985f950d2e5cac091120341977d4a9ef5153a4d52835d1f571e7b"
+      },
+      "test_cats.npy": {
+        "shape": [
+          737743,
+          19
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "56c5ccd95e4ed1b56de960ab11b422979020f6a347bbfdf86f83f60c78ce5d8e"
+      },
+      "test_y.npy": {
+        "shape": [
+          737743
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "b082936b3c4552d2f002056212d6f2ef6bc26ccfa83ffc4b6605eb84a2581572"
+      }
+    }
+  },
+  "kuairec": {
+    "metadata": {
+      "fields": [
+        "user_id",
+        "video_id",
+        "hour",
+        "weekday",
+        "user_active_degree",
+        "is_lowactive_period",
+        "is_live_streamer",
+        "is_video_author",
+        "follow_user_num_range",
+        "fans_user_num_range",
+        "friend_user_num_range",
+        "register_days_range",
+        "onehot_feat0",
+        "onehot_feat1",
+        "onehot_feat2",
+        "onehot_feat3",
+        "onehot_feat4",
+        "onehot_feat5",
+        "onehot_feat6",
+        "onehot_feat7",
+        "onehot_feat8",
+        "onehot_feat9",
+        "onehot_feat10",
+        "onehot_feat11",
+        "onehot_feat12",
+        "onehot_feat13",
+        "onehot_feat14",
+        "onehot_feat15",
+        "onehot_feat16",
+        "onehot_feat17",
+        "tags",
+        "author_id",
+        "video_type",
+        "upload_type",
+        "music_id",
+        "video_tag_id"
+      ],
+      "field_vocab": {
+        "user_id": 7177,
+        "video_id": 10347,
+        "hour": 25,
+        "weekday": 8,
+        "user_active_degree": 5,
+        "is_lowactive_period": 3,
+        "is_live_streamer": 3,
+        "is_video_author": 3,
+        "follow_user_num_range": 9,
+        "fans_user_num_range": 8,
+        "friend_user_num_range": 8,
+        "register_days_range": 8,
+        "onehot_feat0": 3,
+        "onehot_feat1": 9,
+        "onehot_feat2": 31,
+        "onehot_feat3": 1077,
+        "onehot_feat4": 13,
+        "onehot_feat5": 11,
+        "onehot_feat6": 4,
+        "onehot_feat7": 48,
+        "onehot_feat8": 341,
+        "onehot_feat9": 8,
+        "onehot_feat10": 6,
+        "onehot_feat11": 4,
+        "onehot_feat12": 3,
+        "onehot_feat13": 3,
+        "onehot_feat14": 3,
+        "onehot_feat15": 3,
+        "onehot_feat16": 3,
+        "onehot_feat17": 3,
+        "tags": 434,
+        "author_id": 8014,
+        "video_type": 3,
+        "upload_type": 19,
+        "music_id": 8221,
+        "video_tag_id": 559
+      },
+      "offsets": {
+        "user_id": 0,
+        "video_id": 7177,
+        "hour": 17524,
+        "weekday": 17549,
+        "user_active_degree": 17557,
+        "is_lowactive_period": 17562,
+        "is_live_streamer": 17565,
+        "is_video_author": 17568,
+        "follow_user_num_range": 17571,
+        "fans_user_num_range": 17580,
+        "friend_user_num_range": 17588,
+        "register_days_range": 17596,
+        "onehot_feat0": 17604,
+        "onehot_feat1": 17607,
+        "onehot_feat2": 17616,
+        "onehot_feat3": 17647,
+        "onehot_feat4": 18724,
+        "onehot_feat5": 18737,
+        "onehot_feat6": 18748,
+        "onehot_feat7": 18752,
+        "onehot_feat8": 18800,
+        "onehot_feat9": 19141,
+        "onehot_feat10": 19149,
+        "onehot_feat11": 19155,
+        "onehot_feat12": 19159,
+        "onehot_feat13": 19162,
+        "onehot_feat14": 19165,
+        "onehot_feat15": 19168,
+        "onehot_feat16": 19171,
+        "onehot_feat17": 19174,
+        "tags": 19177,
+        "author_id": 19611,
+        "video_type": 27625,
+        "upload_type": 27628,
+        "music_id": 27647,
+        "video_tag_id": 35868
+      },
+      "vocab_size": 36427
+    },
+    "arrays": {
+      "train_cats.npy": {
+        "shape": [
+          10024644,
+          36
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "17bf1f6bdca05d390ba28023bf2660c8e31177d5b37c2852a8e1e1553220c993"
+      },
+      "train_y.npy": {
+        "shape": [
+          10024644
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "0354c4c674c704d5bd2a299478dfa5242269d1b89bdba538eb67375390079402"
+      },
+      "valid_cats.npy": {
+        "shape": [
+          1253081,
+          36
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "ecc773d699d76fd81f0fc22087fcc0e71dcf25d1594a09e822d33a53faa83922"
+      },
+      "valid_y.npy": {
+        "shape": [
+          1253081
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "0a5a043cfc28fd4f580faba707402d9a3f3cf63c22862d5378634474c52a907b"
+      },
+      "test_cats.npy": {
+        "shape": [
+          1253081,
+          36
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "8951f6f93ee6953b23d821c5d53b43f0c505809d6672d2aa14deb5deb6198bb2"
+      },
+      "test_y.npy": {
+        "shape": [
+          1253081
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "bb4d836e75c331d43479d9d72307bd541e0284da3471f7c6aa17996212c2d2f6"
+      }
+    }
+  },
+  "criteo": {
+    "metadata": {
+      "fields": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6",
+        "I7",
+        "I8",
+        "I9",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26"
+      ],
+      "field_vocab": {
+        "I1": 43,
+        "I2": 98,
+        "I3": 121,
+        "I4": 40,
+        "I5": 219,
+        "I6": 111,
+        "I7": 79,
+        "I8": 68,
+        "I9": 91,
+        "I10": 5,
+        "I11": 26,
+        "I12": 36,
+        "I13": 71,
+        "C1": 1445,
+        "C2": 553,
+        "C3": 157338,
+        "C4": 117821,
+        "C5": 305,
+        "C6": 17,
+        "C7": 11881,
+        "C8": 629,
+        "C9": 4,
+        "C10": 39529,
+        "C11": 5130,
+        "C12": 156655,
+        "C13": 3175,
+        "C14": 27,
+        "C15": 11042,
+        "C16": 148912,
+        "C17": 11,
+        "C18": 4559,
+        "C19": 2002,
+        "C20": 4,
+        "C21": 154563,
+        "C22": 17,
+        "C23": 16,
+        "C24": 53030,
+        "C25": 81,
+        "C26": 40954
+      },
+      "offsets": {
+        "I1": 0,
+        "I2": 43,
+        "I3": 141,
+        "I4": 262,
+        "I5": 302,
+        "I6": 521,
+        "I7": 632,
+        "I8": 711,
+        "I9": 779,
+        "I10": 870,
+        "I11": 875,
+        "I12": 901,
+        "I13": 937,
+        "C1": 1008,
+        "C2": 2453,
+        "C3": 3006,
+        "C4": 160344,
+        "C5": 278165,
+        "C6": 278470,
+        "C7": 278487,
+        "C8": 290368,
+        "C9": 290997,
+        "C10": 291001,
+        "C11": 330530,
+        "C12": 335660,
+        "C13": 492315,
+        "C14": 495490,
+        "C15": 495517,
+        "C16": 506559,
+        "C17": 655471,
+        "C18": 655482,
+        "C19": 660041,
+        "C20": 662043,
+        "C21": 662047,
+        "C22": 816610,
+        "C23": 816627,
+        "C24": 816643,
+        "C25": 869673,
+        "C26": 869754
+      },
+      "vocab_size": 910708
+    },
+    "arrays": {
+      "train_cats.npy": {
+        "shape": [
+          36672493,
+          39
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "e60a77be34813ff2cb969ff0c4cd24031b1ea4e0d79f858470138a3d47637763"
+      },
+      "train_y.npy": {
+        "shape": [
+          36672493
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "e55aa12341327641f2b4622f674eed363ed6bf471ff9a9b59469b34d4822a423"
+      },
+      "valid_cats.npy": {
+        "shape": [
+          4584062,
+          39
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "62756ce97c653beb0d0f64b80a4fd48e8a599456b8a160ad3956b187e56d886e"
+      },
+      "valid_y.npy": {
+        "shape": [
+          4584062
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "e48711354c07570737800358994538b5c9450e32d35604673adb3e962a277ef6"
+      },
+      "test_cats.npy": {
+        "shape": [
+          4584062,
+          39
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "db2c145091a865b490a0e02d30aa84ab7ccadfaf7de496a4ee2f00e13d7192c8"
+      },
+      "test_y.npy": {
+        "shape": [
+          4584062
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "0d956a06e114e50caea09441e24123a065f11f20c73f77fec346c5f198826155"
+      }
+    }
+  },
+  "avazu": {
+    "metadata": {
+      "fields": [
+        "hour",
+        "C1",
+        "banner_pos",
+        "site_id",
+        "site_domain",
+        "site_category",
+        "app_id",
+        "app_domain",
+        "app_category",
+        "device_id",
+        "device_ip",
+        "device_model",
+        "device_type",
+        "device_conn_type",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "weekday",
+        "weekend"
+      ],
+      "field_vocab": {
+        "hour": 25,
+        "C1": 8,
+        "banner_pos": 8,
+        "site_id": 4050,
+        "site_domain": 5460,
+        "site_category": 26,
+        "app_id": 6544,
+        "app_domain": 399,
+        "app_category": 32,
+        "device_id": 820508,
+        "device_ip": 2903321,
+        "device_model": 7258,
+        "device_type": 6,
+        "device_conn_type": 5,
+        "C14": 2555,
+        "C15": 9,
+        "C16": 10,
+        "C17": 433,
+        "C18": 5,
+        "C19": 69,
+        "C20": 172,
+        "C21": 61,
+        "weekday": 8,
+        "weekend": 3
+      },
+      "offsets": {
+        "hour": 0,
+        "C1": 25,
+        "banner_pos": 33,
+        "site_id": 41,
+        "site_domain": 4091,
+        "site_category": 9551,
+        "app_id": 9577,
+        "app_domain": 16121,
+        "app_category": 16520,
+        "device_id": 16552,
+        "device_ip": 837060,
+        "device_model": 3740381,
+        "device_type": 3747639,
+        "device_conn_type": 3747645,
+        "C14": 3747650,
+        "C15": 3750205,
+        "C16": 3750214,
+        "C17": 3750224,
+        "C18": 3750657,
+        "C19": 3750662,
+        "C20": 3750731,
+        "C21": 3750903,
+        "weekday": 3750964,
+        "weekend": 3750972
+      },
+      "vocab_size": 3750975
+    },
+    "arrays": {
+      "train_cats.npy": {
+        "shape": [
+          32343172,
+          24
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "dbdee3b825e2ad6449f76b85398c0e061f271546bdfd83e32c10089958552766"
+      },
+      "train_y.npy": {
+        "shape": [
+          32343172
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "ec8286541849819cd808e15f295208d836a4ff16e83d5e750476fe138e96cc18"
+      },
+      "valid_cats.npy": {
+        "shape": [
+          4042897,
+          24
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "e94b653888345a5e505db8072d857c8667137b049b18e0cb3c1db02c7af5533d"
+      },
+      "valid_y.npy": {
+        "shape": [
+          4042897
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "a3207dbe683dad5097c0a88d1673ac090cd30b4739154e7f0043f8b8afe92d1f"
+      },
+      "test_cats.npy": {
+        "shape": [
+          4042898,
+          24
+        ],
+        "dtype": "int32",
+        "sample_rows": 1024,
+        "sample_sha256": "3f2a7051d36a283351b4cab98606e51e9871f1037b88a8ac3490af02811c14ba"
+      },
+      "test_y.npy": {
+        "shape": [
+          4042898
+        ],
+        "dtype": "float32",
+        "sample_rows": 1024,
+        "sample_sha256": "fdfdde4bb2831aeca0cf9a0ebf2341d9bdbf6a02e2c3dcfda8e236c952e3df4a"
+      }
+    }
+  }
+}

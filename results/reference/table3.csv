@@ -1,0 +1,12 @@
+label,formula,arm,reference,matched_arm,seeds,flops_ratio,delta_auc_percent,matched_delta_auc_percent,p_holm13,matched_p_holm13
+\ours{},$x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]$,pyramiddcn,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,0.0,,,
+Input pooling,$\boldsymbol{\bar x_i}\had(A_ix_{i-1}+b_i)+\boldsymbol{\bar x_i}$,input_pooling,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,-0.04874937288764647,,0.002469606792865335,
+Frozen projection,$\boldsymbol{\Omega_ix}\had(A_ix_{i-1}+b_i)+\boldsymbol{\Omega_ix}$,frozen_projection,pyramiddcn,frozen_projection_matched_flops,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.61,-0.0925230399217658,-0.16152185629594584,0.0002416353712391942,8.544675769837721e-08
+Learned projection,$\boldsymbol{L_ix}\had(A_ix_{i-1}+b_i)+\boldsymbol{L_ix}$,learned_projection,pyramiddcn,learned_projection_matched_flops,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.61,-0.25549222288875073,-0.30910354085210423,8.36559586925998e-08,1.4205314024658616e-08
+Previous-layer channels,$\boldsymbol{\tilde x_{i-1}}\had(A_ix_{i-1}+b_i)+\boldsymbol{\tilde x_{i-1}}$,previous_layer_channels,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,-0.13571260214256808,,2.548081959856097e-05,
+Addition only,"$x[S_i]\,\boldsymbol{+}\,(A_ix_{i-1}+b_i)$",addition_only,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,-1.8274089161911338,,3.4256175177593475e-12,
+Input self-interaction,$x[S_i]\had(A_ix_{i-1}+\boldsymbol{B_ix[S_i]}+b_i)+x[S_i]$,input_self_interaction,pyramiddcn,input_self_interaction_matched_flops,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.46,0.009608977588143608,-0.051646207397471056,0.0487262066154757,0.001203161350851198
+No input skip,$x[S_i]\had(A_ix_{i-1}+b_i)+\boldsymbol{0}$,no_input_skip,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,-0.07354773057614283,,0.002469606792865335,
+Projected input skip,$x[S_i]\had(A_ix_{i-1}+b_i)+\boldsymbol{L_ix}$,projected_input_skip,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.61,-0.11080057409393884,,6.6417720008577925e-06,
+Shifted input skip,$x[S_i]\had(A_ix_{i-1}+b_i)+\boldsymbol{x[S'_i]}$,shifted_input_skip,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,0.0010256210403652988,,0.904582759645704,
+Channel overlap,"$x[S_i]\had(A_ix_{i-1}+b_i)+x[S_i]$, $\boldsymbol{S_3\subset S_2}$",channel_overlap,pyramiddcn,,"[2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031]",1.0,-0.027679091634105757,,0.02827296627695506,

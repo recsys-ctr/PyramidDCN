@@ -86,3 +86,18 @@ python -m data.prep_criteo_x4 raw/Criteo_x4 cache/criteo_x4 \
 
 Criteo uses memory-mapped output and supports `--chunk-size`; the Avazu and
 generic BARS encoders assemble each encoded split in memory.
+
+## Check prepared data before training
+
+Compare the cache against metadata and sampled fingerprints from the actual
+experiments:
+
+```bash
+python -m data.verify_cache --dataset criteo --data-dir cache/criteo_x4
+```
+
+Repeat with `avazu`, `kkbox`, or `kuairec`. This validates field order,
+per-field vocabularies and offsets, six array shapes/dtypes, and hashes of
+1,024 evenly spaced rows in each array. It detects encoding or split differences
+without distributing examples. It is a sampled check, not full file equality.
+A mismatch should be resolved before comparing retrained metrics with the paper.

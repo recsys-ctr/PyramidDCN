@@ -8,19 +8,26 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 62,
-      "dnn_widths": [
-        248,
-        248,
-        248,
-        248,
-        248
-      ],
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [
+          248,
+          248,
+          248
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_dcnv2_s2025",
@@ -31,19 +38,26 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 62,
-      "dnn_widths": [
-        248,
-        248,
-        248,
-        248,
-        248
-      ],
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [
+          248,
+          248,
+          248
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_dcnv2_s2026",
@@ -54,19 +68,167 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 62,
-      "dnn_widths": [
-        248,
-        248,
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [
+          248,
+          248,
+          248
+        ],
+        "ranks": []
+      }
+    },
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_masknet_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "CrossOnlyMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
+    },
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_masknet_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "CrossOnlyMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
+    },
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_masknet_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "CrossOnlyMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          248,
+          248,
+          248
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
+    },
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_fcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
         248,
         248,
         248
       ],
-      "net_dropout": 0.0
+      "converted": false
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_fcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        248,
+        248,
+        248
+      ],
+      "converted": false
+    },
+    "input_proj": 248,
+    "lr": 0.001
+  },
+  {
+    "name": "kkbox_fcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        248,
+        248,
+        248
+      ],
+      "converted": false
+    },
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_mldcn_s2024",
@@ -83,7 +245,8 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_mldcn_s2025",
@@ -100,7 +263,8 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_mldcn_s2026",
@@ -117,94 +281,8 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_masknet_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "MaskNet",
-    "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 248,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        248,
-        248,
-        248,
-        248,
-        248
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_masknet_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "MaskNet",
-    "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 248,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        248,
-        248,
-        248,
-        248,
-        248
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_masknet_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "MaskNet",
-    "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 248,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        248,
-        248,
-        248,
-        248,
-        248
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
-    },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_qnn_s2024",
@@ -231,7 +309,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_qnn_s2025",
@@ -258,7 +337,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_qnn_s2026",
@@ -285,133 +365,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_ecn_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        248,
-        248,
-        248,
-        248
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_ecn_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        248,
-        248,
-        248,
-        248
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_ecn_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        248,
-        248,
-        248,
-        248
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_fcn_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_fcn_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 248
-  },
-  {
-    "name": "kkbox_fcn_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_gdcn_s2024",
@@ -437,7 +392,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_gdcn_s2025",
@@ -463,7 +419,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_gdcn_s2026",
@@ -489,7 +446,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_finalmlp_s2024",
@@ -520,7 +478,8 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_finalmlp_s2025",
@@ -551,7 +510,8 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_finalmlp_s2026",
@@ -582,7 +542,8 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_fibinetpp_s2024",
@@ -609,7 +570,8 @@
       "dnn_dropout": 0.0,
       "init_std": 0.01
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_fibinetpp_s2025",
@@ -636,7 +598,8 @@
       "dnn_dropout": 0.0,
       "init_std": 0.01
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_fibinetpp_s2026",
@@ -663,7 +626,8 @@
       "dnn_dropout": 0.0,
       "init_std": 0.01
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_pyramiddcn_s2024",
@@ -683,7 +647,8 @@
       ],
       "anchor": "stagger"
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_pyramiddcn_s2025",
@@ -703,7 +668,8 @@
       ],
       "anchor": "stagger"
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   },
   {
     "name": "kkbox_pyramiddcn_s2026",
@@ -723,6 +689,7 @@
       ],
       "anchor": "stagger"
     },
-    "input_proj": 248
+    "input_proj": 248,
+    "lr": 0.001
   }
 ]

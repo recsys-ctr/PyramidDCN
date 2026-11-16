@@ -12,7 +12,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--table', '--group', dest='group', required=True, choices=['table1', 'table2', 'table3', 'table4', 'all'])
     parser.add_argument('--dataset', required=True, choices=['criteo', 'avazu', 'kkbox', 'kuairec'])
-    parser.add_argument('--data-dir', required=True, type=Path)
+    parser.add_argument('--data-dir', type=Path)
+    parser.add_argument('--list', action='store_true', help='Print selected configurations without training')
     parser.add_argument('--device', default='cpu', help='torch device, e.g. cpu, mps, cuda')
     parser.add_argument('--threads', type=int, default=4)
     parser.add_argument('--seed', type=int, help='Run only one seed from the frozen group')
@@ -27,15 +28,31 @@ def main():
         parser.error(f'{args.group} is not defined for {args.dataset}')
     arms = json.loads(config.read_text())
     arms = [a for a in arms if (args.seed is None or a['seed'] == args.seed) and (args.name is None or a['name'] == args.name)]
+    if not arms:
+        parser.error('No configurations match the requested filters')
+    if args.list:
+        print(json.dumps(arms, indent=2))
+        return
+    if args.data_dir is None:
+        parser.error('--data-dir is required for training')
     out = args.out or ROOT / 'outputs' / f'{args.dataset}.jsonl'
     out = out.expanduser().resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
-    done = {json.loads(line)['name'] for line in out.read_text().splitlines() if line.strip()} if out.exists() else set()
+    records = [json.loads(line) for line in out.read_text().splitlines() if line.strip()] if out.exists() else []
+    done = {}
+    for record in records:
+        name = record['name']
+        if name in done:
+            parser.error(f'Duplicate result {name} in {out}; use an unambiguous result file')
+        done[name] = record
+    for arm in arms:
+        if arm['name'] in done:
+            changed = [key for key, value in arm.items() if done[arm['name']].get(key) != value]
+            if changed:
+                parser.error(f'Saved configuration for {arm["name"]} differs in {changed}; use a new output file')
     pending = [a for a in arms if a['name'] not in done]
     if args.limit is not None:
         pending = pending[:args.limit]
-    if not arms:
-        parser.error('No configurations match the requested filters')
     if not pending:
         print('All selected runs already exist in', out)
         return

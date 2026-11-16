@@ -1,20 +1,20 @@
 # PyramidDCN
 
-Code for **PyramidDCN: Progressively Narrowing Cross Networks for CTR Prediction**.
+Code and selected experiments for **PyramidDCN: Progressively Narrowing Cross
+Networks for CTR Prediction**. This revision reproduces the Table 1–4 settings
+selected on 2026-11-15.
 
-This release contains the experiments reported in the paper: Tables 1–4 and
-the width comparisons discussed in RQ4, all under the one-epoch,
-projected-input protocol.
+| Table | Experiments | Seeds |
+| --- | --- | --- |
+| 1 | Eight baselines and PyramidDCN on four datasets | 3 |
+| 2 | Eight backbones: Original, same initial width, near-matched FLOPs | 3 |
+| 3 | Input-connection and cross-layer controls on four datasets | 8 |
+| 4 | Seven Criteo width schedules | 3 |
 
-**Table 3 uses eight seeds (2024–2031) for every variant and its PyramidDCN
-reference on all four datasets. Tables 1, 2, and 4 use three seeds (2024–2026).**
+All runs train for one epoch. There are **610 distinct runs** after sharing
+identical runs across tables. ECN is used inside FCN, not as a separate baseline.
 
-PyramidDCN uses a wide first cross layer and progressively narrows later layers.
-Fixed, width-matched slices of the projected input provide the multiplicative
-input and input skip connection without learned per-layer input projections.
-The default cross-layer widths are `[W, W/2, W/4]`.
-
-## Installation
+## Install
 
 Use Python 3.11+ and install PyTorch for your device, then:
 
@@ -22,99 +22,80 @@ Use Python 3.11+ and install PyTorch for your device, then:
 python -m pip install -r requirements.txt
 ```
 
-## Reproduce the paper tables
+The tested package versions are in `requirements-tested.txt`.
 
-The saved results are included; no dataset download or retraining is needed:
+## Rebuild the reported tables
+
+Saved per-seed metrics are included. These commands require no data download
+or retraining:
 
 ```bash
 python -m reproduce.build_tables
 python -m reproduce.verify_tables
 ```
 
-Tables are written to `outputs/tables/`. FLOPs count matrix multiplications,
-including the input projection, prediction head, and bilinear contractions.
-Table 3 is regenerated from 448 saved runs (14 conditions × 4 datasets ×
-8 seeds), including its paired significance tests. Missing seeds cause an error.
+`outputs/tables/` contains the table rows, metric summaries and all 99 statistical
+comparisons. Every table uses two-sided paired t-tests with Holm correction
+within its table and metric. Missing seeds or mismatched configurations fail
+verification.
 
-## Train
+## Retrain
 
-Prepare a dataset using [data/README.md](data/README.md), then run:
+Prepare the public datasets following [data/README.md](data/README.md). Inspect
+or run the frozen configurations:
 
 ```bash
-python -m reproduce.run --table table1 --dataset criteo \
+python -m data.verify_cache --dataset criteo --data-dir /path/to/prepared/criteo
+python -m reproduce.run --table table2 --dataset criteo --list
+python -m reproduce.run --table table2 --dataset criteo \
   --data-dir /path/to/prepared/criteo --device cuda \
   --output outputs/criteo.jsonl
 ```
 
-Use `--table table2`, `table3`, or `table4` for the other
-comparisons. Add `--seed 2024`, `--name RUN_NAME`, or `--limit 1` to select runs.
-Supported devices include `cpu`, `cuda`, and `mps`.
-
-To retrain Table 3, run the following for each of `criteo`, `avazu`, `kkbox`,
-and `kuairec`, using the corresponding prepared data directory:
+Use `table1`, `table3`, or `table4` for a single table. For a complete rerun,
+run `--table all` once for each of `criteo`, `avazu`, `kkbox`, and `kuairec`, using
+its own prepared dataset directory and `outputs/{dataset}.jsonl`. Then:
 
 ```bash
-python -m reproduce.run --table table3 --dataset criteo \
-  --data-dir /path/to/prepared/criteo --device cuda \
-  --output outputs/criteo.jsonl
+python -m reproduce.build_tables --results-dir outputs
 ```
 
-Without a `--seed` filter, this runs all 112 configurations for the selected
-dataset: 14 conditions × 8 seeds. Use `--table all` on each dataset for a complete
-rerun of Tables 1–4, then rebuild with
-`python -m reproduce.build_tables --results-dir outputs`.
+`--seed 2024`, `--name RUN_NAME`, and `--limit 1` select subsets. Completed runs
+with identical configurations are skipped. Training supports `cpu`, `cuda`,
+and `mps`; numerical results may vary across devices and software versions.
+Saved metrics and rebuilt tables are a separate, deterministic check.
 
-## Contents
+## Configuration map
 
-| Path | Contents |
-| --- | --- |
-| `models/` | PyramidDCN and the nine baselines, one file per model |
-| `train.py` | One-epoch training, evaluation, and FLOP counting |
-| `configs/` | Dataset metadata and exact experiment configurations |
-| `data/` | Dataset preparation scripts |
-| `results/` | Saved metrics and reference tables |
-| `reproduce/` | Run launcher and table generation |
-| `tests/` | Synthetic forward, backward, and training checks |
+- [`configs/table_runs.csv`](configs/table_runs.csv): every table cell and seed
+  mapped to its run name and configuration file.
+- [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md): training, aggregation and tests.
+- [`docs/TABLE2_MODELS.md`](docs/TABLE2_MODELS.md): selected architectures,
+  input connections and model-specific conversion exceptions.
+- [`configs/table2_architectures.csv`](configs/table2_architectures.csv): all
+  24 Table 2 architecture settings and matrix FLOPs.
+- `models/`: runnable implementations; `model` and `args` in each JSON select
+  the class and its constructor arguments.
 
-## Models
+The selected DCNv2 is dense with three cross layers and a parallel three-layer
+MLP. FCN is FCN_p (three ECN layers in parallel with three LCN layers). MaskNet
+uses three serial MaskBlocks and a scalar head. QNN-α, FinalMLP and FiBiNet++
+retain their selected earlier configurations; their conversion exceptions are
+listed explicitly in the architecture document.
 
-The `model` field of a configuration is a class name in `models/`, and `args`
-holds the keyword arguments of that class.
-
-| Paper | File | Classes |
-| --- | --- | --- |
-| PyramidDCN | `models/pyramiddcn.py` | `PyramidDCN` |
-| DCNv2 | `models/dcnv2.py` | `DCNv2` |
-| ML-DCN | `models/mldcn.py` | `MLDCN`, `PyramidMLDCN` |
-| MaskNet | `models/masknet.py` | `MaskNet`, `PyramidMaskNet` |
-| QNN-α | `models/qnn.py` | `QNN`, `PyramidQNN` |
-| ECN | `models/ecn.py` | `ECN`, `PyramidECN` |
-| FCN | `models/fcn.py` | `FCN`, `PyramidFCN` |
-| GDCN | `models/gdcn.py` | `GDCN` |
-| FinalMLP | `models/finalmlp.py` | `FinalMLP`, `PyramidFinalMLP` |
-| FiBiNet++ | `models/fibinetpp.py` | `FiBiNetPP`, `PyramidFiBiNetPP` |
-
-`Pyramid<Model>` is the pyramidal conversion of that baseline in Table 2. DCNv2
-and GDCN take per-layer widths, so their conversions use the same classes with
-narrowing widths. The Table 3 variants and the Table 4 width schedules are
-arguments of `PyramidDCN`. Run names are listed in
-[the experiment protocol](docs/EXPERIMENTS.md#run-names).
-
-See [the experiment protocol](docs/EXPERIMENTS.md) for hyperparameters and
-comparison settings. The
-[RQ4 width comparisons](results/reference/rq4_width_comparisons/README.md)
-include their saved runs and a recomputation script.
-
-All models share the projected-input protocol and the same training settings;
-baselines are not tuned separately. FiBiNet++ uses groups of eight projected
-input channels in place of semantic field embeddings. The Criteo encoder in
-`data/` was reconstructed from the metadata of the cache used in the
-experiments (see [data/README.md](data/README.md)). Raw data and checkpoints
-are not included.
+## Check implementations and FLOPs
 
 ```bash
 python -m unittest discover -s tests -v
+python tests/test_smoke.py --full-catalog
+python -m reproduce.profile_flops --scope all --out outputs/matrix_flops.csv
 ```
 
-Baseline sources and license notices are in
+The catalog check uses synthetic inputs with the actual model widths. Matrix
+FLOPs include input projection, prediction head and bilinear contractions.
+They exclude embedding lookups, normalization and elementwise operations.
+
+The Criteo encoder is reconstructed from the experimental cache metadata;
+see its verification limits in [data/README.md](data/README.md). Raw data and
+checkpoints are not distributed. Baseline sources and licenses are listed in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

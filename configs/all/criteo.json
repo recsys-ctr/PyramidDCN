@@ -1,341 +1,5 @@
 [
   {
-    "name": "criteo_input_self_interaction_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_matched_flops_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        352,
-        176,
-        88
-      ],
-      "anchor": "balanced",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_self_interaction_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "cross": "inaware"
-    },
-    "input_proj": 512
-  },
-  {
     "name": "criteo_addition_only_s2024",
     "seed": 2024,
     "max_epochs": 1,
@@ -354,7 +18,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2025",
@@ -375,7 +40,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2026",
@@ -396,7 +62,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2027",
@@ -417,7 +84,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2028",
@@ -438,7 +106,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2029",
@@ -459,7 +128,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2030",
@@ -480,7 +150,8 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_addition_only_s2031",
@@ -501,10 +172,11 @@
       "anchor": "stagger",
       "cross": "add"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_learned_projection_s2024",
+    "name": "criteo_channel_overlap_s2024",
     "seed": 2024,
     "max_epochs": 1,
     "batch": 4096,
@@ -518,1230 +190,14 @@
         512,
         256,
         128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_matched_flops_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_frozen_projection_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "random"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 128,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 128,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 128,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_learned_projection_matched_flops_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        264,
-        132,
-        66
-      ],
-      "anchor": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_no_input_skip_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res": false
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        344,
-        344,
-        344
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        344,
-        344,
-        344
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        344,
-        344,
-        344
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_4_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        624,
-        156,
-        39
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_4_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        624,
-        156,
-        39
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_4_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        624,
-        156,
-        39
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        704,
-        88,
-        11
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        704,
-        88,
-        11
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        704,
-        88,
-        11
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_input_pooling_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "pool"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        512,
-        512
       ],
       "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_width_ratio_1_s2025",
+    "name": "criteo_channel_overlap_s2025",
     "seed": 2025,
     "max_epochs": 1,
     "batch": 4096,
@@ -1753,15 +209,16 @@
     "args": {
       "dims": [
         512,
-        512,
-        512
+        256,
+        128
       ],
       "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_width_ratio_1_s2026",
+    "name": "criteo_channel_overlap_s2026",
     "seed": 2026,
     "max_epochs": 1,
     "batch": 4096,
@@ -1773,198 +230,16 @@
     "args": {
       "dims": [
         512,
-        512,
-        512
+        256,
+        128
       ],
       "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_width_ratio_1_4_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        128,
-        32
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_4_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        128,
-        32
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_4_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        128,
-        32
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        64,
-        8
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        64,
-        8
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_width_ratio_1_8_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        64,
-        8
-      ],
-      "anchor": "balanced"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_shifted_input_skip_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "comp"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_shifted_input_skip_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "comp"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_shifted_input_skip_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "comp"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_shifted_input_skip_s2027",
+    "name": "criteo_channel_overlap_s2027",
     "seed": 2027,
     "max_epochs": 1,
     "batch": 4096,
@@ -1979,13 +254,13 @@
         256,
         128
       ],
-      "anchor": "stagger",
-      "res_mode": "comp"
+      "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_shifted_input_skip_s2028",
+    "name": "criteo_channel_overlap_s2028",
     "seed": 2028,
     "max_epochs": 1,
     "batch": 4096,
@@ -2000,13 +275,13 @@
         256,
         128
       ],
-      "anchor": "stagger",
-      "res_mode": "comp"
+      "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_shifted_input_skip_s2029",
+    "name": "criteo_channel_overlap_s2029",
     "seed": 2029,
     "max_epochs": 1,
     "batch": 4096,
@@ -2021,13 +296,13 @@
         256,
         128
       ],
-      "anchor": "stagger",
-      "res_mode": "comp"
+      "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_shifted_input_skip_s2030",
+    "name": "criteo_channel_overlap_s2030",
     "seed": 2030,
     "max_epochs": 1,
     "batch": 4096,
@@ -2042,13 +317,13 @@
         256,
         128
       ],
-      "anchor": "stagger",
-      "res_mode": "comp"
+      "anchor": "copy"
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_shifted_input_skip_s2031",
+    "name": "criteo_channel_overlap_s2031",
     "seed": 2031,
     "max_epochs": 1,
     "batch": 4096,
@@ -2063,506 +338,10 @@
         256,
         128
       ],
-      "anchor": "stagger",
-      "res_mode": "comp"
+      "anchor": "copy"
     },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_projected_input_skip_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "res_mode": "learned"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_pyramiddcn_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_previous_layer_channels_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "stagger",
-      "reread": "state"
-    },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_dcnv2_pyramid_matched_flops_s2024",
@@ -2573,27 +352,26 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 512,
-      "cross_widths": [
-        872,
-        436,
-        218
-      ],
-      "ranks": [
-        872,
-        436,
-        218
-      ],
-      "dnn_widths": [
-        872,
-        436,
-        218
-      ],
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          672,
+          336,
+          168
+        ],
+        "mlp_widths": [
+          672,
+          336,
+          168
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 672,
+    "lr": 0.001
   },
   {
     "name": "criteo_dcnv2_pyramid_matched_flops_s2025",
@@ -2604,27 +382,26 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 512,
-      "cross_widths": [
-        872,
-        436,
-        218
-      ],
-      "ranks": [
-        872,
-        436,
-        218
-      ],
-      "dnn_widths": [
-        872,
-        436,
-        218
-      ],
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          672,
+          336,
+          168
+        ],
+        "mlp_widths": [
+          672,
+          336,
+          168
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 672,
+    "lr": 0.001
   },
   {
     "name": "criteo_dcnv2_pyramid_matched_flops_s2026",
@@ -2635,30 +412,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "DCNv2",
+    "model": "DCNVariant",
     "args": {
-      "rank": 512,
-      "cross_widths": [
-        872,
-        436,
-        218
-      ],
-      "ranks": [
-        872,
-        436,
-        218
-      ],
-      "dnn_widths": [
-        872,
-        436,
-        218
-      ],
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          672,
+          336,
+          168
+        ],
+        "mlp_widths": [
+          672,
+          336,
+          168
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 672,
+    "lr": 0.001
   },
   {
-    "name": "criteo_qnn_pyramid_matched_flops_s2024",
+    "name": "criteo_dcnv2_pyramid_s2024",
     "seed": 2024,
     "max_epochs": 1,
     "batch": 4096,
@@ -2666,28 +442,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidQNN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "num_rows": [
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [
+          512,
+          256,
+          128
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_qnn_pyramid_matched_flops_s2025",
+    "name": "criteo_dcnv2_pyramid_s2025",
     "seed": 2025,
     "max_epochs": 1,
     "batch": 4096,
@@ -2695,28 +472,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidQNN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "num_rows": [
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [
+          512,
+          256,
+          128
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_qnn_pyramid_matched_flops_s2026",
+    "name": "criteo_dcnv2_pyramid_s2026",
     "seed": 2026,
     "max_epochs": 1,
     "batch": 4096,
@@ -2724,28 +502,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidQNN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "num_rows": [
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [
+          512,
+          256,
+          128
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_ecn_pyramid_matched_flops_s2024",
+    "name": "criteo_dcnv2_s2024",
     "seed": 2024,
     "max_epochs": 1,
     "batch": 4096,
@@ -2753,23 +532,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidECN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [
+          512,
+          512,
+          512
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_ecn_pyramid_matched_flops_s2025",
+    "name": "criteo_dcnv2_s2025",
     "seed": 2025,
     "max_epochs": 1,
     "batch": 4096,
@@ -2777,23 +562,29 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidECN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [
+          512,
+          512,
+          512
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
-    "name": "criteo_ecn_pyramid_matched_flops_s2026",
+    "name": "criteo_dcnv2_s2026",
     "seed": 2026,
     "max_epochs": 1,
     "batch": 4096,
@@ -2801,20 +592,26 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidECN",
+    "model": "DCNVariant",
     "args": {
-      "d": 512,
-      "widths": [
-        944,
-        472,
-        236
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "arm": {
+        "topology": "parallel",
+        "parameterization": "full",
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [
+          512,
+          512,
+          512
+        ],
+        "ranks": []
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_fcn_pyramid_matched_flops_s2024",
@@ -2825,22 +622,17 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidFCN",
+    "model": "FCNP",
     "args": {
-      "d": 512,
-      "shrink": "slice",
       "widths": [
-        1224,
-        612,
-        306
+        648,
+        324,
+        162
       ],
-      "exp_num_layers": 2,
-      "lin_num_layers": 1,
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "converted": true
     },
-    "input_proj": 512
+    "input_proj": 648,
+    "lr": 0.001
   },
   {
     "name": "criteo_fcn_pyramid_matched_flops_s2025",
@@ -2851,22 +643,17 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidFCN",
+    "model": "FCNP",
     "args": {
-      "d": 512,
-      "shrink": "slice",
       "widths": [
-        1224,
-        612,
-        306
+        648,
+        324,
+        162
       ],
-      "exp_num_layers": 2,
-      "lin_num_layers": 1,
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "converted": true
     },
-    "input_proj": 512
+    "input_proj": 648,
+    "lr": 0.001
   },
   {
     "name": "criteo_fcn_pyramid_matched_flops_s2026",
@@ -2877,22 +664,143 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "PyramidFCN",
+    "model": "FCNP",
     "args": {
-      "d": 512,
-      "shrink": "slice",
       "widths": [
-        1224,
-        612,
-        306
+        648,
+        324,
+        162
       ],
-      "exp_num_layers": 2,
-      "lin_num_layers": 1,
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
+      "converted": true
     },
-    "input_proj": 512
+    "input_proj": 648,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        256,
+        128
+      ],
+      "converted": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        256,
+        128
+      ],
+      "converted": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        256,
+        128
+      ],
+      "converted": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        512,
+        512
+      ],
+      "converted": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        512,
+        512
+      ],
+      "converted": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FCNP",
+    "args": {
+      "widths": [
+        512,
+        512,
+        512
+      ],
+      "converted": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_fibinetpp_pyramid_matched_flops_s2024",
@@ -2912,7 +820,8 @@
         192
       ]
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_fibinetpp_pyramid_matched_flops_s2025",
@@ -2932,7 +841,8 @@
         192
       ]
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_fibinetpp_pyramid_matched_flops_s2026",
@@ -2952,7 +862,155 @@
         192
       ]
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidFiBiNetPP",
+    "args": {
+      "d": 512,
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidFiBiNetPP",
+    "args": {
+      "d": 512,
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidFiBiNetPP",
+    "args": {
+      "d": 512,
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_fibinetpp_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "FiBiNetPP",
+    "args": {
+      "sparse_embedding_norm": "bn",
+      "senet_group_num": 2,
+      "senet_reduction_ratio": 3.0,
+      "low_rank": 50,
+      "dnn_hidden_units": [
+        512,
+        512,
+        512
+      ],
+      "dnn_activation": "relu",
+      "dnn_use_bn": false,
+      "dnn_dropout": 0.0,
+      "init_std": 0.01
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_matched_flops_s2024",
@@ -2979,7 +1037,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_matched_flops_s2025",
@@ -3006,7 +1065,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_matched_flops_s2026",
@@ -3033,794 +1093,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        784,
-        392,
-        196
-      ],
-      "dnn_hidden_units": [
-        784,
-        392,
-        196
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        784,
-        392,
-        196
-      ],
-      "dnn_hidden_units": [
-        784,
-        392,
-        196
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        784,
-        392,
-        196
-      ],
-      "dnn_hidden_units": [
-        784,
-        392,
-        196
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 732,
-      "dnn_widths": [
-        732,
-        366
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 732,
-      "dnn_widths": [
-        732,
-        366
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 732,
-      "dnn_widths": [
-        732,
-        366
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_matched_flops_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        696,
-        348,
-        174
-      ],
-      "ranks": [
-        696,
-        348,
-        174
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_matched_flops_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        696,
-        348,
-        174
-      ],
-      "ranks": [
-        696,
-        348,
-        174
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_matched_flops_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        696,
-        348,
-        174
-      ],
-      "ranks": [
-        696,
-        348,
-        174
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2027",
-    "seed": 2027,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2028",
-    "seed": 2028,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2029",
-    "seed": 2029,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2030",
-    "seed": 2030,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_channel_overlap_s2031",
-    "seed": 2031,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "anchor": "copy"
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_qnn_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidQNN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "num_rows": [
-        5,
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_qnn_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidQNN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "num_rows": [
-        5,
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_qnn_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidQNN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "num_rows": [
-        5,
-        5,
-        5,
-        5
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidECN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidECN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidECN",
-    "args": {
-      "d": 512,
-      "widths": [
-        512,
-        256,
-        128,
-        64
-      ],
-      "shrink": "slice",
-      "res": "reread_anchor",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "widths": [
-        512,
-        256,
-        128,
-        64,
-        32,
-        16
-      ],
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "widths": [
-        512,
-        256,
-        128,
-        64,
-        32,
-        16
-      ],
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "widths": [
-        512,
-        256,
-        128,
-        64,
-        32,
-        16
-      ],
-      "res": "reread",
-      "rr": "slice",
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFiBiNetPP",
-    "args": {
-      "d": 512,
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ]
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFiBiNetPP",
-    "args": {
-      "d": 512,
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ]
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidFiBiNetPP",
-    "args": {
-      "d": 512,
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ]
-    },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_s2024",
@@ -3849,7 +1123,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_s2025",
@@ -3878,7 +1153,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_pyramid_s2026",
@@ -3907,511 +1183,8 @@
       "mlp1_dropout": 0.0,
       "mlp2_dropout": 0.0
     },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_gdcn_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "GDCN",
-    "args": {
-      "d": 512,
-      "shrink": "slice",
-      "cross_widths": [
-        512,
-        256,
-        128
-      ],
-      "dnn_hidden_units": [
-        512,
-        256,
-        128
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 512,
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 512,
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_masknet_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMaskNet",
-    "args": {
-      "block_dim": 512,
-      "dnn_widths": [
-        512,
-        256,
-        128,
-        64,
-        32
-      ],
-      "reduction_ratio": 2.0,
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_mldcn_pyramid_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "PyramidMLDCN",
-    "args": {
-      "dims": [
-        512,
-        256,
-        128
-      ],
-      "ranks": [
-        512,
-        256,
-        128
-      ],
-      "t": 0.5
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_full_rank_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_full_rank_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_dcnv2_full_rank_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "DCNv2",
-    "args": {
-      "rank": 512,
-      "dnn_widths": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_ecn_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "ECN",
-    "args": {
-      "widths": [
-        512,
-        512,
-        512,
-        512
-      ],
-      "net_dropout": 0.0
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fcn_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FCN",
-    "args": {
-      "structure": "sp",
-      "exp_num_layers": 4,
-      "lin_num_layers": 2,
-      "net_dropout": 0.0,
-      "batch_norm": false,
-      "layer_norm": false,
-      "num_heads": 1
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_s2024",
-    "seed": 2024,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FiBiNetPP",
-    "args": {
-      "sparse_embedding_norm": "bn",
-      "senet_group_num": 2,
-      "senet_reduction_ratio": 3.0,
-      "low_rank": 50,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512
-      ],
-      "dnn_activation": "relu",
-      "dnn_use_bn": false,
-      "dnn_dropout": 0.0,
-      "init_std": 0.01
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_s2025",
-    "seed": 2025,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FiBiNetPP",
-    "args": {
-      "sparse_embedding_norm": "bn",
-      "senet_group_num": 2,
-      "senet_reduction_ratio": 3.0,
-      "low_rank": 50,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512
-      ],
-      "dnn_activation": "relu",
-      "dnn_use_bn": false,
-      "dnn_dropout": 0.0,
-      "init_std": 0.01
-    },
-    "input_proj": 512
-  },
-  {
-    "name": "criteo_fibinetpp_s2026",
-    "seed": 2026,
-    "max_epochs": 1,
-    "batch": 4096,
-    "emb_reg": 0,
-    "clip": 10.0,
-    "emb_init_std": 0.0001,
-    "protocol": "fair1ep",
-    "model": "FiBiNetPP",
-    "args": {
-      "sparse_embedding_norm": "bn",
-      "senet_group_num": 2,
-      "senet_reduction_ratio": 3.0,
-      "low_rank": 50,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512
-      ],
-      "dnn_activation": "relu",
-      "dnn_use_bn": false,
-      "dnn_dropout": 0.0,
-      "init_std": 0.01
-    },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_s2024",
@@ -4442,7 +1215,8 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_s2025",
@@ -4473,7 +1247,8 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_finalmlp_s2026",
@@ -4504,7 +1279,512 @@
       "mlp2_batch_norm": false,
       "num_heads": 8
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_frozen_projection_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "random"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 720,
+      "cross_widths": [
+        720,
+        360,
+        180
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 720,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 720,
+      "cross_widths": [
+        720,
+        360,
+        180
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 720,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 720,
+      "cross_widths": [
+        720,
+        360,
+        180
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 720,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 512,
+      "cross_widths": [
+        512,
+        256,
+        128
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 512,
+      "cross_widths": [
+        512,
+        256,
+        128
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_gdcn_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "GDCN",
+    "args": {
+      "d": 512,
+      "cross_widths": [
+        512,
+        256,
+        128
+      ],
+      "dnn_hidden_units": [
+        512,
+        256,
+        128
+      ],
+      "net_dropout": 0.0,
+      "balanced_input": true
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_gdcn_s2024",
@@ -4530,7 +1810,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_gdcn_s2025",
@@ -4556,7 +1837,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_gdcn_s2026",
@@ -4582,7 +1864,1026 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_pooling_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "pool"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        352,
+        176,
+        88
+      ],
+      "anchor": "balanced",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_input_self_interaction_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "cross": "inaware"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_matched_flops_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        264,
+        132,
+        66
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_learned_projection_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          960,
+          480,
+          240
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "matched",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 960,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          960,
+          480,
+          240
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "matched",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 960,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          960,
+          480,
+          240
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "matched",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 960,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "same_input",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "same_input",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_masknet_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "AlternativeMaskNet",
+    "args": {
+      "arm": {
+        "cross_widths": [
+          512,
+          256,
+          128
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "same_input",
+        "mask_variant": "poolmix"
+      }
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_masknet_s2024",
@@ -4593,25 +2894,22 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "MaskNet",
+    "model": "CrossOnlyMaskNet",
     "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 512,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
+      "arm": {
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_masknet_s2025",
@@ -4622,25 +2920,22 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "MaskNet",
+    "model": "CrossOnlyMaskNet",
     "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 512,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
+      "arm": {
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_masknet_s2026",
@@ -4651,25 +2946,202 @@
     "clip": 10.0,
     "emb_init_std": 0.0001,
     "protocol": "fair1ep",
-    "model": "MaskNet",
+    "model": "CrossOnlyMaskNet",
     "args": {
-      "model_type": "ParallelMaskNet",
-      "parallel_num_blocks": 2,
-      "parallel_block_dim": 512,
-      "reduction_ratio": 2,
-      "dnn_hidden_units": [
-        512,
-        512,
-        512,
-        512,
-        512
-      ],
-      "dnn_hidden_activations": "relu",
-      "net_dropout": 0.0,
-      "emb_layernorm": false,
-      "net_layernorm": false
+      "arm": {
+        "cross_widths": [
+          512,
+          512,
+          512
+        ],
+        "mlp_widths": [],
+        "emb_layernorm": false,
+        "net_layernorm": true,
+        "condition": "original"
+      }
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        624,
+        312,
+        156
+      ],
+      "cross_ranks": [
+        624,
+        312,
+        156
+      ],
+      "mask_hidden_widths": [
+        624,
+        312,
+        156
+      ]
+    },
+    "input_proj": 624,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        624,
+        312,
+        156
+      ],
+      "cross_ranks": [
+        624,
+        312,
+        156
+      ],
+      "mask_hidden_widths": [
+        624,
+        312,
+        156
+      ]
+    },
+    "input_proj": 624,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        624,
+        312,
+        156
+      ],
+      "cross_ranks": [
+        624,
+        312,
+        156
+      ],
+      "mask_hidden_widths": [
+        624,
+        312,
+        156
+      ]
+    },
+    "input_proj": 624,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "cross_ranks": [
+        512,
+        256,
+        128
+      ],
+      "mask_hidden_widths": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "cross_ranks": [
+        512,
+        256,
+        128
+      ],
+      "mask_hidden_widths": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_mldcn_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "NarrowMLDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "cross_ranks": [
+        512,
+        256,
+        128
+      ],
+      "mask_hidden_widths": [
+        512,
+        256,
+        128
+      ]
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_mldcn_s2024",
@@ -4686,7 +3158,8 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_mldcn_s2025",
@@ -4703,7 +3176,8 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_mldcn_s2026",
@@ -4720,7 +3194,890 @@
       "num_layers": 3,
       "t": 0.5
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_no_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res": false
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_previous_layer_channels_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "reread": "state"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_projected_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "learned"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_pyramiddcn_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        944,
+        472,
+        236
+      ],
+      "num_rows": [
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        944,
+        472,
+        236
+      ],
+      "num_rows": [
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        944,
+        472,
+        236
+      ],
+      "num_rows": [
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_qnn_pyramid_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidQNN",
+    "args": {
+      "d": 512,
+      "widths": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "num_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "shrink": "slice",
+      "res": "reread_anchor",
+      "rr": "slice",
+      "net_dropout": 0.0
+    },
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_qnn_s2024",
@@ -4747,7 +4104,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_qnn_s2025",
@@ -4774,7 +4132,8 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
   },
   {
     "name": "criteo_qnn_s2026",
@@ -4801,6 +4160,561 @@
       ],
       "net_dropout": 0.0
     },
-    "input_proj": 512
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2027",
+    "seed": 2027,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2028",
+    "seed": 2028,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2029",
+    "seed": 2029,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2030",
+    "seed": 2030,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_shifted_input_skip_s2031",
+    "seed": 2031,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        256,
+        128
+      ],
+      "anchor": "stagger",
+      "res_mode": "comp"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        624,
+        156,
+        39
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        624,
+        156,
+        39
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        624,
+        156,
+        39
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        128,
+        32
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        128,
+        32
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_4_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        128,
+        32
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        704,
+        88,
+        11
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        704,
+        88,
+        11
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        704,
+        88,
+        11
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        64,
+        8
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        64,
+        8
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_8_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        64,
+        8
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_matched_flops_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        344,
+        344,
+        344
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_matched_flops_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        344,
+        344,
+        344
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_matched_flops_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        344,
+        344,
+        344
+      ],
+      "anchor": "balanced"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_s2024",
+    "seed": 2024,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        512,
+        512
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_s2025",
+    "seed": 2025,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        512,
+        512
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 512,
+    "lr": 0.001
+  },
+  {
+    "name": "criteo_width_ratio_1_s2026",
+    "seed": 2026,
+    "max_epochs": 1,
+    "batch": 4096,
+    "emb_reg": 0,
+    "clip": 10.0,
+    "emb_init_std": 0.0001,
+    "protocol": "fair1ep",
+    "model": "PyramidDCN",
+    "args": {
+      "dims": [
+        512,
+        512,
+        512
+      ],
+      "anchor": "copy"
+    },
+    "input_proj": 512,
+    "lr": 0.001
   }
 ]

@@ -1,4 +1,4 @@
-"""Recompute Tables 1–4 and Welch/Holm statistics from saved scalar results."""
+"""Recompute Tables 1–4 and paired t-tests and Holm statistics from saved scalar results."""
 import argparse
 import csv
 import json
@@ -7,7 +7,7 @@ import statistics as st
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
-from scipy.stats import ttest_ind
+from scipy.stats import ttest_rel
 from .matrix_flops import matrix_flops
 from .table3_statistics import TABLE3_SEEDS, paired_tests
 
@@ -17,7 +17,7 @@ SEEDS = [2024, 2025, 2026]
 REF = 'pyramiddcn'
 BASE = [('dcnv2', r'DCNv2~\cite{wang2021dcnv2}'),
         ('mldcn', r'ML-DCN~\cite{li2026mldcn}'), ('masknet', r'MaskNet~\cite{wang2021masknet}'),
-        ('qnn', r'QNN-$\alpha$~\cite{li2025qnn}'), ('ecn', r'ECN~\cite{li2024fcn}'),
+        ('qnn', r'QNN-$\alpha$~\cite{li2025qnn}'),
         ('fcn', r'FCN~\cite{li2024fcn}'), ('gdcn', r'GDCN~\cite{wang2023gdcn}'),
         ('finalmlp', r'FinalMLP~\cite{mao2023finalmlp}'), ('fibinetpp', r'FiBiNet++~\cite{zhang2023fibinetpp}')]
 
@@ -77,17 +77,17 @@ def main():
         for key, _ in BASE:
             for m in ['test_auc', 'test_logloss']:
                 x, y = metric(runs(ds, REF), m), metric(runs(ds, key), m)
-                test = ttest_ind(x, y, equal_var=False)
+                test = ttest_rel(x, y)
                 comparisons.append({'dataset': ds, 'baseline': key, 'metric': m, 'n_ours': len(x), 'n_baseline': len(y),
                                     'mean_ours': st.mean(x), 'mean_baseline': st.mean(y),
-                                    'welch_t': float(test.statistic), 'welch_df': float(test.df), 'p_raw': float(test.pvalue)})
+                                    't': float(test.statistic), 'df': float(test.df), 'p_raw': float(test.pvalue)})
     stats = {}
     for m in ['test_auc', 'test_logloss']:
-        family = [r for r in comparisons if r['metric'] == m]; holm(family, 'p_holm36')
-        stats[m] = {'comparisons': len(family), 'max_p_holm36': max(r['p_holm36'] for r in family),
-                    'all_significant': all(r['p_holm36'] < .05 for r in family)}
+        family = [r for r in comparisons if r['metric'] == m]; holm(family, 'p_holm32')
+        stats[m] = {'comparisons': len(family), 'max_p_holm32': max(r['p_holm32'] for r in family),
+                    'all_significant': all(r['p_holm32'] < .05 for r in family)}
     write_csv(out / 'main_comparisons.csv', comparisons)
-    (out / 'holm36_summary.json').write_text(json.dumps(stats, indent=2) + '\n')
+    (out / 'table1_significance_summary.json').write_text(json.dumps(stats, indent=2) + '\n')
     t1 = []
     for k, label in BASE + [('ours', r'\ours{}')]:
         cells = []
@@ -103,28 +103,31 @@ def main():
         if k == 'ours': t1.append(r'\midrule')
         t1.append(label + ' & ' + ' & '.join(cells) + r' \\')
     (out / 'table1_rows.tex').write_text('\n'.join(t1) + '\n')
-    t2 = []; t2tests = []
+    t2 = []; t2tests = []; t2data = []
     for k, label in BASE:
-        # Table 2 starts from DCNv2 with rank W; Table 1 reports rank floor(W/4).
-        original = runs('criteo', 'dcnv2_full_rank' if k == 'dcnv2' else k)
-        variants = []
+        original = runs('criteo', k)
         for typ in ['pyramid', 'pyramid_matched_flops']:
-            rs = runs('criteo', f'{k}_{typ}'); test = ttest_ind(metric(rs), metric(original), equal_var=False)
-            t2tests.append({'model': k, 'configuration': typ, 'delta_auc': mean(rs)-mean(original),
-                            't': float(test.statistic), 'df': float(test.df), 'p_raw': float(test.pvalue)})
-            variants.append((rs, float(test.pvalue)))
-        p, q = [r for r, _ in variants]
-        star = lambda index: r'$^*$' if variants[index][1] < .05 else ''
+            rs = runs('criteo', f'{k}_{typ}')
+            test = ttest_rel(metric(rs), metric(original))
+            t2tests.append({'model': k, 'configuration': typ, 'n': len(rs),
+                            'delta_auc': mean(rs)-mean(original), 't': float(test.statistic),
+                            'df': float(test.df), 'p_raw': float(test.pvalue)})
+        t2data.append((k,label,original))
+    holm(t2tests, 'p_holm16')
+    t2lookup = {(r['model'],r['configuration']):r for r in t2tests}
+    for k,label,original in t2data:
+        p = runs('criteo', f'{k}_pyramid'); q = runs('criteo', f'{k}_pyramid_matched_flops')
+        star = lambda typ: r'$^*$' if t2lookup[k,typ]['p_holm16'] < .05 else ''
         short = label.split(r'~\cite')[0]
         cells = [short, mean_text(metric(original)), f'{matrix_flops(original[0])/1e6:.2f}',
-                 mean_text(metric(p)) + star(0), percent(100*(mean(p)/mean(original)-1)),
+                 mean_text(metric(p)) + star('pyramid'), percent(100*(mean(p)/mean(original)-1)),
                  f'{matrix_flops(p[0])/1e6:.2f}', percent(100*(matrix_flops(p[0])/matrix_flops(original[0])-1), 0),
-                 mean_text(metric(q)) + star(1), percent(100*(mean(q)/mean(original)-1))]
+                 mean_text(metric(q)) + star('pyramid_matched_flops'), percent(100*(mean(q)/mean(original)-1))]
         t2.append(' & '.join(cells) + r' \\')
     ref = runs('criteo', REF)
     t2 += [r'\midrule', r'\ours{} & \textbf{' + mean_text(metric(ref)) + r'} & \textbf{' + f'{matrix_flops(ref[0])/1e6:.2f}' + r'} & & & & & & \\']
     (out / 'table2_rows.tex').write_text('\n'.join(t2) + '\n')
-    write_csv(out / 'table2_welch.csv', t2tests)
+    write_csv(out / 'table2_significance.csv', t2tests)
     specs = json.loads((ROOT / 'configs' / 'table3_specification.json').read_text())
     t3 = []
     for spec in specs:
@@ -179,6 +182,16 @@ def main():
         if row['matched_p_holm13'] != '' and row['matched_p_holm13'] < .05: md += r'$^*$'
         lines.append(f'{label} & ${formula}$ & {row["flops_ratio"]:.2f} & {d} & {md}'.rstrip() + r' \\')
     (out / 'table3_rows.tex').write_text('\n'.join(lines) + '\n')
+    t4tests = []
+    for arm in ['width_ratio_1_matched_flops', 'width_ratio_1_4_matched_flops', 'width_ratio_1_8_matched_flops',
+                'width_ratio_1', 'width_ratio_1_4', 'width_ratio_1_8']:
+        rs, rr = runs('criteo', arm), runs('criteo', REF)
+        result = ttest_rel(metric(rs), metric(rr))
+        t4tests.append(dict(arm=arm, n=len(rs), difference=mean(rs)-mean(rr), t=float(result.statistic),
+                            df=float(result.df), p_raw=float(result.pvalue)))
+    holm(t4tests, 'p_holm6')
+    t4lookup = {r['arm']: r for r in t4tests}
+    write_csv(out / 'table4_significance.csv', t4tests)
     t4 = []; lines = []
     for label, arm in [(None, None), (r'$1/2$ (\ours{})', REF), ('$1$ (constant)', 'width_ratio_1_matched_flops'),
                        ('$1/4$', 'width_ratio_1_4_matched_flops'), ('$1/8$', 'width_ratio_1_8_matched_flops'),
@@ -194,9 +207,20 @@ def main():
         auc = mean_text(metric(rs)); auc = r'\textbf{' + auc + '}' if arm == REF else auc
         auc += r' {\scriptsize$\pm$' + f'{st.stdev(metric(rs)):.5f}'[1:] + '}'
         cells = [label, str(widths), f'{matrix_flops(rs[0])/1e6:.2f}M', auc,
-                 '--' if arm == REF else percent(delta)]
+                 '--' if arm == REF else percent(delta) + (r'$^*$' if t4lookup[arm]['p_holm6'] < .05 else '')]
         lines.append(' & '.join(cells) + r' \\')
     (out / 'table4_rows.tex').write_text('\n'.join(lines) + '\n'); write_csv(out / 'table4_schedule.csv', t4)
+    for table, dataset_list, arms in [
+        (1, DS, [k for k,_ in BASE]+[REF]),
+        (2, ['criteo'], [k+suf for k,_ in BASE for suf in ['', '_pyramid', '_pyramid_matched_flops']]+[REF])]:
+        rows=[]
+        for ds in dataset_list:
+            for arm in arms:
+                rs = runs(ds,arm)
+                rows.append(dict(dataset=ds, arm=arm, n=len(rs), AUC=mean(rs), AUC_SD=st.stdev(metric(rs)),
+                                 LogLoss=st.mean(metric(rs,'test_logloss')), LogLoss_SD=st.stdev(metric(rs,'test_logloss')),
+                                 matrix_FLOPs=matrix_flops(rs[0])))
+        write_csv(out/f'table{table}_metrics.csv', rows)
     (out / 'summary.json').write_text(json.dumps({'main_statistics': stats, 'seeds_by_table': {'table1': SEEDS, 'table2': SEEDS, 'table3': TABLE3_SEEDS, 'table4': SEEDS}, 'table3_statistics': table3_stats, 'records_loaded': len(records), 'table3_alternatives': len(t3)-1}, indent=2) + '\n')
     print(json.dumps({'output_dir': str(out), 'main_statistics': stats, 'records_loaded': len(records)}, indent=2))
 

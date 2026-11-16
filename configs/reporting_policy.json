@@ -1,0 +1,41 @@
+{
+  "revision": "2026-11-15",
+  "seeds_by_table": {
+    "table1": [
+      2024,
+      2025,
+      2026
+    ],
+    "table2": [
+      2024,
+      2025,
+      2026
+    ],
+    "table3": [
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ],
+    "table4": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "epochs": 1,
+  "test": "two-sided paired t-test",
+  "correction": "Holm within each table and metric",
+  "alpha": 0.05,
+  "family_sizes": {
+    "table1_auc": 32,
+    "table1_logloss": 32,
+    "table2_auc": 16,
+    "table3_auc": 13,
+    "table4_auc": 6
+  }
+}
