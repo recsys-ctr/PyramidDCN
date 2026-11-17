@@ -1,0 +1,28 @@
+{
+  "verified_on": "2026-11-16",
+  "scope": "Released Criteo encoder versus the experimental cache; complete row comparison, not model retraining",
+  "total_rows": 45840617,
+  "metadata_equal": true,
+  "fields": 39,
+  "vocabulary_size": 910708,
+  "splits": {
+    "train": {
+      "rows": 36672493,
+      "shape_equal": true,
+      "differing_feature_cells": 0,
+      "differing_labels": 0
+    },
+    "valid": {
+      "rows": 4584062,
+      "shape_equal": true,
+      "differing_feature_cells": 0,
+      "differing_labels": 0
+    },
+    "test": {
+      "rows": 4584062,
+      "shape_equal": true,
+      "differing_feature_cells": 0,
+      "differing_labels": 0
+    }
+  }
+}

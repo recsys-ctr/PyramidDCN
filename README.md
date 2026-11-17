@@ -97,7 +97,8 @@ The catalog check uses synthetic inputs with the actual model widths. Matrix
 FLOPs include input projection, prediction head and bilinear contractions.
 They exclude embedding lookups, normalization and elementwise operations.
 
-The Criteo encoder is reconstructed from the experimental cache metadata;
-see its verification limits in [data/README.md](data/README.md). Raw data and
-checkpoints are not distributed. Baseline sources and licenses are listed in
+The Criteo encoder was checked against all 45,840,617 rows of the experimental
+cache: vocabulary metadata, encoded features and labels match exactly. See
+[data/README.md](data/README.md). Raw data and checkpoints are not distributed.
+Baseline sources and licenses are listed in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

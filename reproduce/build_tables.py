@@ -91,6 +91,13 @@ def main():
                 best = max([sign * st.mean(metric(runs(ds, b), m)) for b, _ in BASE] + [sign * st.mean(metric(runs(ds, REF), m))])
                 number = mean_text(values)
                 if sign * st.mean(values) >= best - 1e-12: number = r'\mathbf{' + number + '}'
+                if k == 'ours':
+                    family = [r for r in comparisons if r['dataset'] == ds and r['metric'] == m]
+                    if len(family) == len(BASE) and all(
+                        r['p_holm32'] < .05 and sign * (r['mean_ours'] - r['mean_baseline']) > 0
+                        for r in family
+                    ):
+                        number += '^{*}'
                 cells.append('$' + number + r'\,{\scriptstyle\pm' + f'{st.stdev(values):.5f}'[1:] + '}$')
             cells.append(f'{matrix_flops(rs[0])/1e6:.2f}M')
         if k == 'ours': t1.append(r'\midrule')

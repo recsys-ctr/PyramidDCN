@@ -62,8 +62,11 @@ These are statistics of the caches used for the saved experiments:
 
 ## Criteo encoder
 
-The Criteo encoder was reconstructed from the metadata of the cache used in the
-experiments; it has not been verified row by row against that cache.
+The Criteo encoder was reconstructed from the metadata of the experimental
+cache. On 2026-11-16, a full comparison of all 45,840,617 train/validation/test
+rows found identical vocabulary metadata, encoded features and labels. The
+counts are recorded in [CRITEO_ENCODER_CHECK.json](../docs/CRITEO_ENCODER_CHECK.json).
+This verifies preprocessing against that cache; it does not rerun model training.
 For numerical fields `I1`–`I13`, it uses:
 
 ```text
